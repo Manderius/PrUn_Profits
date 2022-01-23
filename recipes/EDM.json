@@ -1,0 +1,119 @@
+[
+  {
+    "BuildingTicker": "EDM",
+    "RecipeName": "1xDCS 1xSFK 1xPOW = 1xRAD",
+    "Inputs": [
+      {
+        "Ticker": "DCS",
+        "Amount": 1
+      },
+      {
+        "Ticker": "POW",
+        "Amount": 1
+      },
+      {
+        "Ticker": "SFK",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RAD",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 17280000
+  },
+  {
+    "BuildingTicker": "EDM",
+    "RecipeName": "1xDCS 1xHD 1xNG = 1xHOG",
+    "Inputs": [
+      {
+        "Ticker": "NG",
+        "Amount": 1
+      },
+      {
+        "Ticker": "HD",
+        "Amount": 1
+      },
+      {
+        "Ticker": "DCS",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "HOG",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 25920000
+  },
+  {
+    "BuildingTicker": "EDM",
+    "RecipeName": "100xPE 4xCU = 8xSCN",
+    "Inputs": [
+      {
+        "Ticker": "CU",
+        "Amount": 4
+      },
+      {
+        "Ticker": "PE",
+        "Amount": 100
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "SCN",
+        "Amount": 8
+      }
+    ],
+    "TimeMs": 103680000
+  },
+  {
+    "BuildingTicker": "EDM",
+    "RecipeName": "2xSAR 2xCD 1xKV = 2xBID",
+    "Inputs": [
+      {
+        "Ticker": "KV",
+        "Amount": 1
+      },
+      {
+        "Ticker": "CD",
+        "Amount": 2
+      },
+      {
+        "Ticker": "SAR",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "BID",
+        "Amount": 2
+      }
+    ],
+    "TimeMs": 25920000
+  },
+  {
+    "BuildingTicker": "EDM",
+    "RecipeName": "1xPCB 1xTRA = 1xMHP",
+    "Inputs": [
+      {
+        "Ticker": "PCB",
+        "Amount": 1
+      },
+      {
+        "Ticker": "TRA",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "MHP",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 17280000
+  }
+]

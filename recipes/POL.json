@@ -1,0 +1,77 @@
+[
+  {
+    "BuildingTicker": "POL",
+    "RecipeName": "150xPG 70xEPO = 1xDEC",
+    "Inputs": [
+      {
+        "Ticker": "PG",
+        "Amount": 150
+      },
+      {
+        "Ticker": "EPO",
+        "Amount": 70
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "DEC",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 43200000
+  },
+  {
+    "BuildingTicker": "POL",
+    "RecipeName": "1xH 1xC 1xMG = 50xPG",
+    "Inputs": [
+      {
+        "Ticker": "H",
+        "Amount": 1
+      },
+      {
+        "Ticker": "C",
+        "Amount": 1
+      },
+      {
+        "Ticker": "MG",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "PG",
+        "Amount": 50
+      }
+    ],
+    "TimeMs": 30240000
+  },
+  {
+    "BuildingTicker": "POL",
+    "RecipeName": "1xC 1xH 1xCL 1xO = 50xEPO",
+    "Inputs": [
+      {
+        "Ticker": "C",
+        "Amount": 1
+      },
+      {
+        "Ticker": "H",
+        "Amount": 1
+      },
+      {
+        "Ticker": "CL",
+        "Amount": 1
+      },
+      {
+        "Ticker": "O",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "EPO",
+        "Amount": 50
+      }
+    ],
+    "TimeMs": 86400000
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "BuildingTicker": "PP2",
+    "RecipeName": "1xGL 1xAL = 1xBTA",
+    "Inputs": [
+      {
+        "Ticker": "GL",
+        "Amount": 1
+      },
+      {
+        "Ticker": "AL",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "BTA",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 12960000
+  },
+  {
+    "BuildingTicker": "PP2",
+    "RecipeName": "1xAL 2xLST = 1xBSE",
+    "Inputs": [
+      {
+        "Ticker": "LST",
+        "Amount": 2
+      },
+      {
+        "Ticker": "AL",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "BSE",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "PP2",
+    "RecipeName": "3xAL 1xNL = 1xLDE",
+    "Inputs": [
+      {
+        "Ticker": "NL",
+        "Amount": 1
+      },
+      {
+        "Ticker": "AL",
+        "Amount": 3
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "LDE",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "PP2",
+    "RecipeName": "120xPG 3xAL = 1xLSE",
+    "Inputs": [
+      {
+        "Ticker": "AL",
+        "Amount": 3
+      },
+      {
+        "Ticker": "PG",
+        "Amount": 120
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "LSE",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "PP2",
+    "RecipeName": "2xAL 1xLST = 1xBBH",
+    "Inputs": [
+      {
+        "Ticker": "LST",
+        "Amount": 1
+      },
+      {
+        "Ticker": "AL",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "BBH",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "PP2",
+    "RecipeName": "50xPG 1xNE = 1xAEF",
+    "Inputs": [
+      {
+        "Ticker": "NE",
+        "Amount": 1
+      },
+      {
+        "Ticker": "PG",
+        "Amount": 50
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "AEF",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 43200000
+  },
+  {
+    "BuildingTicker": "PP2",
+    "RecipeName": "1xAL 5xGL = 1xLTA",
+    "Inputs": [
+      {
+        "Ticker": "GL",
+        "Amount": 5
+      },
+      {
+        "Ticker": "AL",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "LTA",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "PP2",
+    "RecipeName": "75xPG = 1xBDE",
+    "Inputs": [
+      {
+        "Ticker": "PG",
+        "Amount": 75
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "BDE",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "PP2",
+    "RecipeName": "35xPE 3xAL = 1xLBH",
+    "Inputs": [
+      {
+        "Ticker": "PE",
+        "Amount": 35
+      },
+      {
+        "Ticker": "AL",
+        "Amount": 3
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "LBH",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 21600000
+  }
+]

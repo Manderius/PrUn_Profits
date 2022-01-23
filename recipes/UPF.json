@@ -1,0 +1,502 @@
+[
+  {
+    "BuildingTicker": "UPF",
+    "RecipeName": "30xPSL 50xPSM 8xSRD = 1xRDL",
+    "Inputs": [
+      {
+        "Ticker": "SRD",
+        "Amount": 8
+      },
+      {
+        "Ticker": "PSL",
+        "Amount": 30
+      },
+      {
+        "Ticker": "PSM",
+        "Amount": 50
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RDL",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 432000000
+  },
+  {
+    "BuildingTicker": "UPF",
+    "RecipeName": "10xPSL 20xPSM 10xFET 1xNV1 5xSAR 1xCOM = 1xBR1",
+    "Inputs": [
+      {
+        "Ticker": "COM",
+        "Amount": 1
+      },
+      {
+        "Ticker": "SAR",
+        "Amount": 5
+      },
+      {
+        "Ticker": "NV1",
+        "Amount": 1
+      },
+      {
+        "Ticker": "FET",
+        "Amount": 10
+      },
+      {
+        "Ticker": "PSM",
+        "Amount": 20
+      },
+      {
+        "Ticker": "PSL",
+        "Amount": 10
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "BR1",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 345600000
+  },
+  {
+    "BuildingTicker": "UPF",
+    "RecipeName": "20xPSL 30xPSM 20xFET 1xLIS 20xDEC 1xTCU = 1xCQL",
+    "Inputs": [
+      {
+        "Ticker": "TCU",
+        "Amount": 1
+      },
+      {
+        "Ticker": "DEC",
+        "Amount": 20
+      },
+      {
+        "Ticker": "LIS",
+        "Amount": 1
+      },
+      {
+        "Ticker": "FET",
+        "Amount": 20
+      },
+      {
+        "Ticker": "PSM",
+        "Amount": 30
+      },
+      {
+        "Ticker": "PSL",
+        "Amount": 20
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "CQL",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 259200000
+  },
+  {
+    "BuildingTicker": "UPF",
+    "RecipeName": "5xPSL 10xPSM 5xFAL 1xLIS 2xDEC 1xTCU = 1xCQS",
+    "Inputs": [
+      {
+        "Ticker": "PSL",
+        "Amount": 5
+      },
+      {
+        "Ticker": "PSM",
+        "Amount": 10
+      },
+      {
+        "Ticker": "FAL",
+        "Amount": 5
+      },
+      {
+        "Ticker": "LIS",
+        "Amount": 1
+      },
+      {
+        "Ticker": "DEC",
+        "Amount": 2
+      },
+      {
+        "Ticker": "TCU",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "CQS",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 172800000
+  },
+  {
+    "BuildingTicker": "UPF",
+    "RecipeName": "10xPSL 20xPSM 10xFET 1xNV2 10xSAR 1xCOM = 1xBR2",
+    "Inputs": [
+      {
+        "Ticker": "COM",
+        "Amount": 1
+      },
+      {
+        "Ticker": "SAR",
+        "Amount": 10
+      },
+      {
+        "Ticker": "NV2",
+        "Amount": 1
+      },
+      {
+        "Ticker": "FET",
+        "Amount": 10
+      },
+      {
+        "Ticker": "PSM",
+        "Amount": 20
+      },
+      {
+        "Ticker": "PSL",
+        "Amount": 10
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "BR2",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 432000000
+  },
+  {
+    "BuildingTicker": "UPF",
+    "RecipeName": "6xBBH 10xBDE 10xBSE 50xSOI = 1xHAB",
+    "Inputs": [
+      {
+        "Ticker": "SOI",
+        "Amount": 50
+      },
+      {
+        "Ticker": "BSE",
+        "Amount": 10
+      },
+      {
+        "Ticker": "BDE",
+        "Amount": 10
+      },
+      {
+        "Ticker": "BBH",
+        "Amount": 6
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "HAB",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 172800000
+  },
+  {
+    "BuildingTicker": "UPF",
+    "RecipeName": "20xPSL 6xUTS 12xPSM = 1xWOR",
+    "Inputs": [
+      {
+        "Ticker": "PSM",
+        "Amount": 12
+      },
+      {
+        "Ticker": "UTS",
+        "Amount": 6
+      },
+      {
+        "Ticker": "PSL",
+        "Amount": 20
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "WOR",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 155520000
+  },
+  {
+    "BuildingTicker": "UPF",
+    "RecipeName": "4xSEQ 2xBSC 12xPSL 8xPSM 10xNG = 1xSU",
+    "Inputs": [
+      {
+        "Ticker": "NG",
+        "Amount": 10
+      },
+      {
+        "Ticker": "PSM",
+        "Amount": 8
+      },
+      {
+        "Ticker": "BSC",
+        "Amount": 2
+      },
+      {
+        "Ticker": "SEQ",
+        "Amount": 4
+      },
+      {
+        "Ticker": "PSL",
+        "Amount": 12
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "SU",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 172800000
+  },
+  {
+    "BuildingTicker": "UPF",
+    "RecipeName": "10xPSL 20xPSM 10xTI 1xLIS 10xDEC 1xTCU = 1xCQM",
+    "Inputs": [
+      {
+        "Ticker": "PSM",
+        "Amount": 20
+      },
+      {
+        "Ticker": "TI",
+        "Amount": 10
+      },
+      {
+        "Ticker": "PSL",
+        "Amount": 10
+      },
+      {
+        "Ticker": "LIS",
+        "Amount": 1
+      },
+      {
+        "Ticker": "DEC",
+        "Amount": 10
+      },
+      {
+        "Ticker": "TCU",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "CQM",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 216000000
+  },
+  {
+    "BuildingTicker": "UPF",
+    "RecipeName": "20xPSL 30xPSM 4xSRD = 1xRDS",
+    "Inputs": [
+      {
+        "Ticker": "SRD",
+        "Amount": 4
+      },
+      {
+        "Ticker": "PSM",
+        "Amount": 30
+      },
+      {
+        "Ticker": "PSL",
+        "Amount": 20
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RDS",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 259200000
+  },
+  {
+    "BuildingTicker": "UPF",
+    "RecipeName": "10xPSL 20xPSM 10xTI 5xSAR 4xRAD = 1xBRS",
+    "Inputs": [
+      {
+        "Ticker": "PSL",
+        "Amount": 10
+      },
+      {
+        "Ticker": "PSM",
+        "Amount": 20
+      },
+      {
+        "Ticker": "TI",
+        "Amount": 10
+      },
+      {
+        "Ticker": "RAD",
+        "Amount": 4
+      },
+      {
+        "Ticker": "SAR",
+        "Amount": 5
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "BRS",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 259200000
+  },
+  {
+    "BuildingTicker": "UPF",
+    "RecipeName": "10xPSL 4xSAR 1xCOM = 1xDOU",
+    "Inputs": [
+      {
+        "Ticker": "COM",
+        "Amount": 1
+      },
+      {
+        "Ticker": "SAR",
+        "Amount": 4
+      },
+      {
+        "Ticker": "PSL",
+        "Amount": 10
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "DOU",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 155520000
+  },
+  {
+    "BuildingTicker": "UPF",
+    "RecipeName": "12xPSL 8xPSM 1xADR = 1xTCU",
+    "Inputs": [
+      {
+        "Ticker": "ADR",
+        "Amount": 1
+      },
+      {
+        "Ticker": "PSM",
+        "Amount": 8
+      },
+      {
+        "Ticker": "PSL",
+        "Amount": 12
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "TCU",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 138240000
+  },
+  {
+    "BuildingTicker": "UPF",
+    "RecipeName": "2xPSL 5xPSM 5xAL 1xDEC 1xTCU 1xBMF = 1xCQT",
+    "Inputs": [
+      {
+        "Ticker": "PSL",
+        "Amount": 2
+      },
+      {
+        "Ticker": "BMF",
+        "Amount": 1
+      },
+      {
+        "Ticker": "TCU",
+        "Amount": 1
+      },
+      {
+        "Ticker": "DEC",
+        "Amount": 1
+      },
+      {
+        "Ticker": "AL",
+        "Amount": 5
+      },
+      {
+        "Ticker": "PSM",
+        "Amount": 5
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "CQT",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 146880000
+  },
+  {
+    "BuildingTicker": "UPF",
+    "RecipeName": "1xBWS 8xPSL 4xPCB 1xBID = 1xFUN",
+    "Inputs": [
+      {
+        "Ticker": "BID",
+        "Amount": 1
+      },
+      {
+        "Ticker": "PCB",
+        "Amount": 4
+      },
+      {
+        "Ticker": "PSL",
+        "Amount": 8
+      },
+      {
+        "Ticker": "BWS",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "FUN",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 190080000
+  },
+  {
+    "BuildingTicker": "UPF",
+    "RecipeName": "1xWS 1xDA 10xPSL 6xPSM = 1xLU",
+    "Inputs": [
+      {
+        "Ticker": "PSM",
+        "Amount": 6
+      },
+      {
+        "Ticker": "WS",
+        "Amount": 1
+      },
+      {
+        "Ticker": "DA",
+        "Amount": 1
+      },
+      {
+        "Ticker": "PSL",
+        "Amount": 10
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "LU",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 129600000
+  }
+]

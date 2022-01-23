@@ -1,0 +1,162 @@
+[
+  {
+    "BuildingTicker": "HYF",
+    "RecipeName": "14xH2O 1xNS = 8xHCP",
+    "Inputs": [
+      {
+        "Ticker": "H2O",
+        "Amount": 14
+      },
+      {
+        "Ticker": "NS",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "HCP",
+        "Amount": 8
+      }
+    ],
+    "TimeMs": 34560000
+  },
+  {
+    "BuildingTicker": "HYF",
+    "RecipeName": "22xH2O 3xNS = 2xCAF",
+    "Inputs": [
+      {
+        "Ticker": "H2O",
+        "Amount": 22
+      },
+      {
+        "Ticker": "NS",
+        "Amount": 3
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "CAF",
+        "Amount": 2
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "HYF",
+    "RecipeName": "4xNS = 12xMUS",
+    "Inputs": [
+      {
+        "Ticker": "NS",
+        "Amount": 4
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "MUS",
+        "Amount": 12
+      }
+    ],
+    "TimeMs": 43200000
+  },
+  {
+    "BuildingTicker": "HYF",
+    "RecipeName": "16xH2O 2xNS = 12xALG",
+    "Inputs": [
+      {
+        "Ticker": "H2O",
+        "Amount": 16
+      },
+      {
+        "Ticker": "NS",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "ALG",
+        "Amount": 12
+      }
+    ],
+    "TimeMs": 38880000
+  },
+  {
+    "BuildingTicker": "HYF",
+    "RecipeName": "10xH2O 4xNS = 2xRCO",
+    "Inputs": [
+      {
+        "Ticker": "H2O",
+        "Amount": 10
+      },
+      {
+        "Ticker": "NS",
+        "Amount": 4
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RCO",
+        "Amount": 2
+      }
+    ],
+    "TimeMs": 19008000
+  },
+  {
+    "BuildingTicker": "HYF",
+    "RecipeName": "1xNS = 4xMUS",
+    "Inputs": [
+      {
+        "Ticker": "NS",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "MUS",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 25920000
+  },
+  {
+    "BuildingTicker": "HYF",
+    "RecipeName": "16xH2O 1xNS = 6xVEG",
+    "Inputs": [
+      {
+        "Ticker": "NS",
+        "Amount": 1
+      },
+      {
+        "Ticker": "H2O",
+        "Amount": 16
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "VEG",
+        "Amount": 6
+      }
+    ],
+    "TimeMs": 17280000
+  },
+  {
+    "BuildingTicker": "HYF",
+    "RecipeName": "20xH2O 2xNS = 12xMAI",
+    "Inputs": [
+      {
+        "Ticker": "H2O",
+        "Amount": 20
+      },
+      {
+        "Ticker": "NS",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "MAI",
+        "Amount": 12
+      }
+    ],
+    "TimeMs": 69120000
+  }
+]

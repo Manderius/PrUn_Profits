@@ -1,0 +1,240 @@
+[
+  {
+    "BuildingTicker": "WEL",
+    "RecipeName": "1xFE 1xAL 1xHE = 6xFLP",
+    "Inputs": [
+      {
+        "Ticker": "FE",
+        "Amount": 1
+      },
+      {
+        "Ticker": "HE",
+        "Amount": 1
+      },
+      {
+        "Ticker": "AL",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "FLP",
+        "Amount": 6
+      }
+    ],
+    "TimeMs": 43200000
+  },
+  {
+    "BuildingTicker": "WEL",
+    "RecipeName": "1xAL 1xBSE 1xHE = 1xFC",
+    "Inputs": [
+      {
+        "Ticker": "HE",
+        "Amount": 1
+      },
+      {
+        "Ticker": "BSE",
+        "Amount": 1
+      },
+      {
+        "Ticker": "AL",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "FC",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 34560000
+  },
+  {
+    "BuildingTicker": "WEL",
+    "RecipeName": "1xFE 1xAL 1xHE = 10xGC",
+    "Inputs": [
+      {
+        "Ticker": "HE",
+        "Amount": 1
+      },
+      {
+        "Ticker": "AL",
+        "Amount": 1
+      },
+      {
+        "Ticker": "FE",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "GC",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 25920000
+  },
+  {
+    "BuildingTicker": "WEL",
+    "RecipeName": "2xAL 1xHE = 6xTRU",
+    "Inputs": [
+      {
+        "Ticker": "AL",
+        "Amount": 2
+      },
+      {
+        "Ticker": "HE",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "TRU",
+        "Amount": 6
+      }
+    ],
+    "TimeMs": 17280000
+  },
+  {
+    "BuildingTicker": "WEL",
+    "RecipeName": "20xNFI 2xAL 1xHE = 6xSSC",
+    "Inputs": [
+      {
+        "Ticker": "HE",
+        "Amount": 1
+      },
+      {
+        "Ticker": "AL",
+        "Amount": 2
+      },
+      {
+        "Ticker": "NFI",
+        "Amount": 20
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "SSC",
+        "Amount": 6
+      }
+    ],
+    "TimeMs": 8640000
+  },
+  {
+    "BuildingTicker": "WEL",
+    "RecipeName": "10xBOS 1xGV 1xHE = 1xCHA",
+    "Inputs": [
+      {
+        "Ticker": "HE",
+        "Amount": 1
+      },
+      {
+        "Ticker": "GV",
+        "Amount": 1
+      },
+      {
+        "Ticker": "BOS",
+        "Amount": 10
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "CHA",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 38880000
+  },
+  {
+    "BuildingTicker": "WEL",
+    "RecipeName": "1xI 1xFE 1xHE = 1xMHL",
+    "Inputs": [
+      {
+        "Ticker": "HE",
+        "Amount": 1
+      },
+      {
+        "Ticker": "FE",
+        "Amount": 1
+      },
+      {
+        "Ticker": "I",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "MHL",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 60480000
+  },
+  {
+    "BuildingTicker": "WEL",
+    "RecipeName": "1xAL 1xHE = 1xGV",
+    "Inputs": [
+      {
+        "Ticker": "AL",
+        "Amount": 1
+      },
+      {
+        "Ticker": "HE",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "GV",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "WEL",
+    "RecipeName": "6xAL 1xHE = 1xDRF",
+    "Inputs": [
+      {
+        "Ticker": "AL",
+        "Amount": 6
+      },
+      {
+        "Ticker": "HE",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "DRF",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 8640000
+  },
+  {
+    "BuildingTicker": "WEL",
+    "RecipeName": "2xBE 2xCF 1xHE = 4xTHP",
+    "Inputs": [
+      {
+        "Ticker": "HE",
+        "Amount": 1
+      },
+      {
+        "Ticker": "BE",
+        "Amount": 2
+      },
+      {
+        "Ticker": "CF",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "THP",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 15552000
+  }
+]

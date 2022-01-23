@@ -1,0 +1,197 @@
+[
+  {
+    "BuildingTicker": "FRM",
+    "RecipeName": "1xH2O = 12xNUT",
+    "Inputs": [
+      {
+        "Ticker": "H2O",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "NUT",
+        "Amount": 12
+      }
+    ],
+    "TimeMs": 129600000
+  },
+  {
+    "BuildingTicker": "FRM",
+    "RecipeName": "1xH2O = 2xBEA",
+    "Inputs": [
+      {
+        "Ticker": "H2O",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "BEA",
+        "Amount": 2
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "FRM",
+    "RecipeName": "2xH2O = 4xHCP",
+    "Inputs": [
+      {
+        "Ticker": "H2O",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "HCP",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 43200000
+  },
+  {
+    "BuildingTicker": "FRM",
+    "RecipeName": "4xH2O 1xDDT = 4xHER",
+    "Inputs": [
+      {
+        "Ticker": "DDT",
+        "Amount": 1
+      },
+      {
+        "Ticker": "H2O",
+        "Amount": 4
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "HER",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 172800000
+  },
+  {
+    "BuildingTicker": "FRM",
+    "RecipeName": "4xH2O = 12xMAI",
+    "Inputs": [
+      {
+        "Ticker": "H2O",
+        "Amount": 4
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "MAI",
+        "Amount": 12
+      }
+    ],
+    "TimeMs": 120960000
+  },
+  {
+    "BuildingTicker": "FRM",
+    "RecipeName": "4xH2O = 4xGRN",
+    "Inputs": [
+      {
+        "Ticker": "H2O",
+        "Amount": 4
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "GRN",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 32400000
+  },
+  {
+    "BuildingTicker": "FRM",
+    "RecipeName": "6xH2O = 4xBEA",
+    "Inputs": [
+      {
+        "Ticker": "H2O",
+        "Amount": 6
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "BEA",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 34560000
+  },
+  {
+    "BuildingTicker": "FRM",
+    "RecipeName": "2xH2O = 1xRCO",
+    "Inputs": [
+      {
+        "Ticker": "H2O",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RCO",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 51840000
+  },
+  {
+    "BuildingTicker": "FRM",
+    "RecipeName": "2xH2O 4xNS = 2xRCO",
+    "Inputs": [
+      {
+        "Ticker": "NS",
+        "Amount": 4
+      },
+      {
+        "Ticker": "H2O",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RCO",
+        "Amount": 2
+      }
+    ],
+    "TimeMs": 34560000
+  },
+  {
+    "BuildingTicker": "FRM",
+    "RecipeName": "3xH2O = 4xVEG",
+    "Inputs": [
+      {
+        "Ticker": "H2O",
+        "Amount": 3
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "VEG",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 38880000
+  },
+  {
+    "BuildingTicker": "FRM",
+    "RecipeName": "1xH2O = 4xGRN",
+    "Inputs": [
+      {
+        "Ticker": "H2O",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "GRN",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 43200000
+  }
+]

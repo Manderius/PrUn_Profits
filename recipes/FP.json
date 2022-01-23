@@ -1,0 +1,495 @@
+[
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "2xALG 1xH2O = 4xPPA",
+    "Inputs": [
+      {
+        "Ticker": "ALG",
+        "Amount": 2
+      },
+      {
+        "Ticker": "H2O",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "PPA",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 25920000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "1xGRN 1xBEA 1xNUT = 10xRAT",
+    "Inputs": [
+      {
+        "Ticker": "NUT",
+        "Amount": 1
+      },
+      {
+        "Ticker": "BEA",
+        "Amount": 1
+      },
+      {
+        "Ticker": "GRN",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RAT",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "1xMUS 1xNUT 1xMAI = 10xRAT",
+    "Inputs": [
+      {
+        "Ticker": "MAI",
+        "Amount": 1
+      },
+      {
+        "Ticker": "MUS",
+        "Amount": 1
+      },
+      {
+        "Ticker": "NUT",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RAT",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "1xALG 1xH2O 1xBEA = 6xPPA",
+    "Inputs": [
+      {
+        "Ticker": "ALG",
+        "Amount": 1
+      },
+      {
+        "Ticker": "H2O",
+        "Amount": 1
+      },
+      {
+        "Ticker": "BEA",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "PPA",
+        "Amount": 6
+      }
+    ],
+    "TimeMs": 43200000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "1xMAI 1xBEA 1xVEG = 10xRAT",
+    "Inputs": [
+      {
+        "Ticker": "MAI",
+        "Amount": 1
+      },
+      {
+        "Ticker": "BEA",
+        "Amount": 1
+      },
+      {
+        "Ticker": "VEG",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RAT",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "1xCAF 3xDW = 3xCOF",
+    "Inputs": [
+      {
+        "Ticker": "CAF",
+        "Amount": 1
+      },
+      {
+        "Ticker": "DW",
+        "Amount": 3
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "COF",
+        "Amount": 3
+      }
+    ],
+    "TimeMs": 25920000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "5xNUT 5xMAI 5xVEG = 16xFOD",
+    "Inputs": [
+      {
+        "Ticker": "NUT",
+        "Amount": 5
+      },
+      {
+        "Ticker": "MAI",
+        "Amount": 5
+      },
+      {
+        "Ticker": "VEG",
+        "Amount": 5
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "FOD",
+        "Amount": 16
+      }
+    ],
+    "TimeMs": 43200000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "1xMAI 1xBEA 1xNUT = 10xRAT",
+    "Inputs": [
+      {
+        "Ticker": "MAI",
+        "Amount": 1
+      },
+      {
+        "Ticker": "BEA",
+        "Amount": 1
+      },
+      {
+        "Ticker": "NUT",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RAT",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "1xMUS 1xNUT 1xGRN = 10xRAT",
+    "Inputs": [
+      {
+        "Ticker": "MUS",
+        "Amount": 1
+      },
+      {
+        "Ticker": "NUT",
+        "Amount": 1
+      },
+      {
+        "Ticker": "GRN",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RAT",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "2xFIM 1xMTP = 2xMEA",
+    "Inputs": [
+      {
+        "Ticker": "MTP",
+        "Amount": 1
+      },
+      {
+        "Ticker": "FIM",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "MEA",
+        "Amount": 2
+      }
+    ],
+    "TimeMs": 56160000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "1xMAI 1xALG 1xNUT = 10xRAT",
+    "Inputs": [
+      {
+        "Ticker": "NUT",
+        "Amount": 1
+      },
+      {
+        "Ticker": "ALG",
+        "Amount": 1
+      },
+      {
+        "Ticker": "MAI",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RAT",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "10xH2O 1xPG = 10xDW",
+    "Inputs": [
+      {
+        "Ticker": "H2O",
+        "Amount": 10
+      },
+      {
+        "Ticker": "PG",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "DW",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 17280000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "2xBEA 1xH2O = 4xPPA",
+    "Inputs": [
+      {
+        "Ticker": "BEA",
+        "Amount": 2
+      },
+      {
+        "Ticker": "H2O",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "PPA",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 25920000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "2xRAT 1xHER = 2xFIM",
+    "Inputs": [
+      {
+        "Ticker": "RAT",
+        "Amount": 2
+      },
+      {
+        "Ticker": "HER",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "FIM",
+        "Amount": 2
+      }
+    ],
+    "TimeMs": 43200000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "1xMAI 1xALG 1xVEG = 10xRAT",
+    "Inputs": [
+      {
+        "Ticker": "ALG",
+        "Amount": 1
+      },
+      {
+        "Ticker": "VEG",
+        "Amount": 1
+      },
+      {
+        "Ticker": "MAI",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RAT",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "1xMUS 1xVEG 1xGRN = 10xRAT",
+    "Inputs": [
+      {
+        "Ticker": "MUS",
+        "Amount": 1
+      },
+      {
+        "Ticker": "VEG",
+        "Amount": 1
+      },
+      {
+        "Ticker": "GRN",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RAT",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "10xH2O = 7xDW",
+    "Inputs": [
+      {
+        "Ticker": "H2O",
+        "Amount": 10
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "DW",
+        "Amount": 7
+      }
+    ],
+    "TimeMs": 8640000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "1xGRN 1xALG 1xNUT = 10xRAT",
+    "Inputs": [
+      {
+        "Ticker": "GRN",
+        "Amount": 1
+      },
+      {
+        "Ticker": "ALG",
+        "Amount": 1
+      },
+      {
+        "Ticker": "NUT",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RAT",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "1xGRN 1xALG 1xVEG = 10xRAT",
+    "Inputs": [
+      {
+        "Ticker": "GRN",
+        "Amount": 1
+      },
+      {
+        "Ticker": "ALG",
+        "Amount": 1
+      },
+      {
+        "Ticker": "VEG",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RAT",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "1xMUS 1xVEG 1xMAI = 10xRAT",
+    "Inputs": [
+      {
+        "Ticker": "MUS",
+        "Amount": 1
+      },
+      {
+        "Ticker": "VEG",
+        "Amount": 1
+      },
+      {
+        "Ticker": "MAI",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RAT",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "FP",
+    "RecipeName": "1xGRN 1xBEA 1xVEG = 10xRAT",
+    "Inputs": [
+      {
+        "Ticker": "VEG",
+        "Amount": 1
+      },
+      {
+        "Ticker": "BEA",
+        "Amount": 1
+      },
+      {
+        "Ticker": "GRN",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RAT",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 21600000
+  }
+]

@@ -1,0 +1,315 @@
+[
+  {
+    "BuildingTicker": "SME",
+    "RecipeName": "1xC 3xAUO = 2xAU",
+    "Inputs": [
+      {
+        "Ticker": "C",
+        "Amount": 1
+      },
+      {
+        "Ticker": "AUO",
+        "Amount": 3
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "AU",
+        "Amount": 2
+      }
+    ],
+    "TimeMs": 38880000
+  },
+  {
+    "BuildingTicker": "SME",
+    "RecipeName": "4xAL 1xSI 2xO = 1xCF",
+    "Inputs": [
+      {
+        "Ticker": "O",
+        "Amount": 2
+      },
+      {
+        "Ticker": "SI",
+        "Amount": 1
+      },
+      {
+        "Ticker": "AL",
+        "Amount": 4
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "CF",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 34560000
+  },
+  {
+    "BuildingTicker": "SME",
+    "RecipeName": "1xSCR 1xO = 6xS",
+    "Inputs": [
+      {
+        "Ticker": "O",
+        "Amount": 1
+      },
+      {
+        "Ticker": "SCR",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "S",
+        "Amount": 6
+      }
+    ],
+    "TimeMs": 25920000
+  },
+  {
+    "BuildingTicker": "SME",
+    "RecipeName": "5xCUO 10xO 1xSIO = 3xCU",
+    "Inputs": [
+      {
+        "Ticker": "CUO",
+        "Amount": 5
+      },
+      {
+        "Ticker": "O",
+        "Amount": 10
+      },
+      {
+        "Ticker": "SIO",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "CU",
+        "Amount": 3
+      }
+    ],
+    "TimeMs": 43200000
+  },
+  {
+    "BuildingTicker": "SME",
+    "RecipeName": "6xFEO 1xC 1xO = 3xFE",
+    "Inputs": [
+      {
+        "Ticker": "FEO",
+        "Amount": 6
+      },
+      {
+        "Ticker": "C",
+        "Amount": 1
+      },
+      {
+        "Ticker": "O",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "FE",
+        "Amount": 3
+      }
+    ],
+    "TimeMs": 43200000
+  },
+  {
+    "BuildingTicker": "SME",
+    "RecipeName": "3xSIO 1xAL = 1xSI",
+    "Inputs": [
+      {
+        "Ticker": "AL",
+        "Amount": 1
+      },
+      {
+        "Ticker": "SIO",
+        "Amount": 3
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "SI",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 12960000
+  },
+  {
+    "BuildingTicker": "SME",
+    "RecipeName": "6xFEO 1xC 1xO 1xFLX = 4xFE",
+    "Inputs": [
+      {
+        "Ticker": "O",
+        "Amount": 1
+      },
+      {
+        "Ticker": "C",
+        "Amount": 1
+      },
+      {
+        "Ticker": "FEO",
+        "Amount": 6
+      },
+      {
+        "Ticker": "FLX",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "FE",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 51840000
+  },
+  {
+    "BuildingTicker": "SME",
+    "RecipeName": "6xALO 1xC 1xO = 3xAL",
+    "Inputs": [
+      {
+        "Ticker": "ALO",
+        "Amount": 6
+      },
+      {
+        "Ticker": "C",
+        "Amount": 1
+      },
+      {
+        "Ticker": "O",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "AL",
+        "Amount": 3
+      }
+    ],
+    "TimeMs": 43200000
+  },
+  {
+    "BuildingTicker": "SME",
+    "RecipeName": "4xTS 1xO 1xAL = 1xSI",
+    "Inputs": [
+      {
+        "Ticker": "TS",
+        "Amount": 4
+      },
+      {
+        "Ticker": "O",
+        "Amount": 1
+      },
+      {
+        "Ticker": "AL",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "SI",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 10368000
+  },
+  {
+    "BuildingTicker": "SME",
+    "RecipeName": "10xLIO 4xHAL = 4xLI",
+    "Inputs": [
+      {
+        "Ticker": "LIO",
+        "Amount": 10
+      },
+      {
+        "Ticker": "HAL",
+        "Amount": 4
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "LI",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 57024000
+  },
+  {
+    "BuildingTicker": "SME",
+    "RecipeName": "2xFE 8xO = 2xSTL",
+    "Inputs": [
+      {
+        "Ticker": "FE",
+        "Amount": 2
+      },
+      {
+        "Ticker": "O",
+        "Amount": 8
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "STL",
+        "Amount": 2
+      }
+    ],
+    "TimeMs": 30240000
+  },
+  {
+    "BuildingTicker": "SME",
+    "RecipeName": "4xTIO 1xC 1xO = 2xTI",
+    "Inputs": [
+      {
+        "Ticker": "TIO",
+        "Amount": 4
+      },
+      {
+        "Ticker": "C",
+        "Amount": 1
+      },
+      {
+        "Ticker": "O",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "TI",
+        "Amount": 2
+      }
+    ],
+    "TimeMs": 64800000
+  },
+  {
+    "BuildingTicker": "SME",
+    "RecipeName": "6xALO 1xO 1xC 1xFLX = 4xAL",
+    "Inputs": [
+      {
+        "Ticker": "FLX",
+        "Amount": 1
+      },
+      {
+        "Ticker": "ALO",
+        "Amount": 6
+      },
+      {
+        "Ticker": "O",
+        "Amount": 1
+      },
+      {
+        "Ticker": "C",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "AL",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 51840000
+  }
+]

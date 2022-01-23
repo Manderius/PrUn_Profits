@@ -1,0 +1,82 @@
+[
+  {
+    "BuildingTicker": "PP1",
+    "RecipeName": "1xFE 2xLST = 1xBSE",
+    "Inputs": [
+      {
+        "Ticker": "FE",
+        "Amount": 1
+      },
+      {
+        "Ticker": "LST",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "BSE",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 21600000
+  },
+  {
+    "BuildingTicker": "PP1",
+    "RecipeName": "2xFE 1xLST = 1xBBH",
+    "Inputs": [
+      {
+        "Ticker": "FE",
+        "Amount": 2
+      },
+      {
+        "Ticker": "LST",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "BBH",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 28512000
+  },
+  {
+    "BuildingTicker": "PP1",
+    "RecipeName": "150xPE = 1xBDE",
+    "Inputs": [
+      {
+        "Ticker": "PE",
+        "Amount": 150
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "BDE",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 25920000
+  },
+  {
+    "BuildingTicker": "PP1",
+    "RecipeName": "1xFE 50xPE = 1xBTA",
+    "Inputs": [
+      {
+        "Ticker": "FE",
+        "Amount": 1
+      },
+      {
+        "Ticker": "PE",
+        "Amount": 50
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "BTA",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 12960000
+  }
+]

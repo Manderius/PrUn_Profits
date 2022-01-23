@@ -1,0 +1,86 @@
+[
+  {
+    "BuildingTicker": "REF",
+    "RecipeName": "1xAMM 5xNAB = 150xSF",
+    "Inputs": [
+      {
+        "Ticker": "AMM",
+        "Amount": 1
+      },
+      {
+        "Ticker": "NAB",
+        "Amount": 5
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "SF",
+        "Amount": 150
+      }
+    ],
+    "TimeMs": 34560000
+  },
+  {
+    "BuildingTicker": "REF",
+    "RecipeName": "1xAMM 2xGAL 3xH = 100xSF",
+    "Inputs": [
+      {
+        "Ticker": "AMM",
+        "Amount": 1
+      },
+      {
+        "Ticker": "GAL",
+        "Amount": 2
+      },
+      {
+        "Ticker": "H",
+        "Amount": 3
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "SF",
+        "Amount": 100
+      }
+    ],
+    "TimeMs": 12960000
+  },
+  {
+    "BuildingTicker": "REF",
+    "RecipeName": "2xHE3 4xH = 100xFF",
+    "Inputs": [
+      {
+        "Ticker": "HE3",
+        "Amount": 2
+      },
+      {
+        "Ticker": "H",
+        "Amount": 4
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "FF",
+        "Amount": 100
+      }
+    ],
+    "TimeMs": 12960000
+  },
+  {
+    "BuildingTicker": "REF",
+    "RecipeName": "3xTS = 2xHE3",
+    "Inputs": [
+      {
+        "Ticker": "TS",
+        "Amount": 3
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "HE3",
+        "Amount": 2
+      }
+    ],
+    "TimeMs": 21600000
+  }
+]

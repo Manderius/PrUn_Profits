@@ -1,2 +1,2 @@
-# PrUn_Profits
+# Prosperous Universe profits
 Profit calculator for Prosperous Universe.

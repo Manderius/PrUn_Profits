@@ -1,0 +1,120 @@
+[
+  {
+    "BuildingTicker": "INC",
+    "RecipeName": "4xHCP = 4xC",
+    "Inputs": [
+      {
+        "Ticker": "HCP",
+        "Amount": 4
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "C",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 86400000
+  },
+  {
+    "BuildingTicker": "INC",
+    "RecipeName": "4xMAI = 4xC",
+    "Inputs": [
+      {
+        "Ticker": "MAI",
+        "Amount": 4
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "C",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 86400000
+  },
+  {
+    "BuildingTicker": "INC",
+    "RecipeName": "4xHCP 2xMAI = 4xC",
+    "Inputs": [
+      {
+        "Ticker": "HCP",
+        "Amount": 4
+      },
+      {
+        "Ticker": "MAI",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "C",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 57024000
+  },
+  {
+    "BuildingTicker": "INC",
+    "RecipeName": "4xGRN = 4xC",
+    "Inputs": [
+      {
+        "Ticker": "GRN",
+        "Amount": 4
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "C",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 86400000
+  },
+  {
+    "BuildingTicker": "INC",
+    "RecipeName": "4xHCP 2xGRN = 4xC",
+    "Inputs": [
+      {
+        "Ticker": "HCP",
+        "Amount": 4
+      },
+      {
+        "Ticker": "GRN",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "C",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 57024000
+  },
+  {
+    "BuildingTicker": "INC",
+    "RecipeName": "4xHCP 2xGRN 2xMAI = 4xC",
+    "Inputs": [
+      {
+        "Ticker": "HCP",
+        "Amount": 4
+      },
+      {
+        "Ticker": "GRN",
+        "Amount": 2
+      },
+      {
+        "Ticker": "MAI",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "C",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 28512000
+  }
+]

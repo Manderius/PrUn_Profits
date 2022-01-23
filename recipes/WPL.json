@@ -1,0 +1,95 @@
+[
+  {
+    "BuildingTicker": "WPL",
+    "RecipeName": "75xPG 5xTCL = 1xKV",
+    "Inputs": [
+      {
+        "Ticker": "PG",
+        "Amount": 75
+      },
+      {
+        "Ticker": "TCL",
+        "Amount": 5
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "KV",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 69120000
+  },
+  {
+    "BuildingTicker": "WPL",
+    "RecipeName": "1xKV 1xTC = 1xTK",
+    "Inputs": [
+      {
+        "Ticker": "KV",
+        "Amount": 1
+      },
+      {
+        "Ticker": "TC",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "TK",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 77760000
+  },
+  {
+    "BuildingTicker": "WPL",
+    "RecipeName": "50xPG = 1xNL",
+    "Inputs": [
+      {
+        "Ticker": "PG",
+        "Amount": 50
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "NL",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 43200000
+  },
+  {
+    "BuildingTicker": "WPL",
+    "RecipeName": "1xRCO = 1xCOT",
+    "Inputs": [
+      {
+        "Ticker": "RCO",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "COT",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 25920000
+  },
+  {
+    "BuildingTicker": "WPL",
+    "RecipeName": "1xRSI = 1xSIL",
+    "Inputs": [
+      {
+        "Ticker": "RSI",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "SIL",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 43200000
+  }
+]
