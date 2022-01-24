@@ -1,0 +1,178 @@
+[
+  {
+    "BuildingTicker": "GF",
+    "RecipeName": "1xSIO = 10xGL",
+    "Inputs": [
+      {
+        "Ticker": "SIO",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "GL",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 60480000
+  },
+  {
+    "BuildingTicker": "GF",
+    "RecipeName": "16xNE 8xRG = 1xLIT",
+    "Inputs": [
+      {
+        "Ticker": "RG",
+        "Amount": 8
+      },
+      {
+        "Ticker": "NE",
+        "Amount": 16
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "LIT",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 69120000
+  },
+  {
+    "BuildingTicker": "GF",
+    "RecipeName": "10xGL = 20xTUB",
+    "Inputs": [
+      {
+        "Ticker": "GL",
+        "Amount": 10
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "TUB",
+        "Amount": 20
+      }
+    ],
+    "TimeMs": 17280000
+  },
+  {
+    "BuildingTicker": "GF",
+    "RecipeName": "20xRG 1xGV = 1xGCH",
+    "Inputs": [
+      {
+        "Ticker": "RG",
+        "Amount": 20
+      },
+      {
+        "Ticker": "GV",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "GCH",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 60480000
+  },
+  {
+    "BuildingTicker": "GF",
+    "RecipeName": "10xGL 15xPG = 10xRG",
+    "Inputs": [
+      {
+        "Ticker": "PG",
+        "Amount": 15
+      },
+      {
+        "Ticker": "GL",
+        "Amount": 10
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "RG",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 112320000
+  },
+  {
+    "BuildingTicker": "GF",
+    "RecipeName": "4xLFP 4xGNZ 50xNG 10xTHF 1xMFK = 1xGEN",
+    "Inputs": [
+      {
+        "Ticker": "THF",
+        "Amount": 10
+      },
+      {
+        "Ticker": "NG",
+        "Amount": 50
+      },
+      {
+        "Ticker": "GNZ",
+        "Amount": 4
+      },
+      {
+        "Ticker": "LFP",
+        "Amount": 4
+      },
+      {
+        "Ticker": "MFK",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "GEN",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 108000000
+  },
+  {
+    "BuildingTicker": "GF",
+    "RecipeName": "10xGL 10xNCS = 10xNG",
+    "Inputs": [
+      {
+        "Ticker": "NCS",
+        "Amount": 10
+      },
+      {
+        "Ticker": "GL",
+        "Amount": 10
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "NG",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 103680000
+  },
+  {
+    "BuildingTicker": "GF",
+    "RecipeName": "20xRG 1xTI 1xGCH = 1xGNZ",
+    "Inputs": [
+      {
+        "Ticker": "GCH",
+        "Amount": 1
+      },
+      {
+        "Ticker": "RG",
+        "Amount": 20
+      },
+      {
+        "Ticker": "TI",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "GNZ",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 129600000
+  }
+]

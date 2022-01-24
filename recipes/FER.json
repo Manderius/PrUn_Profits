@@ -1,0 +1,147 @@
+[
+  {
+    "BuildingTicker": "FER",
+    "RecipeName": "2xGRN 2xDW 1xES 1xAMM = 4xGIN",
+    "Inputs": [
+      {
+        "Ticker": "GRN",
+        "Amount": 2
+      },
+      {
+        "Ticker": "AMM",
+        "Amount": 1
+      },
+      {
+        "Ticker": "ES",
+        "Amount": 1
+      },
+      {
+        "Ticker": "DW",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "GIN",
+        "Amount": 4
+      }
+    ],
+    "TimeMs": 56160000
+  },
+  {
+    "BuildingTicker": "FER",
+    "RecipeName": "20xDW 15xGRA 15xREA 1xAMM = 10xWIN",
+    "Inputs": [
+      {
+        "Ticker": "AMM",
+        "Amount": 1
+      },
+      {
+        "Ticker": "REA",
+        "Amount": 15
+      },
+      {
+        "Ticker": "GRA",
+        "Amount": 15
+      },
+      {
+        "Ticker": "DW",
+        "Amount": 20
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "WIN",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 69120000
+  },
+  {
+    "BuildingTicker": "FER",
+    "RecipeName": "10xDW 4xPIB 1xCA 1xI 1xAMM = 20xVIT",
+    "Inputs": [
+      {
+        "Ticker": "AMM",
+        "Amount": 1
+      },
+      {
+        "Ticker": "I",
+        "Amount": 1
+      },
+      {
+        "Ticker": "PIB",
+        "Amount": 4
+      },
+      {
+        "Ticker": "CA",
+        "Amount": 1
+      },
+      {
+        "Ticker": "DW",
+        "Amount": 10
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "VIT",
+        "Amount": 20
+      }
+    ],
+    "TimeMs": 69120000
+  },
+  {
+    "BuildingTicker": "FER",
+    "RecipeName": "2xGRN 3xDW 1xHOP 1xAMM = 6xALE",
+    "Inputs": [
+      {
+        "Ticker": "AMM",
+        "Amount": 1
+      },
+      {
+        "Ticker": "HOP",
+        "Amount": 1
+      },
+      {
+        "Ticker": "DW",
+        "Amount": 3
+      },
+      {
+        "Ticker": "GRN",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "ALE",
+        "Amount": 6
+      }
+    ],
+    "TimeMs": 55296000
+  },
+  {
+    "BuildingTicker": "FER",
+    "RecipeName": "4xDW 1xHER 1xAMM = 6xKOM",
+    "Inputs": [
+      {
+        "Ticker": "HER",
+        "Amount": 1
+      },
+      {
+        "Ticker": "DW",
+        "Amount": 4
+      },
+      {
+        "Ticker": "AMM",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "KOM",
+        "Amount": 6
+      }
+    ],
+    "TimeMs": 30240000
+  }
+]

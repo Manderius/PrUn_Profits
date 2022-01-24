@@ -2,6 +2,11 @@ var fs = require('fs');
 
 var localExchange = "AI1"
 var APIhost = 'rest.fnar.net'
+const MARKET_MAKER_AMOUNT = 1000000;
+const MESSAGES = {
+    NO_BUYERS: "No buyers",
+    MARKET_MAKER: "Market maker"
+}
 
 function makeRequest(host, path, callback) {
     var https = require('https');
@@ -36,8 +41,6 @@ function filterRecipes(buildingCode) {
     var recipes = all.filter((e) => e.BuildingTicker == buildingCode)
     writeToFile('recipes/' + buildingCode + '.json', JSON.stringify(recipes, null, 2))
 }
-
-// 
 
 function getAllRecipes() {
     var all = []
@@ -76,9 +79,12 @@ function getClosePrices(orders, isSellOrder) {
     var rangeHigh = price * 1.1;
     var rangeLow = price * 0.9;
     var total = 0;
+    var containsMarketMakerOrder = false;
     orders.filter((o) => o.ItemCost < rangeHigh && o.ItemCost > rangeLow).forEach((o) => {
+        if (o.ItemCount == null) containsMarketMakerOrder = true;
         total += o.ItemCount;
     })
+    if (containsMarketMakerOrder) total = MARKET_MAKER_AMOUNT;
     
     return { 'Price': price, 'Amount': total }
 }
@@ -114,6 +120,12 @@ function getMaterialPrice(ticker, isBuying, prices) {
     return isBuying ? material.SellingOrders.Price : material.BuyingOrders.Price;
 }
 
+function isMarketMakerSellable(ticker, prices) {
+    var material = prices.find((mat) => mat.Ticker == ticker);
+    if (!material) return false;
+    return material.BuyingOrders.Amount == MARKET_MAKER_AMOUNT;
+}
+
 function getProfitability(recipe) {
     var prices = require('./prices.json');
     var materialCost = recipe.Inputs.map((input) => getMaterialPrice(input.Ticker, true, prices) * input.Amount).reduce(function(a, b) { return a + b; }, 0);
@@ -121,7 +133,9 @@ function getProfitability(recipe) {
     var worth = Math.round((gain - materialCost) / recipe.TimeMs * 1000 * 60 * 1000) / 1000
     var isInputAvailable = recipe.Inputs.map((input) => isMaterialAvailable(input.Ticker, prices, true)).every((elem) => elem);
     var isOutputSellable = recipe.Outputs.map((input) => isMaterialAvailable(input.Ticker, prices, false)).every((elem) => elem);
-    if (!isOutputSellable) return { 'Name' : recipe.RecipeName, 'Ratio' : isInputAvailable ? worth : 0, 'Message' : 'No buyers' };
+    var isMMSellable = recipe.Outputs.map((input) => isMarketMakerSellable(input.Ticker, prices)).every((elem) => elem);
+    if (!isOutputSellable) return { 'Name' : recipe.RecipeName, 'Ratio' : isInputAvailable ? worth : 0, 'Message' : MESSAGES.NO_BUYERS };
+    if (isMMSellable) return { 'Name' : recipe.RecipeName, 'Ratio' : isInputAvailable ? worth : 0, 'Message' : MESSAGES.MARKET_MAKER };
     return { 'Name' : recipe.RecipeName, 'Ratio' : isInputAvailable ? worth : 0}
 }
 
@@ -229,20 +243,21 @@ function parsePricesFromFullData() {
     writeToFile('prices.json', JSON.stringify(pricesData, null, 2));
 }
 
-function getTodayProfitablesInner(buildingCodes, threshold) {
+function getTodayProfitablesInner(buildingCodes, threshold, showUnsellable) {
     var profits = getProfitabilities();
     profits.forEach((data) => {
         if (!buildingCodes || buildingCodes.includes(data.Building)) {
             console.log(data.Building)
             data.Profits.forEach((profit) => {
                 if (profit.Ratio < threshold) return;
+                if (profit.Message && profit.Message == MESSAGES.NO_BUYERS && !showUnsellable) return;
                 console.log(profit)
             })
         }
     })
 }
 
-function getTodayProfitables(buildingCodes, threshold = 0.5) {
+function getTodayProfitables(buildingCodes, threshold = 0.5, showUnsellable = false) {
     var minCreationTime = new Date();
     minCreationTime.setHours(minCreationTime.getHours() - 4);
     var fileTime = new Date(2000, 1);
@@ -252,22 +267,13 @@ function getTodayProfitables(buildingCodes, threshold = 0.5) {
     if (minCreationTime > fileTime) {
         getFullExchangeData(() => {
             parsePricesFromFullData();
-            getTodayProfitablesInner(buildingCodes, threshold);
+            getTodayProfitablesInner(buildingCodes, threshold, showUnsellable);
         })
     }
     else {
-        getTodayProfitablesInner(buildingCodes, threshold);
+        getTodayProfitablesInner(buildingCodes, threshold, showUnsellable);
     }
 }
-
-// getTodayProfitables(['BMP', 'PP1', 'REF'], 0.5)
-// getTodayProfitables(null, 1.2)
-// getTodayProfitables(['BMP'], -10)
-
-
-// getGoodTrades('AI1', 'NC1', 1.5)
-// getGoodTrades('NC1', 'AI1', 1.2)
-
 
 
 function writeToFile(path, contents) {
@@ -286,7 +292,9 @@ function main(args) {
     }
     else if (args[0] == 'profit') {
         var ratio = args.length == 2 ? parseFloat(args[1]) : 1.2;
-        getTodayProfitables(null, ratio)
+        if (!isNaN(ratio)) getTodayProfitables(null, ratio)
+        else getTodayProfitables(args[1], -10, true)
+        
     }
 }
 

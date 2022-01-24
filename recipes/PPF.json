@@ -1,0 +1,153 @@
+[
+  {
+    "BuildingTicker": "PPF",
+    "RecipeName": "10xPG = 1xPSS",
+    "Inputs": [
+      {
+        "Ticker": "PG",
+        "Amount": 10
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "PSS",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 17280000
+  },
+  {
+    "BuildingTicker": "PPF",
+    "RecipeName": "20xPG = 1xPSM",
+    "Inputs": [
+      {
+        "Ticker": "PG",
+        "Amount": 20
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "PSM",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 34560000
+  },
+  {
+    "BuildingTicker": "PPF",
+    "RecipeName": "2xPSL 2xMFK 40xPG = 2xDCL",
+    "Inputs": [
+      {
+        "Ticker": "PG",
+        "Amount": 40
+      },
+      {
+        "Ticker": "MFK",
+        "Amount": 2
+      },
+      {
+        "Ticker": "PSL",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "DCL",
+        "Amount": 2
+      }
+    ],
+    "TimeMs": 60480000
+  },
+  {
+    "BuildingTicker": "PPF",
+    "RecipeName": "40xPG = 1xPSL",
+    "Inputs": [
+      {
+        "Ticker": "PG",
+        "Amount": 40
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "PSL",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 51840000
+  },
+  {
+    "BuildingTicker": "PPF",
+    "RecipeName": "1xSFK 50xPG 10xTHF = 1xLFP",
+    "Inputs": [
+      {
+        "Ticker": "THF",
+        "Amount": 10
+      },
+      {
+        "Ticker": "PG",
+        "Amount": 50
+      },
+      {
+        "Ticker": "SFK",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "LFP",
+        "Amount": 1
+      }
+    ],
+    "TimeMs": 43200000
+  },
+  {
+    "BuildingTicker": "PPF",
+    "RecipeName": "2xPSM 8xSFK 20xPG = 2xDCM",
+    "Inputs": [
+      {
+        "Ticker": "PG",
+        "Amount": 20
+      },
+      {
+        "Ticker": "SFK",
+        "Amount": 8
+      },
+      {
+        "Ticker": "PSM",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "DCM",
+        "Amount": 2
+      }
+    ],
+    "TimeMs": 43200000
+  },
+  {
+    "BuildingTicker": "PPF",
+    "RecipeName": "4xSFK 10xPG 1xPSS = 2xDCS",
+    "Inputs": [
+      {
+        "Ticker": "PG",
+        "Amount": 10
+      },
+      {
+        "Ticker": "SFK",
+        "Amount": 4
+      },
+      {
+        "Ticker": "PSS",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "DCS",
+        "Amount": 2
+      }
+    ],
+    "TimeMs": 25920000
+  }
+]

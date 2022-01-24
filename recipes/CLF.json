@@ -1,0 +1,85 @@
+[
+  {
+    "BuildingTicker": "CLF",
+    "RecipeName": "5xNL 1xBLE 5xSEN 5xPCB = 20xHSS",
+    "Inputs": [
+      {
+        "Ticker": "NL",
+        "Amount": 5
+      },
+      {
+        "Ticker": "BLE",
+        "Amount": 1
+      },
+      {
+        "Ticker": "SEN",
+        "Amount": 5
+      },
+      {
+        "Ticker": "PCB",
+        "Amount": 5
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "HSS",
+        "Amount": 20
+      }
+    ],
+    "TimeMs": 86400000
+  },
+  {
+    "BuildingTicker": "CLF",
+    "RecipeName": "1xNL 1xIND 6xGC = 10xHMS",
+    "Inputs": [
+      {
+        "Ticker": "NL",
+        "Amount": 1
+      },
+      {
+        "Ticker": "IND",
+        "Amount": 1
+      },
+      {
+        "Ticker": "GC",
+        "Amount": 6
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "HMS",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 60480000
+  },
+  {
+    "BuildingTicker": "CLF",
+    "RecipeName": "2xSIL 1xBLE 10xHD 10xPCB = 10xLC",
+    "Inputs": [
+      {
+        "Ticker": "SIL",
+        "Amount": 2
+      },
+      {
+        "Ticker": "BLE",
+        "Amount": 1
+      },
+      {
+        "Ticker": "HD",
+        "Amount": 10
+      },
+      {
+        "Ticker": "PCB",
+        "Amount": 10
+      }
+    ],
+    "Outputs": [
+      {
+        "Ticker": "LC",
+        "Amount": 10
+      }
+    ],
+    "TimeMs": 69120000
+  }
+]
