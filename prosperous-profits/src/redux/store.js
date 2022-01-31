@@ -1,9 +1,7 @@
 import { createStore } from 'redux'
 import rootReducer from './reducers'
 
-const defaultState = {
-    shopping: { items: [] }
-}
+const defaultState = {}
 
 // const savedState = localStorage.getItem('reduxState')
 //     ? JSON.parse(localStorage.getItem('reduxState'))

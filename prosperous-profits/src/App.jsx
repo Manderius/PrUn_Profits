@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './components/production/RecipeTable.jsx';
 import './App.css';
 import RecipeTable from './components/production/RecipeTable.jsx';
@@ -9,8 +9,15 @@ import Col from 'react-bootstrap/esm/Col';
 import Tabs from 'react-bootstrap/esm/Tabs';
 import Tab from 'react-bootstrap/esm/Tab';
 import ShoppingListContainer from 'components/shopping/ShoppingListContainer.jsx';
+import { loadExchangeData } from 'data/DataLoader.js';
+
 
 function App() {
+  useEffect(() => {
+
+  }, []);
+  loadExchangeData();
+
   return (
     <div className="App">
       <Container>

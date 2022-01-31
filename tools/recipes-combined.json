@@ -1,0 +1,4177 @@
+[
+  {
+    "BuildingTicker": "BMP",
+    "Recipes": [
+      {
+        "BuildingTicker": "BMP",
+        "RecipeName": "1xCOT 10xPG = 30xOVE",
+        "Inputs": [
+          {
+            "Ticker": "COT",
+            "Amount": 1
+          },
+          {
+            "Ticker": "PG",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "OVE",
+            "Amount": 30
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "BMP",
+        "RecipeName": "1xRCO 50xPE = 20xOVE",
+        "Inputs": [
+          {
+            "Ticker": "RCO",
+            "Amount": 1
+          },
+          {
+            "Ticker": "PE",
+            "Amount": 50
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "OVE",
+            "Amount": 20
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "BMP",
+        "RecipeName": "3xCLI = 1xI",
+        "Inputs": [
+          {
+            "Ticker": "CLI",
+            "Amount": 3
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "I",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 17280000
+      },
+      {
+        "BuildingTicker": "BMP",
+        "RecipeName": "4xLST 2xSIO = 50xMCG",
+        "Inputs": [
+          {
+            "Ticker": "LST",
+            "Amount": 4
+          },
+          {
+            "Ticker": "SIO",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "MCG",
+            "Amount": 50
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "BMP",
+        "RecipeName": "20xPG 20xEPO = 50xOFF",
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 20
+          },
+          {
+            "Ticker": "EPO",
+            "Amount": 20
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "OFF",
+            "Amount": 50
+          }
+        ],
+        "TimeMs": 17280000
+      },
+      {
+        "BuildingTicker": "BMP",
+        "RecipeName": "1xC 2xH = 200xPE",
+        "Inputs": [
+          {
+            "Ticker": "C",
+            "Amount": 1
+          },
+          {
+            "Ticker": "H",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PE",
+            "Amount": 200
+          }
+        ],
+        "TimeMs": 24192000
+      },
+      {
+        "BuildingTicker": "BMP",
+        "RecipeName": "1xMGS = 6xMG",
+        "Inputs": [
+          {
+            "Ticker": "MGS",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "MG",
+            "Amount": 6
+          }
+        ],
+        "TimeMs": 10368000
+      },
+      {
+        "BuildingTicker": "BMP",
+        "RecipeName": "1xS 1xSI 30xPG = 30xSEA",
+        "Inputs": [
+          {
+            "Ticker": "S",
+            "Amount": 1
+          },
+          {
+            "Ticker": "SI",
+            "Amount": 1
+          },
+          {
+            "Ticker": "PG",
+            "Amount": 30
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "SEA",
+            "Amount": 30
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "BMP",
+        "RecipeName": "20xOVE 10xC = 20xSUN",
+        "Inputs": [
+          {
+            "Ticker": "C",
+            "Amount": 10
+          },
+          {
+            "Ticker": "OVE",
+            "Amount": 20
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "SUN",
+            "Amount": 20
+          }
+        ],
+        "TimeMs": 17280000
+      },
+      {
+        "BuildingTicker": "BMP",
+        "RecipeName": "1xCOT 50xPG = 20xPWO",
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 50
+          },
+          {
+            "Ticker": "COT",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PWO",
+            "Amount": 20
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "BMP",
+        "RecipeName": "1xSTL = 5xPT",
+        "Inputs": [
+          {
+            "Ticker": "STL",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PT",
+            "Amount": 5
+          }
+        ],
+        "TimeMs": 30240000
+      },
+      {
+        "BuildingTicker": "BMP",
+        "RecipeName": "50xPE 4xAL = 2xSTR",
+        "Inputs": [
+          {
+            "Ticker": "PE",
+            "Amount": 50
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "STR",
+            "Amount": 2
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "BMP",
+        "RecipeName": "100xPE 25xPG = 20xOVE",
+        "Inputs": [
+          {
+            "Ticker": "PE",
+            "Amount": 100
+          },
+          {
+            "Ticker": "PG",
+            "Amount": 25
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "OVE",
+            "Amount": 20
+          }
+        ],
+        "TimeMs": 51840000
+      },
+      {
+        "BuildingTicker": "BMP",
+        "RecipeName": "1xMFK 1xSFK 8xINS = 4xREP",
+        "Inputs": [
+          {
+            "Ticker": "INS",
+            "Amount": 8
+          },
+          {
+            "Ticker": "MFK",
+            "Amount": 1
+          },
+          {
+            "Ticker": "SFK",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "REP",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "BMP",
+        "RecipeName": "10xOVE 1xAL = 10xEXO",
+        "Inputs": [
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "OVE",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "EXO",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 17280000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "CHP",
+    "Recipes": [
+      {
+        "BuildingTicker": "CHP",
+        "RecipeName": "6xVEG 10xREA = 6xOLF",
+        "Inputs": [
+          {
+            "Ticker": "REA",
+            "Amount": 10
+          },
+          {
+            "Ticker": "VEG",
+            "Amount": 6
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "OLF",
+            "Amount": 6
+          }
+        ],
+        "TimeMs": 34560000
+      },
+      {
+        "BuildingTicker": "CHP",
+        "RecipeName": "10xCLI 20xBRM = 16xSOI",
+        "Inputs": [
+          {
+            "Ticker": "BRM",
+            "Amount": 20
+          },
+          {
+            "Ticker": "CLI",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "SOI",
+            "Amount": 16
+          }
+        ],
+        "TimeMs": 86400000
+      },
+      {
+        "BuildingTicker": "CHP",
+        "RecipeName": "1xLST = 1xCA",
+        "Inputs": [
+          {
+            "Ticker": "LST",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "CA",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "CHP",
+        "RecipeName": "2xH2O 2xN 1xLST = 4xNS",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 2
+          },
+          {
+            "Ticker": "N",
+            "Amount": 2
+          },
+          {
+            "Ticker": "LST",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "NS",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 17280000
+      },
+      {
+        "BuildingTicker": "CHP",
+        "RecipeName": "1xLST = 10xFLX",
+        "Inputs": [
+          {
+            "Ticker": "LST",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "FLX",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 43200000
+      },
+      {
+        "BuildingTicker": "CHP",
+        "RecipeName": "3xHAL 1xH2O = 2xNA 1xCL",
+        "Inputs": [
+          {
+            "Ticker": "HAL",
+            "Amount": 3
+          },
+          {
+            "Ticker": "H2O",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "CL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "NA",
+            "Amount": 2
+          }
+        ],
+        "TimeMs": 50112000
+      },
+      {
+        "BuildingTicker": "CHP",
+        "RecipeName": "50xPE 1xAL 4xCOT 1xHER = 16xMED",
+        "Inputs": [
+          {
+            "Ticker": "PE",
+            "Amount": 50
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "COT",
+            "Amount": 4
+          },
+          {
+            "Ticker": "HER",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "MED",
+            "Amount": 16
+          }
+        ],
+        "TimeMs": 69120000
+      },
+      {
+        "BuildingTicker": "CHP",
+        "RecipeName": "1xSI 1xO = 1xLCR",
+        "Inputs": [
+          {
+            "Ticker": "SI",
+            "Amount": 1
+          },
+          {
+            "Ticker": "O",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "LCR",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 56160000
+      },
+      {
+        "BuildingTicker": "CHP",
+        "RecipeName": "10xAMM 4xREA = 10xPFE",
+        "Inputs": [
+          {
+            "Ticker": "REA",
+            "Amount": 4
+          },
+          {
+            "Ticker": "AMM",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PFE",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 69120000
+      },
+      {
+        "BuildingTicker": "CHP",
+        "RecipeName": "2xCA 1xMG 1xTA = 20xSC",
+        "Inputs": [
+          {
+            "Ticker": "CA",
+            "Amount": 2
+          },
+          {
+            "Ticker": "MG",
+            "Amount": 1
+          },
+          {
+            "Ticker": "TA",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "SC",
+            "Amount": 20
+          }
+        ],
+        "TimeMs": 56160000
+      },
+      {
+        "BuildingTicker": "CHP",
+        "RecipeName": "1xNA 1xBOR 5xH = 20xNAB",
+        "Inputs": [
+          {
+            "Ticker": "BOR",
+            "Amount": 1
+          },
+          {
+            "Ticker": "H",
+            "Amount": 5
+          },
+          {
+            "Ticker": "NA",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "NAB",
+            "Amount": 20
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "CHP",
+        "RecipeName": "1xMG 1xCU 1xS = 1xIND",
+        "Inputs": [
+          {
+            "Ticker": "S",
+            "Amount": 1
+          },
+          {
+            "Ticker": "CU",
+            "Amount": 1
+          },
+          {
+            "Ticker": "MG",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "IND",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 34560000
+      },
+      {
+        "BuildingTicker": "CHP",
+        "RecipeName": "25xBRM = 10xREA",
+        "Inputs": [
+          {
+            "Ticker": "BRM",
+            "Amount": 25
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "REA",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 60480000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "CLF",
+    "Recipes": [
+      {
+        "BuildingTicker": "CLF",
+        "RecipeName": "5xNL 1xBLE 5xSEN 5xPCB = 20xHSS",
+        "Inputs": [
+          {
+            "Ticker": "NL",
+            "Amount": 5
+          },
+          {
+            "Ticker": "BLE",
+            "Amount": 1
+          },
+          {
+            "Ticker": "SEN",
+            "Amount": 5
+          },
+          {
+            "Ticker": "PCB",
+            "Amount": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "HSS",
+            "Amount": 20
+          }
+        ],
+        "TimeMs": 86400000
+      },
+      {
+        "BuildingTicker": "CLF",
+        "RecipeName": "1xNL 1xIND 6xGC = 10xHMS",
+        "Inputs": [
+          {
+            "Ticker": "NL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "IND",
+            "Amount": 1
+          },
+          {
+            "Ticker": "GC",
+            "Amount": 6
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "HMS",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 60480000
+      },
+      {
+        "BuildingTicker": "CLF",
+        "RecipeName": "2xSIL 1xBLE 10xHD 10xPCB = 10xLC",
+        "Inputs": [
+          {
+            "Ticker": "SIL",
+            "Amount": 2
+          },
+          {
+            "Ticker": "BLE",
+            "Amount": 1
+          },
+          {
+            "Ticker": "HD",
+            "Amount": 10
+          },
+          {
+            "Ticker": "PCB",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "LC",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 69120000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "EDM",
+    "Recipes": [
+      {
+        "BuildingTicker": "EDM",
+        "RecipeName": "1xDCS 1xSFK 1xPOW = 1xRAD",
+        "Inputs": [
+          {
+            "Ticker": "DCS",
+            "Amount": 1
+          },
+          {
+            "Ticker": "POW",
+            "Amount": 1
+          },
+          {
+            "Ticker": "SFK",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RAD",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 17280000
+      },
+      {
+        "BuildingTicker": "EDM",
+        "RecipeName": "1xDCS 1xHD 1xNG = 1xHOG",
+        "Inputs": [
+          {
+            "Ticker": "NG",
+            "Amount": 1
+          },
+          {
+            "Ticker": "HD",
+            "Amount": 1
+          },
+          {
+            "Ticker": "DCS",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "HOG",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "EDM",
+        "RecipeName": "100xPE 4xCU = 8xSCN",
+        "Inputs": [
+          {
+            "Ticker": "CU",
+            "Amount": 4
+          },
+          {
+            "Ticker": "PE",
+            "Amount": 100
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "SCN",
+            "Amount": 8
+          }
+        ],
+        "TimeMs": 103680000
+      },
+      {
+        "BuildingTicker": "EDM",
+        "RecipeName": "2xSAR 2xCD 1xKV = 2xBID",
+        "Inputs": [
+          {
+            "Ticker": "KV",
+            "Amount": 1
+          },
+          {
+            "Ticker": "CD",
+            "Amount": 2
+          },
+          {
+            "Ticker": "SAR",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BID",
+            "Amount": 2
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "EDM",
+        "RecipeName": "1xPCB 1xTRA = 1xMHP",
+        "Inputs": [
+          {
+            "Ticker": "PCB",
+            "Amount": 1
+          },
+          {
+            "Ticker": "TRA",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "MHP",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 17280000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "FER",
+    "Recipes": [
+      {
+        "BuildingTicker": "FER",
+        "RecipeName": "2xGRN 2xDW 1xES 1xAMM = 4xGIN",
+        "Inputs": [
+          {
+            "Ticker": "GRN",
+            "Amount": 2
+          },
+          {
+            "Ticker": "AMM",
+            "Amount": 1
+          },
+          {
+            "Ticker": "ES",
+            "Amount": 1
+          },
+          {
+            "Ticker": "DW",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "GIN",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 56160000
+      },
+      {
+        "BuildingTicker": "FER",
+        "RecipeName": "20xDW 15xGRA 15xREA 1xAMM = 10xWIN",
+        "Inputs": [
+          {
+            "Ticker": "AMM",
+            "Amount": 1
+          },
+          {
+            "Ticker": "REA",
+            "Amount": 15
+          },
+          {
+            "Ticker": "GRA",
+            "Amount": 15
+          },
+          {
+            "Ticker": "DW",
+            "Amount": 20
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "WIN",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 69120000
+      },
+      {
+        "BuildingTicker": "FER",
+        "RecipeName": "10xDW 4xPIB 1xCA 1xI 1xAMM = 20xVIT",
+        "Inputs": [
+          {
+            "Ticker": "AMM",
+            "Amount": 1
+          },
+          {
+            "Ticker": "I",
+            "Amount": 1
+          },
+          {
+            "Ticker": "PIB",
+            "Amount": 4
+          },
+          {
+            "Ticker": "CA",
+            "Amount": 1
+          },
+          {
+            "Ticker": "DW",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "VIT",
+            "Amount": 20
+          }
+        ],
+        "TimeMs": 69120000
+      },
+      {
+        "BuildingTicker": "FER",
+        "RecipeName": "2xGRN 3xDW 1xHOP 1xAMM = 6xALE",
+        "Inputs": [
+          {
+            "Ticker": "AMM",
+            "Amount": 1
+          },
+          {
+            "Ticker": "HOP",
+            "Amount": 1
+          },
+          {
+            "Ticker": "DW",
+            "Amount": 3
+          },
+          {
+            "Ticker": "GRN",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "ALE",
+            "Amount": 6
+          }
+        ],
+        "TimeMs": 55296000
+      },
+      {
+        "BuildingTicker": "FER",
+        "RecipeName": "4xDW 1xHER 1xAMM = 6xKOM",
+        "Inputs": [
+          {
+            "Ticker": "HER",
+            "Amount": 1
+          },
+          {
+            "Ticker": "DW",
+            "Amount": 4
+          },
+          {
+            "Ticker": "AMM",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "KOM",
+            "Amount": 6
+          }
+        ],
+        "TimeMs": 30240000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "FP",
+    "Recipes": [
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "2xALG 1xH2O = 4xPPA",
+        "Inputs": [
+          {
+            "Ticker": "ALG",
+            "Amount": 2
+          },
+          {
+            "Ticker": "H2O",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PPA",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "1xGRN 1xBEA 1xNUT = 10xRAT",
+        "Inputs": [
+          {
+            "Ticker": "NUT",
+            "Amount": 1
+          },
+          {
+            "Ticker": "BEA",
+            "Amount": 1
+          },
+          {
+            "Ticker": "GRN",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RAT",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "1xMUS 1xNUT 1xMAI = 10xRAT",
+        "Inputs": [
+          {
+            "Ticker": "MAI",
+            "Amount": 1
+          },
+          {
+            "Ticker": "MUS",
+            "Amount": 1
+          },
+          {
+            "Ticker": "NUT",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RAT",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "1xALG 1xH2O 1xBEA = 6xPPA",
+        "Inputs": [
+          {
+            "Ticker": "ALG",
+            "Amount": 1
+          },
+          {
+            "Ticker": "H2O",
+            "Amount": 1
+          },
+          {
+            "Ticker": "BEA",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PPA",
+            "Amount": 6
+          }
+        ],
+        "TimeMs": 43200000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "1xMAI 1xBEA 1xVEG = 10xRAT",
+        "Inputs": [
+          {
+            "Ticker": "MAI",
+            "Amount": 1
+          },
+          {
+            "Ticker": "BEA",
+            "Amount": 1
+          },
+          {
+            "Ticker": "VEG",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RAT",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "1xCAF 3xDW = 3xCOF",
+        "Inputs": [
+          {
+            "Ticker": "CAF",
+            "Amount": 1
+          },
+          {
+            "Ticker": "DW",
+            "Amount": 3
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "COF",
+            "Amount": 3
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "5xNUT 5xMAI 5xVEG = 16xFOD",
+        "Inputs": [
+          {
+            "Ticker": "NUT",
+            "Amount": 5
+          },
+          {
+            "Ticker": "MAI",
+            "Amount": 5
+          },
+          {
+            "Ticker": "VEG",
+            "Amount": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "FOD",
+            "Amount": 16
+          }
+        ],
+        "TimeMs": 43200000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "1xMAI 1xBEA 1xNUT = 10xRAT",
+        "Inputs": [
+          {
+            "Ticker": "MAI",
+            "Amount": 1
+          },
+          {
+            "Ticker": "BEA",
+            "Amount": 1
+          },
+          {
+            "Ticker": "NUT",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RAT",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "1xMUS 1xNUT 1xGRN = 10xRAT",
+        "Inputs": [
+          {
+            "Ticker": "MUS",
+            "Amount": 1
+          },
+          {
+            "Ticker": "NUT",
+            "Amount": 1
+          },
+          {
+            "Ticker": "GRN",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RAT",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "2xFIM 1xMTP = 2xMEA",
+        "Inputs": [
+          {
+            "Ticker": "MTP",
+            "Amount": 1
+          },
+          {
+            "Ticker": "FIM",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "MEA",
+            "Amount": 2
+          }
+        ],
+        "TimeMs": 56160000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "1xMAI 1xALG 1xNUT = 10xRAT",
+        "Inputs": [
+          {
+            "Ticker": "NUT",
+            "Amount": 1
+          },
+          {
+            "Ticker": "ALG",
+            "Amount": 1
+          },
+          {
+            "Ticker": "MAI",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RAT",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "10xH2O 1xPG = 10xDW",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 10
+          },
+          {
+            "Ticker": "PG",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "DW",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 17280000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "2xBEA 1xH2O = 4xPPA",
+        "Inputs": [
+          {
+            "Ticker": "BEA",
+            "Amount": 2
+          },
+          {
+            "Ticker": "H2O",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PPA",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "2xRAT 1xHER = 2xFIM",
+        "Inputs": [
+          {
+            "Ticker": "RAT",
+            "Amount": 2
+          },
+          {
+            "Ticker": "HER",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "FIM",
+            "Amount": 2
+          }
+        ],
+        "TimeMs": 43200000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "1xMAI 1xALG 1xVEG = 10xRAT",
+        "Inputs": [
+          {
+            "Ticker": "ALG",
+            "Amount": 1
+          },
+          {
+            "Ticker": "VEG",
+            "Amount": 1
+          },
+          {
+            "Ticker": "MAI",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RAT",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "1xMUS 1xVEG 1xGRN = 10xRAT",
+        "Inputs": [
+          {
+            "Ticker": "MUS",
+            "Amount": 1
+          },
+          {
+            "Ticker": "VEG",
+            "Amount": 1
+          },
+          {
+            "Ticker": "GRN",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RAT",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "10xH2O = 7xDW",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "DW",
+            "Amount": 7
+          }
+        ],
+        "TimeMs": 8640000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "1xGRN 1xALG 1xNUT = 10xRAT",
+        "Inputs": [
+          {
+            "Ticker": "GRN",
+            "Amount": 1
+          },
+          {
+            "Ticker": "ALG",
+            "Amount": 1
+          },
+          {
+            "Ticker": "NUT",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RAT",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "1xGRN 1xALG 1xVEG = 10xRAT",
+        "Inputs": [
+          {
+            "Ticker": "GRN",
+            "Amount": 1
+          },
+          {
+            "Ticker": "ALG",
+            "Amount": 1
+          },
+          {
+            "Ticker": "VEG",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RAT",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "1xMUS 1xVEG 1xMAI = 10xRAT",
+        "Inputs": [
+          {
+            "Ticker": "MUS",
+            "Amount": 1
+          },
+          {
+            "Ticker": "VEG",
+            "Amount": 1
+          },
+          {
+            "Ticker": "MAI",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RAT",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "FP",
+        "RecipeName": "1xGRN 1xBEA 1xVEG = 10xRAT",
+        "Inputs": [
+          {
+            "Ticker": "VEG",
+            "Amount": 1
+          },
+          {
+            "Ticker": "BEA",
+            "Amount": 1
+          },
+          {
+            "Ticker": "GRN",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RAT",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 21600000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "FRM",
+    "Recipes": [
+      {
+        "BuildingTicker": "FRM",
+        "RecipeName": "1xH2O = 12xNUT",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "NUT",
+            "Amount": 12
+          }
+        ],
+        "TimeMs": 129600000
+      },
+      {
+        "BuildingTicker": "FRM",
+        "RecipeName": "1xH2O = 2xBEA",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BEA",
+            "Amount": 2
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "FRM",
+        "RecipeName": "2xH2O = 4xHCP",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "HCP",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 43200000
+      },
+      {
+        "BuildingTicker": "FRM",
+        "RecipeName": "4xH2O 1xDDT = 4xHER",
+        "Inputs": [
+          {
+            "Ticker": "DDT",
+            "Amount": 1
+          },
+          {
+            "Ticker": "H2O",
+            "Amount": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "HER",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 172800000
+      },
+      {
+        "BuildingTicker": "FRM",
+        "RecipeName": "4xH2O = 12xMAI",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "MAI",
+            "Amount": 12
+          }
+        ],
+        "TimeMs": 120960000
+      },
+      {
+        "BuildingTicker": "FRM",
+        "RecipeName": "4xH2O = 4xGRN",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "GRN",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 32400000
+      },
+      {
+        "BuildingTicker": "FRM",
+        "RecipeName": "6xH2O = 4xBEA",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 6
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BEA",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 34560000
+      },
+      {
+        "BuildingTicker": "FRM",
+        "RecipeName": "2xH2O = 1xRCO",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RCO",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 51840000
+      },
+      {
+        "BuildingTicker": "FRM",
+        "RecipeName": "2xH2O 4xNS = 2xRCO",
+        "Inputs": [
+          {
+            "Ticker": "NS",
+            "Amount": 4
+          },
+          {
+            "Ticker": "H2O",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RCO",
+            "Amount": 2
+          }
+        ],
+        "TimeMs": 34560000
+      },
+      {
+        "BuildingTicker": "FRM",
+        "RecipeName": "3xH2O = 4xVEG",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 3
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "VEG",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 38880000
+      },
+      {
+        "BuildingTicker": "FRM",
+        "RecipeName": "1xH2O = 4xGRN",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "GRN",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 43200000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "FS",
+    "Recipes": [
+      {
+        "BuildingTicker": "FS",
+        "RecipeName": "1xSTL 1xAL = 1xBFR",
+        "Inputs": [
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "STL",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BFR",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 43200000
+      },
+      {
+        "BuildingTicker": "FS",
+        "RecipeName": "4xAU 1xCU = 5xRGO",
+        "Inputs": [
+          {
+            "Ticker": "CU",
+            "Amount": 1
+          },
+          {
+            "Ticker": "AU",
+            "Amount": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RGO",
+            "Amount": 5
+          }
+        ],
+        "TimeMs": 34560000
+      },
+      {
+        "BuildingTicker": "FS",
+        "RecipeName": "1xZR 1xAL = 1xAFR",
+        "Inputs": [
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "ZR",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "AFR",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 51840000
+      },
+      {
+        "BuildingTicker": "FS",
+        "RecipeName": "4xAU 1xFE = 5xBGO",
+        "Inputs": [
+          {
+            "Ticker": "FE",
+            "Amount": 1
+          },
+          {
+            "Ticker": "AU",
+            "Amount": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BGO",
+            "Amount": 5
+          }
+        ],
+        "TimeMs": 34560000
+      },
+      {
+        "BuildingTicker": "FS",
+        "RecipeName": "1xCU 300xPE = 10xBCO",
+        "Inputs": [
+          {
+            "Ticker": "CU",
+            "Amount": 1
+          },
+          {
+            "Ticker": "PE",
+            "Amount": 300
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BCO",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "FS",
+        "RecipeName": "10xAL 4xSTL = 1xFLO",
+        "Inputs": [
+          {
+            "Ticker": "STL",
+            "Amount": 4
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "FLO",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 69120000
+      },
+      {
+        "BuildingTicker": "FS",
+        "RecipeName": "1xRGO 300xPE = 10xHCC",
+        "Inputs": [
+          {
+            "Ticker": "PE",
+            "Amount": 300
+          },
+          {
+            "Ticker": "RGO",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "HCC",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "FS",
+        "RecipeName": "2xSTL 2xTI 1xHOG = 1xSEQ",
+        "Inputs": [
+          {
+            "Ticker": "STL",
+            "Amount": 2
+          },
+          {
+            "Ticker": "HOG",
+            "Amount": 1
+          },
+          {
+            "Ticker": "TI",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "SEQ",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "FS",
+        "RecipeName": "1xFE = 16xSFK",
+        "Inputs": [
+          {
+            "Ticker": "FE",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "SFK",
+            "Amount": 16
+          }
+        ],
+        "TimeMs": 10368000
+      },
+      {
+        "BuildingTicker": "FS",
+        "RecipeName": "1xBGO 300xPE = 10xBGC",
+        "Inputs": [
+          {
+            "Ticker": "BGO",
+            "Amount": 1
+          },
+          {
+            "Ticker": "PE",
+            "Amount": 300
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BGC",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "FS",
+        "RecipeName": "1xSTL = 8xMFK",
+        "Inputs": [
+          {
+            "Ticker": "STL",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "MFK",
+            "Amount": 8
+          }
+        ],
+        "TimeMs": 10368000
+      },
+      {
+        "BuildingTicker": "FS",
+        "RecipeName": "2xSFK 6xFE = 1xUTS",
+        "Inputs": [
+          {
+            "Ticker": "FE",
+            "Amount": 6
+          },
+          {
+            "Ticker": "SFK",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "UTS",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 34560000
+      },
+      {
+        "BuildingTicker": "FS",
+        "RecipeName": "1xAL 2xCU = 3xBRO",
+        "Inputs": [
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "CU",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BRO",
+            "Amount": 3
+          }
+        ],
+        "TimeMs": 34560000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "GF",
+    "Recipes": [
+      {
+        "BuildingTicker": "GF",
+        "RecipeName": "1xSIO = 10xGL",
+        "Inputs": [
+          {
+            "Ticker": "SIO",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "GL",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 60480000
+      },
+      {
+        "BuildingTicker": "GF",
+        "RecipeName": "16xNE 8xRG = 1xLIT",
+        "Inputs": [
+          {
+            "Ticker": "RG",
+            "Amount": 8
+          },
+          {
+            "Ticker": "NE",
+            "Amount": 16
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "LIT",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 69120000
+      },
+      {
+        "BuildingTicker": "GF",
+        "RecipeName": "10xGL = 20xTUB",
+        "Inputs": [
+          {
+            "Ticker": "GL",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "TUB",
+            "Amount": 20
+          }
+        ],
+        "TimeMs": 17280000
+      },
+      {
+        "BuildingTicker": "GF",
+        "RecipeName": "20xRG 1xGV = 1xGCH",
+        "Inputs": [
+          {
+            "Ticker": "RG",
+            "Amount": 20
+          },
+          {
+            "Ticker": "GV",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "GCH",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 60480000
+      },
+      {
+        "BuildingTicker": "GF",
+        "RecipeName": "10xGL 15xPG = 10xRG",
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 15
+          },
+          {
+            "Ticker": "GL",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RG",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 112320000
+      },
+      {
+        "BuildingTicker": "GF",
+        "RecipeName": "4xLFP 4xGNZ 50xNG 10xTHF 1xMFK = 1xGEN",
+        "Inputs": [
+          {
+            "Ticker": "THF",
+            "Amount": 10
+          },
+          {
+            "Ticker": "NG",
+            "Amount": 50
+          },
+          {
+            "Ticker": "GNZ",
+            "Amount": 4
+          },
+          {
+            "Ticker": "LFP",
+            "Amount": 4
+          },
+          {
+            "Ticker": "MFK",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "GEN",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 108000000
+      },
+      {
+        "BuildingTicker": "GF",
+        "RecipeName": "10xGL 10xNCS = 10xNG",
+        "Inputs": [
+          {
+            "Ticker": "NCS",
+            "Amount": 10
+          },
+          {
+            "Ticker": "GL",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "NG",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 103680000
+      },
+      {
+        "BuildingTicker": "GF",
+        "RecipeName": "20xRG 1xTI 1xGCH = 1xGNZ",
+        "Inputs": [
+          {
+            "Ticker": "GCH",
+            "Amount": 1
+          },
+          {
+            "Ticker": "RG",
+            "Amount": 20
+          },
+          {
+            "Ticker": "TI",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "GNZ",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 129600000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "HYF",
+    "Recipes": [
+      {
+        "BuildingTicker": "HYF",
+        "RecipeName": "14xH2O 1xNS = 8xHCP",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 14
+          },
+          {
+            "Ticker": "NS",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "HCP",
+            "Amount": 8
+          }
+        ],
+        "TimeMs": 34560000
+      },
+      {
+        "BuildingTicker": "HYF",
+        "RecipeName": "22xH2O 3xNS = 2xCAF",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 22
+          },
+          {
+            "Ticker": "NS",
+            "Amount": 3
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "CAF",
+            "Amount": 2
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "HYF",
+        "RecipeName": "4xNS = 12xMUS",
+        "Inputs": [
+          {
+            "Ticker": "NS",
+            "Amount": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "MUS",
+            "Amount": 12
+          }
+        ],
+        "TimeMs": 43200000
+      },
+      {
+        "BuildingTicker": "HYF",
+        "RecipeName": "16xH2O 2xNS = 12xALG",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 16
+          },
+          {
+            "Ticker": "NS",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "ALG",
+            "Amount": 12
+          }
+        ],
+        "TimeMs": 38880000
+      },
+      {
+        "BuildingTicker": "HYF",
+        "RecipeName": "10xH2O 4xNS = 2xRCO",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 10
+          },
+          {
+            "Ticker": "NS",
+            "Amount": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RCO",
+            "Amount": 2
+          }
+        ],
+        "TimeMs": 19008000
+      },
+      {
+        "BuildingTicker": "HYF",
+        "RecipeName": "1xNS = 4xMUS",
+        "Inputs": [
+          {
+            "Ticker": "NS",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "MUS",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "HYF",
+        "RecipeName": "16xH2O 1xNS = 6xVEG",
+        "Inputs": [
+          {
+            "Ticker": "NS",
+            "Amount": 1
+          },
+          {
+            "Ticker": "H2O",
+            "Amount": 16
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "VEG",
+            "Amount": 6
+          }
+        ],
+        "TimeMs": 17280000
+      },
+      {
+        "BuildingTicker": "HYF",
+        "RecipeName": "20xH2O 2xNS = 12xMAI",
+        "Inputs": [
+          {
+            "Ticker": "H2O",
+            "Amount": 20
+          },
+          {
+            "Ticker": "NS",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "MAI",
+            "Amount": 12
+          }
+        ],
+        "TimeMs": 69120000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "INC",
+    "Recipes": [
+      {
+        "BuildingTicker": "INC",
+        "RecipeName": "4xHCP = 4xC",
+        "Inputs": [
+          {
+            "Ticker": "HCP",
+            "Amount": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "C",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 86400000
+      },
+      {
+        "BuildingTicker": "INC",
+        "RecipeName": "4xMAI = 4xC",
+        "Inputs": [
+          {
+            "Ticker": "MAI",
+            "Amount": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "C",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 86400000
+      },
+      {
+        "BuildingTicker": "INC",
+        "RecipeName": "4xHCP 2xMAI = 4xC",
+        "Inputs": [
+          {
+            "Ticker": "HCP",
+            "Amount": 4
+          },
+          {
+            "Ticker": "MAI",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "C",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 57024000
+      },
+      {
+        "BuildingTicker": "INC",
+        "RecipeName": "4xGRN = 4xC",
+        "Inputs": [
+          {
+            "Ticker": "GRN",
+            "Amount": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "C",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 86400000
+      },
+      {
+        "BuildingTicker": "INC",
+        "RecipeName": "4xHCP 2xGRN = 4xC",
+        "Inputs": [
+          {
+            "Ticker": "HCP",
+            "Amount": 4
+          },
+          {
+            "Ticker": "GRN",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "C",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 57024000
+      },
+      {
+        "BuildingTicker": "INC",
+        "RecipeName": "4xHCP 2xGRN 2xMAI = 4xC",
+        "Inputs": [
+          {
+            "Ticker": "HCP",
+            "Amount": 4
+          },
+          {
+            "Ticker": "GRN",
+            "Amount": 2
+          },
+          {
+            "Ticker": "MAI",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "C",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 28512000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "POL",
+    "Recipes": [
+      {
+        "BuildingTicker": "POL",
+        "RecipeName": "150xPG 70xEPO = 1xDEC",
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 150
+          },
+          {
+            "Ticker": "EPO",
+            "Amount": 70
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "DEC",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 43200000
+      },
+      {
+        "BuildingTicker": "POL",
+        "RecipeName": "1xH 1xC 1xMG = 50xPG",
+        "Inputs": [
+          {
+            "Ticker": "H",
+            "Amount": 1
+          },
+          {
+            "Ticker": "C",
+            "Amount": 1
+          },
+          {
+            "Ticker": "MG",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 50
+          }
+        ],
+        "TimeMs": 30240000
+      },
+      {
+        "BuildingTicker": "POL",
+        "RecipeName": "1xC 1xH 1xCL 1xO = 50xEPO",
+        "Inputs": [
+          {
+            "Ticker": "C",
+            "Amount": 1
+          },
+          {
+            "Ticker": "H",
+            "Amount": 1
+          },
+          {
+            "Ticker": "CL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "O",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "EPO",
+            "Amount": 50
+          }
+        ],
+        "TimeMs": 86400000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "PP1",
+    "Recipes": [
+      {
+        "BuildingTicker": "PP1",
+        "RecipeName": "1xFE 2xLST = 1xBSE",
+        "Inputs": [
+          {
+            "Ticker": "FE",
+            "Amount": 1
+          },
+          {
+            "Ticker": "LST",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BSE",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "PP1",
+        "RecipeName": "2xFE 1xLST = 1xBBH",
+        "Inputs": [
+          {
+            "Ticker": "FE",
+            "Amount": 2
+          },
+          {
+            "Ticker": "LST",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BBH",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 28512000
+      },
+      {
+        "BuildingTicker": "PP1",
+        "RecipeName": "150xPE = 1xBDE",
+        "Inputs": [
+          {
+            "Ticker": "PE",
+            "Amount": 150
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BDE",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "PP1",
+        "RecipeName": "1xFE 50xPE = 1xBTA",
+        "Inputs": [
+          {
+            "Ticker": "FE",
+            "Amount": 1
+          },
+          {
+            "Ticker": "PE",
+            "Amount": 50
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BTA",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 12960000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "PP2",
+    "Recipes": [
+      {
+        "BuildingTicker": "PP2",
+        "RecipeName": "1xGL 1xAL = 1xBTA",
+        "Inputs": [
+          {
+            "Ticker": "GL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BTA",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 12960000
+      },
+      {
+        "BuildingTicker": "PP2",
+        "RecipeName": "1xAL 2xLST = 1xBSE",
+        "Inputs": [
+          {
+            "Ticker": "LST",
+            "Amount": 2
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BSE",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "PP2",
+        "RecipeName": "3xAL 1xNL = 1xLDE",
+        "Inputs": [
+          {
+            "Ticker": "NL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 3
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "LDE",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "PP2",
+        "RecipeName": "120xPG 3xAL = 1xLSE",
+        "Inputs": [
+          {
+            "Ticker": "AL",
+            "Amount": 3
+          },
+          {
+            "Ticker": "PG",
+            "Amount": 120
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "LSE",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "PP2",
+        "RecipeName": "2xAL 1xLST = 1xBBH",
+        "Inputs": [
+          {
+            "Ticker": "LST",
+            "Amount": 1
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BBH",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "PP2",
+        "RecipeName": "50xPG 1xNE = 1xAEF",
+        "Inputs": [
+          {
+            "Ticker": "NE",
+            "Amount": 1
+          },
+          {
+            "Ticker": "PG",
+            "Amount": 50
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "AEF",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 43200000
+      },
+      {
+        "BuildingTicker": "PP2",
+        "RecipeName": "1xAL 5xGL = 1xLTA",
+        "Inputs": [
+          {
+            "Ticker": "GL",
+            "Amount": 5
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "LTA",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "PP2",
+        "RecipeName": "75xPG = 1xBDE",
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 75
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BDE",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "PP2",
+        "RecipeName": "35xPE 3xAL = 1xLBH",
+        "Inputs": [
+          {
+            "Ticker": "PE",
+            "Amount": 35
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 3
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "LBH",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 21600000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "PPF",
+    "Recipes": [
+      {
+        "BuildingTicker": "PPF",
+        "RecipeName": "10xPG = 1xPSS",
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PSS",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 17280000
+      },
+      {
+        "BuildingTicker": "PPF",
+        "RecipeName": "20xPG = 1xPSM",
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 20
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PSM",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 34560000
+      },
+      {
+        "BuildingTicker": "PPF",
+        "RecipeName": "2xPSL 2xMFK 40xPG = 2xDCL",
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 40
+          },
+          {
+            "Ticker": "MFK",
+            "Amount": 2
+          },
+          {
+            "Ticker": "PSL",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "DCL",
+            "Amount": 2
+          }
+        ],
+        "TimeMs": 60480000
+      },
+      {
+        "BuildingTicker": "PPF",
+        "RecipeName": "40xPG = 1xPSL",
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 40
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PSL",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 51840000
+      },
+      {
+        "BuildingTicker": "PPF",
+        "RecipeName": "1xSFK 50xPG 10xTHF = 1xLFP",
+        "Inputs": [
+          {
+            "Ticker": "THF",
+            "Amount": 10
+          },
+          {
+            "Ticker": "PG",
+            "Amount": 50
+          },
+          {
+            "Ticker": "SFK",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "LFP",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 43200000
+      },
+      {
+        "BuildingTicker": "PPF",
+        "RecipeName": "2xPSM 8xSFK 20xPG = 2xDCM",
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 20
+          },
+          {
+            "Ticker": "SFK",
+            "Amount": 8
+          },
+          {
+            "Ticker": "PSM",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "DCM",
+            "Amount": 2
+          }
+        ],
+        "TimeMs": 43200000
+      },
+      {
+        "BuildingTicker": "PPF",
+        "RecipeName": "4xSFK 10xPG 1xPSS = 2xDCS",
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 10
+          },
+          {
+            "Ticker": "SFK",
+            "Amount": 4
+          },
+          {
+            "Ticker": "PSS",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "DCS",
+            "Amount": 2
+          }
+        ],
+        "TimeMs": 25920000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "REF",
+    "Recipes": [
+      {
+        "BuildingTicker": "REF",
+        "RecipeName": "1xAMM 5xNAB = 150xSF",
+        "Inputs": [
+          {
+            "Ticker": "AMM",
+            "Amount": 1
+          },
+          {
+            "Ticker": "NAB",
+            "Amount": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "SF",
+            "Amount": 150
+          }
+        ],
+        "TimeMs": 34560000
+      },
+      {
+        "BuildingTicker": "REF",
+        "RecipeName": "1xAMM 2xGAL 3xH = 100xSF",
+        "Inputs": [
+          {
+            "Ticker": "AMM",
+            "Amount": 1
+          },
+          {
+            "Ticker": "GAL",
+            "Amount": 2
+          },
+          {
+            "Ticker": "H",
+            "Amount": 3
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "SF",
+            "Amount": 100
+          }
+        ],
+        "TimeMs": 12960000
+      },
+      {
+        "BuildingTicker": "REF",
+        "RecipeName": "2xHE3 4xH = 100xFF",
+        "Inputs": [
+          {
+            "Ticker": "HE3",
+            "Amount": 2
+          },
+          {
+            "Ticker": "H",
+            "Amount": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "FF",
+            "Amount": 100
+          }
+        ],
+        "TimeMs": 12960000
+      },
+      {
+        "BuildingTicker": "REF",
+        "RecipeName": "3xTS = 2xHE3",
+        "Inputs": [
+          {
+            "Ticker": "TS",
+            "Amount": 3
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "HE3",
+            "Amount": 2
+          }
+        ],
+        "TimeMs": 21600000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "SME",
+    "Recipes": [
+      {
+        "BuildingTicker": "SME",
+        "RecipeName": "1xC 3xAUO = 2xAU",
+        "Inputs": [
+          {
+            "Ticker": "C",
+            "Amount": 1
+          },
+          {
+            "Ticker": "AUO",
+            "Amount": 3
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "AU",
+            "Amount": 2
+          }
+        ],
+        "TimeMs": 38880000
+      },
+      {
+        "BuildingTicker": "SME",
+        "RecipeName": "4xAL 1xSI 2xO = 1xCF",
+        "Inputs": [
+          {
+            "Ticker": "O",
+            "Amount": 2
+          },
+          {
+            "Ticker": "SI",
+            "Amount": 1
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "CF",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 34560000
+      },
+      {
+        "BuildingTicker": "SME",
+        "RecipeName": "1xSCR 1xO = 6xS",
+        "Inputs": [
+          {
+            "Ticker": "O",
+            "Amount": 1
+          },
+          {
+            "Ticker": "SCR",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "S",
+            "Amount": 6
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "SME",
+        "RecipeName": "5xCUO 10xO 1xSIO = 3xCU",
+        "Inputs": [
+          {
+            "Ticker": "CUO",
+            "Amount": 5
+          },
+          {
+            "Ticker": "O",
+            "Amount": 10
+          },
+          {
+            "Ticker": "SIO",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "CU",
+            "Amount": 3
+          }
+        ],
+        "TimeMs": 43200000
+      },
+      {
+        "BuildingTicker": "SME",
+        "RecipeName": "6xFEO 1xC 1xO = 3xFE",
+        "Inputs": [
+          {
+            "Ticker": "FEO",
+            "Amount": 6
+          },
+          {
+            "Ticker": "C",
+            "Amount": 1
+          },
+          {
+            "Ticker": "O",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "FE",
+            "Amount": 3
+          }
+        ],
+        "TimeMs": 43200000
+      },
+      {
+        "BuildingTicker": "SME",
+        "RecipeName": "3xSIO 1xAL = 1xSI",
+        "Inputs": [
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "SIO",
+            "Amount": 3
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "SI",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 12960000
+      },
+      {
+        "BuildingTicker": "SME",
+        "RecipeName": "6xFEO 1xC 1xO 1xFLX = 4xFE",
+        "Inputs": [
+          {
+            "Ticker": "O",
+            "Amount": 1
+          },
+          {
+            "Ticker": "C",
+            "Amount": 1
+          },
+          {
+            "Ticker": "FEO",
+            "Amount": 6
+          },
+          {
+            "Ticker": "FLX",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "FE",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 51840000
+      },
+      {
+        "BuildingTicker": "SME",
+        "RecipeName": "6xALO 1xC 1xO = 3xAL",
+        "Inputs": [
+          {
+            "Ticker": "ALO",
+            "Amount": 6
+          },
+          {
+            "Ticker": "C",
+            "Amount": 1
+          },
+          {
+            "Ticker": "O",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "AL",
+            "Amount": 3
+          }
+        ],
+        "TimeMs": 43200000
+      },
+      {
+        "BuildingTicker": "SME",
+        "RecipeName": "4xTS 1xO 1xAL = 1xSI",
+        "Inputs": [
+          {
+            "Ticker": "TS",
+            "Amount": 4
+          },
+          {
+            "Ticker": "O",
+            "Amount": 1
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "SI",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 10368000
+      },
+      {
+        "BuildingTicker": "SME",
+        "RecipeName": "10xLIO 4xHAL = 4xLI",
+        "Inputs": [
+          {
+            "Ticker": "LIO",
+            "Amount": 10
+          },
+          {
+            "Ticker": "HAL",
+            "Amount": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "LI",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 57024000
+      },
+      {
+        "BuildingTicker": "SME",
+        "RecipeName": "2xFE 8xO = 2xSTL",
+        "Inputs": [
+          {
+            "Ticker": "FE",
+            "Amount": 2
+          },
+          {
+            "Ticker": "O",
+            "Amount": 8
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "STL",
+            "Amount": 2
+          }
+        ],
+        "TimeMs": 30240000
+      },
+      {
+        "BuildingTicker": "SME",
+        "RecipeName": "4xTIO 1xC 1xO = 2xTI",
+        "Inputs": [
+          {
+            "Ticker": "TIO",
+            "Amount": 4
+          },
+          {
+            "Ticker": "C",
+            "Amount": 1
+          },
+          {
+            "Ticker": "O",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "TI",
+            "Amount": 2
+          }
+        ],
+        "TimeMs": 64800000
+      },
+      {
+        "BuildingTicker": "SME",
+        "RecipeName": "6xALO 1xO 1xC 1xFLX = 4xAL",
+        "Inputs": [
+          {
+            "Ticker": "FLX",
+            "Amount": 1
+          },
+          {
+            "Ticker": "ALO",
+            "Amount": 6
+          },
+          {
+            "Ticker": "O",
+            "Amount": 1
+          },
+          {
+            "Ticker": "C",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "AL",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 51840000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "UPF",
+    "Recipes": [
+      {
+        "BuildingTicker": "UPF",
+        "RecipeName": "30xPSL 50xPSM 8xSRD = 1xRDL",
+        "Inputs": [
+          {
+            "Ticker": "SRD",
+            "Amount": 8
+          },
+          {
+            "Ticker": "PSL",
+            "Amount": 30
+          },
+          {
+            "Ticker": "PSM",
+            "Amount": 50
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RDL",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 432000000
+      },
+      {
+        "BuildingTicker": "UPF",
+        "RecipeName": "10xPSL 20xPSM 10xFET 1xNV1 5xSAR 1xCOM = 1xBR1",
+        "Inputs": [
+          {
+            "Ticker": "COM",
+            "Amount": 1
+          },
+          {
+            "Ticker": "SAR",
+            "Amount": 5
+          },
+          {
+            "Ticker": "NV1",
+            "Amount": 1
+          },
+          {
+            "Ticker": "FET",
+            "Amount": 10
+          },
+          {
+            "Ticker": "PSM",
+            "Amount": 20
+          },
+          {
+            "Ticker": "PSL",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BR1",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 345600000
+      },
+      {
+        "BuildingTicker": "UPF",
+        "RecipeName": "20xPSL 30xPSM 20xFET 1xLIS 20xDEC 1xTCU = 1xCQL",
+        "Inputs": [
+          {
+            "Ticker": "TCU",
+            "Amount": 1
+          },
+          {
+            "Ticker": "DEC",
+            "Amount": 20
+          },
+          {
+            "Ticker": "LIS",
+            "Amount": 1
+          },
+          {
+            "Ticker": "FET",
+            "Amount": 20
+          },
+          {
+            "Ticker": "PSM",
+            "Amount": 30
+          },
+          {
+            "Ticker": "PSL",
+            "Amount": 20
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "CQL",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 259200000
+      },
+      {
+        "BuildingTicker": "UPF",
+        "RecipeName": "5xPSL 10xPSM 5xFAL 1xLIS 2xDEC 1xTCU = 1xCQS",
+        "Inputs": [
+          {
+            "Ticker": "PSL",
+            "Amount": 5
+          },
+          {
+            "Ticker": "PSM",
+            "Amount": 10
+          },
+          {
+            "Ticker": "FAL",
+            "Amount": 5
+          },
+          {
+            "Ticker": "LIS",
+            "Amount": 1
+          },
+          {
+            "Ticker": "DEC",
+            "Amount": 2
+          },
+          {
+            "Ticker": "TCU",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "CQS",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 172800000
+      },
+      {
+        "BuildingTicker": "UPF",
+        "RecipeName": "10xPSL 20xPSM 10xFET 1xNV2 10xSAR 1xCOM = 1xBR2",
+        "Inputs": [
+          {
+            "Ticker": "COM",
+            "Amount": 1
+          },
+          {
+            "Ticker": "SAR",
+            "Amount": 10
+          },
+          {
+            "Ticker": "NV2",
+            "Amount": 1
+          },
+          {
+            "Ticker": "FET",
+            "Amount": 10
+          },
+          {
+            "Ticker": "PSM",
+            "Amount": 20
+          },
+          {
+            "Ticker": "PSL",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BR2",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 432000000
+      },
+      {
+        "BuildingTicker": "UPF",
+        "RecipeName": "6xBBH 10xBDE 10xBSE 50xSOI = 1xHAB",
+        "Inputs": [
+          {
+            "Ticker": "SOI",
+            "Amount": 50
+          },
+          {
+            "Ticker": "BSE",
+            "Amount": 10
+          },
+          {
+            "Ticker": "BDE",
+            "Amount": 10
+          },
+          {
+            "Ticker": "BBH",
+            "Amount": 6
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "HAB",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 172800000
+      },
+      {
+        "BuildingTicker": "UPF",
+        "RecipeName": "20xPSL 6xUTS 12xPSM = 1xWOR",
+        "Inputs": [
+          {
+            "Ticker": "PSM",
+            "Amount": 12
+          },
+          {
+            "Ticker": "UTS",
+            "Amount": 6
+          },
+          {
+            "Ticker": "PSL",
+            "Amount": 20
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "WOR",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 155520000
+      },
+      {
+        "BuildingTicker": "UPF",
+        "RecipeName": "4xSEQ 2xBSC 12xPSL 8xPSM 10xNG = 1xSU",
+        "Inputs": [
+          {
+            "Ticker": "NG",
+            "Amount": 10
+          },
+          {
+            "Ticker": "PSM",
+            "Amount": 8
+          },
+          {
+            "Ticker": "BSC",
+            "Amount": 2
+          },
+          {
+            "Ticker": "SEQ",
+            "Amount": 4
+          },
+          {
+            "Ticker": "PSL",
+            "Amount": 12
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "SU",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 172800000
+      },
+      {
+        "BuildingTicker": "UPF",
+        "RecipeName": "10xPSL 20xPSM 10xTI 1xLIS 10xDEC 1xTCU = 1xCQM",
+        "Inputs": [
+          {
+            "Ticker": "PSM",
+            "Amount": 20
+          },
+          {
+            "Ticker": "TI",
+            "Amount": 10
+          },
+          {
+            "Ticker": "PSL",
+            "Amount": 10
+          },
+          {
+            "Ticker": "LIS",
+            "Amount": 1
+          },
+          {
+            "Ticker": "DEC",
+            "Amount": 10
+          },
+          {
+            "Ticker": "TCU",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "CQM",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 216000000
+      },
+      {
+        "BuildingTicker": "UPF",
+        "RecipeName": "20xPSL 30xPSM 4xSRD = 1xRDS",
+        "Inputs": [
+          {
+            "Ticker": "SRD",
+            "Amount": 4
+          },
+          {
+            "Ticker": "PSM",
+            "Amount": 30
+          },
+          {
+            "Ticker": "PSL",
+            "Amount": 20
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RDS",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 259200000
+      },
+      {
+        "BuildingTicker": "UPF",
+        "RecipeName": "10xPSL 20xPSM 10xTI 5xSAR 4xRAD = 1xBRS",
+        "Inputs": [
+          {
+            "Ticker": "PSL",
+            "Amount": 10
+          },
+          {
+            "Ticker": "PSM",
+            "Amount": 20
+          },
+          {
+            "Ticker": "TI",
+            "Amount": 10
+          },
+          {
+            "Ticker": "RAD",
+            "Amount": 4
+          },
+          {
+            "Ticker": "SAR",
+            "Amount": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "BRS",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 259200000
+      },
+      {
+        "BuildingTicker": "UPF",
+        "RecipeName": "10xPSL 4xSAR 1xCOM = 1xDOU",
+        "Inputs": [
+          {
+            "Ticker": "COM",
+            "Amount": 1
+          },
+          {
+            "Ticker": "SAR",
+            "Amount": 4
+          },
+          {
+            "Ticker": "PSL",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "DOU",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 155520000
+      },
+      {
+        "BuildingTicker": "UPF",
+        "RecipeName": "12xPSL 8xPSM 1xADR = 1xTCU",
+        "Inputs": [
+          {
+            "Ticker": "ADR",
+            "Amount": 1
+          },
+          {
+            "Ticker": "PSM",
+            "Amount": 8
+          },
+          {
+            "Ticker": "PSL",
+            "Amount": 12
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "TCU",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 138240000
+      },
+      {
+        "BuildingTicker": "UPF",
+        "RecipeName": "2xPSL 5xPSM 5xAL 1xDEC 1xTCU 1xBMF = 1xCQT",
+        "Inputs": [
+          {
+            "Ticker": "PSL",
+            "Amount": 2
+          },
+          {
+            "Ticker": "BMF",
+            "Amount": 1
+          },
+          {
+            "Ticker": "TCU",
+            "Amount": 1
+          },
+          {
+            "Ticker": "DEC",
+            "Amount": 1
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 5
+          },
+          {
+            "Ticker": "PSM",
+            "Amount": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "CQT",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 146880000
+      },
+      {
+        "BuildingTicker": "UPF",
+        "RecipeName": "1xBWS 8xPSL 4xPCB 1xBID = 1xFUN",
+        "Inputs": [
+          {
+            "Ticker": "BID",
+            "Amount": 1
+          },
+          {
+            "Ticker": "PCB",
+            "Amount": 4
+          },
+          {
+            "Ticker": "PSL",
+            "Amount": 8
+          },
+          {
+            "Ticker": "BWS",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "FUN",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 190080000
+      },
+      {
+        "BuildingTicker": "UPF",
+        "RecipeName": "1xWS 1xDA 10xPSL 6xPSM = 1xLU",
+        "Inputs": [
+          {
+            "Ticker": "PSM",
+            "Amount": 6
+          },
+          {
+            "Ticker": "WS",
+            "Amount": 1
+          },
+          {
+            "Ticker": "DA",
+            "Amount": 1
+          },
+          {
+            "Ticker": "PSL",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "LU",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 129600000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "WEL",
+    "Recipes": [
+      {
+        "BuildingTicker": "WEL",
+        "RecipeName": "1xFE 1xAL 1xHE = 6xFLP",
+        "Inputs": [
+          {
+            "Ticker": "FE",
+            "Amount": 1
+          },
+          {
+            "Ticker": "HE",
+            "Amount": 1
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "FLP",
+            "Amount": 6
+          }
+        ],
+        "TimeMs": 43200000
+      },
+      {
+        "BuildingTicker": "WEL",
+        "RecipeName": "1xAL 1xBSE 1xHE = 1xFC",
+        "Inputs": [
+          {
+            "Ticker": "HE",
+            "Amount": 1
+          },
+          {
+            "Ticker": "BSE",
+            "Amount": 1
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "FC",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 34560000
+      },
+      {
+        "BuildingTicker": "WEL",
+        "RecipeName": "1xFE 1xAL 1xHE = 10xGC",
+        "Inputs": [
+          {
+            "Ticker": "HE",
+            "Amount": 1
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "FE",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "GC",
+            "Amount": 10
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "WEL",
+        "RecipeName": "2xAL 1xHE = 6xTRU",
+        "Inputs": [
+          {
+            "Ticker": "AL",
+            "Amount": 2
+          },
+          {
+            "Ticker": "HE",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "TRU",
+            "Amount": 6
+          }
+        ],
+        "TimeMs": 17280000
+      },
+      {
+        "BuildingTicker": "WEL",
+        "RecipeName": "20xNFI 2xAL 1xHE = 6xSSC",
+        "Inputs": [
+          {
+            "Ticker": "HE",
+            "Amount": 1
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 2
+          },
+          {
+            "Ticker": "NFI",
+            "Amount": 20
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "SSC",
+            "Amount": 6
+          }
+        ],
+        "TimeMs": 8640000
+      },
+      {
+        "BuildingTicker": "WEL",
+        "RecipeName": "10xBOS 1xGV 1xHE = 1xCHA",
+        "Inputs": [
+          {
+            "Ticker": "HE",
+            "Amount": 1
+          },
+          {
+            "Ticker": "GV",
+            "Amount": 1
+          },
+          {
+            "Ticker": "BOS",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "CHA",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 38880000
+      },
+      {
+        "BuildingTicker": "WEL",
+        "RecipeName": "1xI 1xFE 1xHE = 1xMHL",
+        "Inputs": [
+          {
+            "Ticker": "HE",
+            "Amount": 1
+          },
+          {
+            "Ticker": "FE",
+            "Amount": 1
+          },
+          {
+            "Ticker": "I",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "MHL",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 60480000
+      },
+      {
+        "BuildingTicker": "WEL",
+        "RecipeName": "1xAL 1xHE = 1xGV",
+        "Inputs": [
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "HE",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "GV",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 21600000
+      },
+      {
+        "BuildingTicker": "WEL",
+        "RecipeName": "6xAL 1xHE = 1xDRF",
+        "Inputs": [
+          {
+            "Ticker": "AL",
+            "Amount": 6
+          },
+          {
+            "Ticker": "HE",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "DRF",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 8640000
+      },
+      {
+        "BuildingTicker": "WEL",
+        "RecipeName": "2xBE 2xCF 1xHE = 4xTHP",
+        "Inputs": [
+          {
+            "Ticker": "HE",
+            "Amount": 1
+          },
+          {
+            "Ticker": "BE",
+            "Amount": 2
+          },
+          {
+            "Ticker": "CF",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "THP",
+            "Amount": 4
+          }
+        ],
+        "TimeMs": 15552000
+      }
+    ]
+  },
+  {
+    "BuildingTicker": "WPL",
+    "Recipes": [
+      {
+        "BuildingTicker": "WPL",
+        "RecipeName": "75xPG 5xTCL = 1xKV",
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 75
+          },
+          {
+            "Ticker": "TCL",
+            "Amount": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "KV",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 69120000
+      },
+      {
+        "BuildingTicker": "WPL",
+        "RecipeName": "1xKV 1xTC = 1xTK",
+        "Inputs": [
+          {
+            "Ticker": "KV",
+            "Amount": 1
+          },
+          {
+            "Ticker": "TC",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "TK",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 77760000
+      },
+      {
+        "BuildingTicker": "WPL",
+        "RecipeName": "50xPG = 1xNL",
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 50
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "NL",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 43200000
+      },
+      {
+        "BuildingTicker": "WPL",
+        "RecipeName": "1xRCO = 1xCOT",
+        "Inputs": [
+          {
+            "Ticker": "RCO",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "COT",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 25920000
+      },
+      {
+        "BuildingTicker": "WPL",
+        "RecipeName": "1xRSI = 1xSIL",
+        "Inputs": [
+          {
+            "Ticker": "RSI",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "SIL",
+            "Amount": 1
+          }
+        ],
+        "TimeMs": 43200000
+      }
+    ]
+  }
+]

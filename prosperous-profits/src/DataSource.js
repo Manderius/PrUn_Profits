@@ -9,11 +9,6 @@ class DataSource {
         MARKET_MAKER: "Market maker"
     }
 
-    filterRecipes(buildingCode) {
-        var all = require('./assets/recipes/all.json')
-        var recipes = all.filter((e) => e.BuildingTicker == buildingCode)
-    }
-
     getAllRecipes() {
         return require('./assets/recipes-combined.json')
     }
@@ -130,27 +125,6 @@ export default DataSource;
 //exports.DataSource = DataSource;
 
 function makeRequest(host, path, callback) {
-    // var https = require('https');
-    // var url = {
-    //     host: host,
-    //     port: 443,
-    //     path: path,
-    //     headers: {
-    //         'accept': 'application/json'
-    //     },
-    // };
-    // https.get(url, function (resp) {
-    //     if (resp.statusCode != 200) console.log("Status: " + resp.statusCode)
-    //     resp.setEncoding('utf8');
-    //     var completeResponse = '';
-    //     resp.on('data', function (chunk) {
-    //         completeResponse += chunk;
-    //     });
-    //     resp.on('end', function (chunk) {
-    //         callback(completeResponse);
-    //     });
-    // });
-    //throw new Error('data')
     fetch(host + path)
         .then(
             res => res.json())

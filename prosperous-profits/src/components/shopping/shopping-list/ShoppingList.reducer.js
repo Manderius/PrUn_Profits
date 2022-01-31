@@ -1,22 +1,35 @@
 import { ShoppingListItem } from 'classes/ShoppingListItem';
-import { ShoppingListAction } from './ShoppingListEnums';
+import { ShoppingListAction, ShoppingType } from './ShoppingListEnums';
 
-export default function reduce(state = { items: [] }, action) {
-    let copy = {
-        ...state
-    }
+export default function reduce(state = { buying: [], selling: [] }, action) {
+    if (action.payload === undefined) return state;
+
+    let items = action.payload.orderType === ShoppingType.BUYING ? state.buying.slice() : state.selling.slice();
     switch (action.type) {
         case ShoppingListAction.ADD_ITEM:
-            if (!copy.items.some(item => item.ticker === action.payload.ticker)) {
-                copy.items.push(new ShoppingListItem(action.payload.ticker, 1, action.payload.orderType))
+            if (!items.some(item => item.ticker === action.payload.ticker)) {
+                const largestId = (items.length > 0) ? items[items.length - 1].id : 1;
+                items.push(new ShoppingListItem(largestId + 1, action.payload.ticker, action.payload.amount, action.payload.orderType))
             }
             break;
         case ShoppingListAction.REMOVE_ITEM:
-            copy.items = copy.items.filter(item => item.ticker !== action.payload.ticker);
+            items = items.filter(item => item.id !== action.payload.id);
             break;
         default:
             return state;
     }
-    console.log(state);
-    return copy;
+
+
+    if (action.payload.orderType === ShoppingType.BUYING) {
+        return {
+            ...state,
+            buying: items
+        }
+    }
+    else {
+        return {
+            ...state,
+            selling: items
+        }
+    }
 }
