@@ -1,0 +1,11 @@
+.checkbox-large > input[type=checkbox] {
+    width: 2em;
+    height: 2em;
+}
+
+.checkbox-large > label {
+    line-height: 2em;
+    margin-top: 0.25em;
+    vertical-align: middle;
+    margin-left: 0.5em;
+}

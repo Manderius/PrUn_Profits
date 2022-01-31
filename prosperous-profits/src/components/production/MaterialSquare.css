@@ -1,0 +1,27 @@
+.square {
+    position: relative;
+    font-size: 0.9em;
+    height: 50px;
+    width: 50px;
+}
+
+.ticker {
+    line-height: 50px;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.amount {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin: 0;
+    color: white;
+    font-size: 0.59em;
+    background-color: black;
+    width: 1.7em;
+    height: 1.7em;
+    line-height: 1.7em;
+}

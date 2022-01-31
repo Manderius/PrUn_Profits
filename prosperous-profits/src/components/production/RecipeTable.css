@@ -1,0 +1,9 @@
+.header-selected {
+    background: linear-gradient(0deg, rgba(139,245,255,1) 0%, rgba(227,252,255,1) 9%, rgba(255,255,255,1) 24%, rgba(255,255,255,1) 100%);
+    border-bottom-width: 2px ! important;
+    border-bottom-color: rgba(139,245,255,1);
+}
+
+th {
+    cursor: pointer;
+}

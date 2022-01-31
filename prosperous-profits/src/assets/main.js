@@ -15,25 +15,24 @@ function makeRequest(host, path, callback) {
         port: 443,
         path: path,
         headers: {
-          'accept': 'application/json'
+            'accept': 'application/json'
         },
-      };
-      https.get(url, function(resp){
-        //console.log("Status: " + resp.statusCode);
+    };
+    https.get(url, function (resp) {
         if (resp.statusCode != 200) console.log("Status: " + resp.statusCode)
         resp.setEncoding('utf8');
         var completeResponse = '';
         resp.on('data', function (chunk) {
-          completeResponse += chunk;
+            completeResponse += chunk;
         });
-        resp.on('end', function(chunk) {
-          callback(completeResponse);
+        resp.on('end', function (chunk) {
+            callback(completeResponse);
         });
-      });
+    });
 }
 
 function loadRecipes() {
-    makeRequest(APIhost, '/recipes/allrecipes', (data) => {writeToFile('all2.json', data);})
+    makeRequest(APIhost, '/recipes/allrecipes', (data) => { writeToFile('all2.json', data); })
 }
 
 function filterRecipes(buildingCode) {
@@ -47,7 +46,7 @@ function getAllRecipes() {
     fs.readdirSync('recipes').forEach(file => {
         if (file == 'all.json') return;
         var code = file.split('.')[0];
-        all.push({ 'BuildingTicker': code, 'Recipes': require('./recipes/' + file)})
+        all.push({ 'BuildingTicker': code, 'Recipes': require('./recipes/' + file) })
     });
     return all;
 }
@@ -73,8 +72,8 @@ function addBuilding(code) {
 
 
 function getClosePrices(orders, isSellOrder) {
-    if (orders.length == 0) return { 'Price': 0, 'Amount': 0};
-    orders.sort((a, b) => { return isSellOrder ? a.ItemCost - b.ItemCost : b.ItemCost - a.ItemCost})
+    if (orders.length == 0) return { 'Price': 0, 'Amount': 0 };
+    orders.sort((a, b) => { return isSellOrder ? a.ItemCost - b.ItemCost : b.ItemCost - a.ItemCost })
     var price = orders[0].ItemCost;
     var rangeHigh = price * 1.1;
     var rangeLow = price * 0.9;
@@ -85,7 +84,7 @@ function getClosePrices(orders, isSellOrder) {
         total += o.ItemCount;
     })
     if (containsMarketMakerOrder) total = MARKET_MAKER_AMOUNT;
-    
+
     return { 'Price': price, 'Amount': total }
 }
 
@@ -100,7 +99,7 @@ function getPrices(materials) {
             getPrices(materials)
             return
         }
-        var item = { 'ticker': ticker, "BuyingOrders": buyOrders, "SellingOrders": sellOrders} 
+        var item = { 'ticker': ticker, "BuyingOrders": buyOrders, "SellingOrders": sellOrders }
         prices.push(item);
         writeToFile('prices.json', JSON.stringify(Array.from(prices), null, 2));
         getPrices(materials)
@@ -128,15 +127,15 @@ function isMarketMakerSellable(ticker, prices) {
 
 function getProfitability(recipe) {
     var prices = require('./prices.json');
-    var materialCost = recipe.Inputs.map((input) => getMaterialPrice(input.Ticker, true, prices) * input.Amount).reduce(function(a, b) { return a + b; }, 0);
-    var gain = recipe.Outputs.map((input) => getSellingPrice(input, prices) * input.Amount).reduce(function(a, b) { return a + b; }, 0);
+    var materialCost = recipe.Inputs.map((input) => getMaterialPrice(input.Ticker, true, prices) * input.Amount).reduce(function (a, b) { return a + b; }, 0);
+    var gain = recipe.Outputs.map((input) => getSellingPrice(input, prices) * input.Amount).reduce(function (a, b) { return a + b; }, 0);
     var worth = Math.round((gain - materialCost) / recipe.TimeMs * 1000 * 60 * 1000) / 1000
     var isInputAvailable = recipe.Inputs.map((input) => isMaterialAvailable(input.Ticker, prices, true)).every((elem) => elem);
     var isOutputSellable = recipe.Outputs.map((input) => isMaterialAvailable(input.Ticker, prices, false)).every((elem) => elem);
     var isMMSellable = recipe.Outputs.map((input) => isMarketMakerSellable(input.Ticker, prices)).every((elem) => elem);
-    if (!isOutputSellable) return { 'Name' : recipe.RecipeName, 'Ratio' : isInputAvailable ? worth : 0, 'Message' : MESSAGES.NO_BUYERS };
-    if (isMMSellable) return { 'Name' : recipe.RecipeName, 'Ratio' : isInputAvailable ? worth : 0, 'Message' : MESSAGES.MARKET_MAKER };
-    return { 'Name' : recipe.RecipeName, 'Ratio' : isInputAvailable ? worth : 0}
+    if (!isOutputSellable) return { 'Name': recipe.RecipeName, 'Ratio': isInputAvailable ? worth : 0, 'Message': MESSAGES.NO_BUYERS };
+    if (isMMSellable) return { 'Name': recipe.RecipeName, 'Ratio': isInputAvailable ? worth : 0, 'Message': MESSAGES.MARKET_MAKER };
+    return { 'Name': recipe.RecipeName, 'Ratio': isInputAvailable ? worth : 0 }
 }
 
 function getSellingPrice(material, prices) {
@@ -159,7 +158,7 @@ function getProfitabilities() {
     var allRecipes = getAllRecipes()
     var result = []
     allRecipes.forEach((buildingRecipes) => {
-        var tmp = { 'Building': buildingRecipes.BuildingTicker, 'Profits' : []};
+        var tmp = { 'Building': buildingRecipes.BuildingTicker, 'Profits': [] };
         //console.log(buildingRecipes.BuildingTicker)
         buildingRecipes.Recipes.forEach((recipe) => {
             var profit = getProfitability(recipe)
@@ -182,10 +181,10 @@ function getExchangeMaterialsData() {
             return
         }
         if (!pricesMap.has(record.MaterialTicker)) {
-            pricesMap.set(record.MaterialTicker, { 'Material': record.MaterialTicker, 'ExchangeData' : [] })
+            pricesMap.set(record.MaterialTicker, { 'Material': record.MaterialTicker, 'ExchangeData': [] })
         }
         var data = pricesMap.get(record.MaterialTicker)
-        data.ExchangeData.push({ 'ExchangeCode' : record.ExchangeCode, 'BuyingOrders' : buyOrders, 'SellingOrders' : sellOrders})
+        data.ExchangeData.push({ 'ExchangeCode': record.ExchangeCode, 'BuyingOrders': buyOrders, 'SellingOrders': sellOrders })
         pricesMap.set(record.MaterialTicker, data)
     })
     return pricesMap;
@@ -200,17 +199,19 @@ function getProfitableTrading() {
             for (var sellExchange of material.ExchangeData) {
                 var sellingPrice = sellExchange.BuyingOrders.Price;
                 if (purchasingPrice < sellingPrice * 0.9 && purchasingPrice > 0 && sellingPrice > 0) {
-                    trades.push({'Material': material.Material,
-                                'BuyAt': exchange.ExchangeCode, 'BuyFor' : purchasingPrice, 'BuyMax': exchange.SellingOrders.Amount,
-                                'SellAt' : sellExchange.ExchangeCode, 'SellFor': sellingPrice, 'SellMax': sellExchange.BuyingOrders.Amount,
-                                'ProfitRatio': Math.round(100 * sellingPrice/purchasingPrice) / 100,
-                                'MaxBuy' : Math.round(purchasingPrice * Math.min(sellExchange.BuyingOrders.Amount, exchange.SellingOrders.Amount)),
-                                'MaxProfitNet' : Math.round((sellingPrice - purchasingPrice) * Math.min(sellExchange.BuyingOrders.Amount, exchange.SellingOrders.Amount))})
+                    trades.push({
+                        'Material': material.Material,
+                        'BuyAt': exchange.ExchangeCode, 'BuyFor': purchasingPrice, 'BuyMax': exchange.SellingOrders.Amount,
+                        'SellAt': sellExchange.ExchangeCode, 'SellFor': sellingPrice, 'SellMax': sellExchange.BuyingOrders.Amount,
+                        'ProfitRatio': Math.round(100 * sellingPrice / purchasingPrice) / 100,
+                        'MaxBuy': Math.round(purchasingPrice * Math.min(sellExchange.BuyingOrders.Amount, exchange.SellingOrders.Amount)),
+                        'MaxProfitNet': Math.round((sellingPrice - purchasingPrice) * Math.min(sellExchange.BuyingOrders.Amount, exchange.SellingOrders.Amount))
+                    })
                 }
             }
         }
     }
-    
+
     return trades
 }
 
@@ -237,7 +238,7 @@ function parsePricesFromFullData() {
     for (const material of data.values()) {
         for (var exchange of material.ExchangeData) {
             if (exchange.ExchangeCode != localExchange) continue;
-            pricesData.push({'Ticker' : material.Material, 'BuyingOrders' : exchange.BuyingOrders, 'SellingOrders' : exchange.SellingOrders})
+            pricesData.push({ 'Ticker': material.Material, 'BuyingOrders': exchange.BuyingOrders, 'SellingOrders': exchange.SellingOrders })
         }
     }
     writeToFile('prices.json', JSON.stringify(pricesData, null, 2));
@@ -294,7 +295,7 @@ function main(args) {
         var ratio = args.length == 2 ? parseFloat(args[1]) : 1.2;
         if (!isNaN(ratio)) getTodayProfitables(null, ratio)
         else getTodayProfitables(args[1], -10, true)
-        
+
     }
 }
 
