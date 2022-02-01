@@ -10,7 +10,7 @@ function ShoppingListContainer() {
         <ShoppingList selector={(state) => state.shopping.buying} orderType={ShoppingType.BUYING} title="Buying" />
       </Col>
       <Col>
-        <h1>Sell</h1>
+        <ShoppingList selector={(state) => state.shopping.selling} orderType={ShoppingType.SELLING} title="Selling" />
       </Col>
     </Row>
   );

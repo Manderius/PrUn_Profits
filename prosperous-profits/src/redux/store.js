@@ -3,11 +3,11 @@ import rootReducer from './reducers'
 
 const defaultState = {}
 
-// const savedState = localStorage.getItem('reduxState')
-//     ? JSON.parse(localStorage.getItem('reduxState'))
-//     : defaultState
+const savedState = localStorage.getItem('reduxState')
+    ? JSON.parse(localStorage.getItem('reduxState'))
+    : defaultState
 
-const savedState = defaultState;
+// const savedState = defaultState;
 
 const store = createStore(rootReducer, savedState, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 

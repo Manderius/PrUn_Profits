@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import './RecipeRow.css';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Badge, Col, Container, Row } from 'react-bootstrap';
 
 export class RecipeRow extends Component {
     constructor(props) {
         super(props);
-        const { Title } = props.data;
+        const { Title, Tier } = props.data;
         this.state = {
-            Title: Title
+            Title: Title,
+            Tier: Tier
         }
     }
 
@@ -26,7 +27,7 @@ export class RecipeRow extends Component {
                     <Container className='p-0'>
                         <Row>
                             <Col>
-                                <strong>{this.state.Title}</strong>
+                                <strong>{this.state.Title}</strong> <Badge bg="secondary">{this.state.Tier}</Badge>
                             </Col>
                         </Row>
                     </Container>

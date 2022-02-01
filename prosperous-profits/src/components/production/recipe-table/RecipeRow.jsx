@@ -1,21 +1,22 @@
 import React, { Component } from 'react'
 import './RecipeRow.css';
 import { Col, Container, Row } from 'react-bootstrap';
-import MaterialSquare from './MaterialSquare';
+import MaterialSquare from 'components/material-square/MaterialSquare';
+
 
 export class RecipeRow extends Component {
     _key;
 
     constructor(props) {
         super(props);
-        const { Inputs, Outputs, TimeMs, Ratio, AskSellRatio, Message } = props.data;
+        const { Inputs, Outputs, Time, Profit, MaxProfit, Message } = props.data;
         this._key = props.data.Key;
         this.state = {
             Inputs: Inputs,
             Outputs: Outputs,
-            Time: TimeMs / 1000,
-            Ratio: Ratio,
-            AskRatio: AskSellRatio,
+            Time: Time,
+            Ratio: Profit,
+            AskRatio: MaxProfit,
             Message: Message
         }
     }
@@ -63,14 +64,14 @@ export class RecipeRow extends Component {
                 <td className={this.getClassForRatio(this.state.Ratio)}>
                     <Container>
                         <Row>
-                            <Col>{this.state.Ratio}</Col>
+                            <Col>{this.state.Ratio.toFixed(3)}</Col>
                         </Row>
                     </Container>
                 </td>
                 <td className={this.getClassForRatio(this.state.AskRatio)}>
                     <Container>
                         <Row>
-                            <Col>{this.state.AskRatio}</Col>
+                            <Col>{this.state.AskRatio.toFixed(3)}</Col>
                         </Row>
                     </Container>
                 </td>

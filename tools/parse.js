@@ -14,7 +14,7 @@ function processRecipes(recipes) {
     recipes.forEach(recipe => {
         const inputs = recipe.Inputs.map(input => { return { 'Ticker': input.CommodityTicker, 'Amount': input.Amount } });
         const outputs = recipe.Outputs.map(output => { return { 'Ticker': output.CommodityTicker, 'Amount': output.Amount } });
-        result.push({ Inputs: inputs, Outputs: outputs });
+        result.push({ Inputs: inputs, Outputs: outputs, Time: recipe.DurationMs / 1000 });
     });
     return result;
 }

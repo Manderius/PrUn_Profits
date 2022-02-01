@@ -15,7 +15,7 @@ function parsePriceData(exchangeData) {
         const itemPrice = new ItemPriceRecord(record.MaterialTicker, record.Ask, record.Bid, record.SellingOrders, record.BuyingOrders);
         result[record.ExchangeCode][record.MaterialTicker] = itemPrice;
     })
-    console.log(result['AI1']['STR'])
+
     store.dispatch({ type: DataLoaderEnums.PRICE_DATA, payload: result })
 }
 

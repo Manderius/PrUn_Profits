@@ -4,10 +4,7 @@ class DataSource {
     static localExchange = "AI1"
     static APIhost = 'https://rest.fnar.net'
     static MARKET_MAKER_AMOUNT = 1000000;
-    static MESSAGES = {
-        NO_BUYERS: "No buyers",
-        MARKET_MAKER: "Market maker"
-    }
+
 
     getAllRecipes() {
         return require('./assets/recipes-combined.json')
