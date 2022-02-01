@@ -9,14 +9,12 @@ import Col from 'react-bootstrap/esm/Col';
 import Tabs from 'react-bootstrap/esm/Tabs';
 import Tab from 'react-bootstrap/esm/Tab';
 import ShoppingListContainer from 'components/shopping/ShoppingListContainer.jsx';
-import { loadExchangeData } from 'data/DataLoader.js';
+import { loadExchangeData, loadLocalData } from 'data/DataLoader.js';
 
 
 function App() {
-  useEffect(() => {
-
-  }, []);
   loadExchangeData();
+  loadLocalData();
 
   return (
     <div className="App">

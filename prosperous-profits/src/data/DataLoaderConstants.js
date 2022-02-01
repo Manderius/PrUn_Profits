@@ -1,5 +1,5 @@
 export class DataLoaderEnums {
-    static MATERIAL_DATA = 'material-data';
+    static BUILDING_DATA = 'building-data';
     static EXCHANGE_DATA = 'exchange-data';
     static PRICE_DATA = 'price-data';
 }
