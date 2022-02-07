@@ -37,7 +37,6 @@ function TierRow({ buildings, setAllowed }) {
 export default function BuildingsFilter({ setAllowedBuildings }) {
     useEffect(() => {
         setAllowedBuildings(owned);
-
     }, []);
     const buildingsData = useSelector(state => state.data.buildings);
     const owned = useSelector(state => state.preferences.buildings);

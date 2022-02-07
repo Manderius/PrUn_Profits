@@ -6,7 +6,7 @@ const ShoppingListRow = (data) => {
     const { ticker, price, amount, doRemoveItem } = data;
     return (
         <tr>
-            <td><MaterialSquare data={{ Ticker: ticker }} /></td>
+            <td><MaterialSquare item={{ Ticker: ticker }} /></td>
             <td><Container>{amount}</Container></td>
             <td><Container>{price.toFixed(2)}</Container></td>
             <td><Container>{(price * amount).toFixed(2)}</Container></td>

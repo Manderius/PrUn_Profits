@@ -3,8 +3,24 @@ import store from '../redux/store'
 import { DataLoaderConstants, DataLoaderEnums } from './DataLoaderConstants';
 
 export function loadLocalData() {
-    var buildings = require('../assets/buildings.json')
-    store.dispatch({ type: DataLoaderEnums.BUILDING_DATA, payload: buildings })
+    loadBuildings();
+    loadMaterials();
+    loadCategories();
+}
+
+function loadBuildings() {
+    var buildings = require('../assets/buildings.json');
+    store.dispatch({ type: DataLoaderEnums.BUILDING_DATA, payload: buildings });
+}
+
+function loadMaterials() {
+    var materials = require('../assets/materials.json');
+    store.dispatch({ type: DataLoaderEnums.MATERIAL_DATA, payload: materials });
+}
+
+function loadCategories() {
+    var categories = require('../assets/categories.json');
+    store.dispatch({ type: DataLoaderEnums.CATEGORY_DATA, payload: categories });
 }
 
 //#region Exchange data
@@ -21,7 +37,6 @@ function parsePriceData(exchangeData) {
 
 export function loadExchangeData() {
     makeRequest(DataLoaderConstants.API_HOST, DataLoaderConstants.EXCHANGE_DATA_URL, (data) => {
-        store.dispatch({ type: DataLoaderEnums.EXCHANGE_DATA, payload: data });
         parsePriceData(data);
     });
 }

@@ -1,0 +1,1034 @@
+{
+  "THF": {
+    "Category": "chemicals"
+  },
+  "RCO": {
+    "Category": "agricultural products"
+  },
+  "VCB": {
+    "Category": "ship kits"
+  },
+  "SSL": {
+    "Category": "ship kits"
+  },
+  "SFL": {
+    "Category": "ship kits"
+  },
+  "BEA": {
+    "Category": "agricultural products"
+  },
+  "REA": {
+    "Category": "chemicals"
+  },
+  "SUD": {
+    "Category": "drones"
+  },
+  "PPA": {
+    "Category": "agricultural products"
+  },
+  "HER": {
+    "Category": "agricultural products"
+  },
+  "DDT": {
+    "Category": "chemicals"
+  },
+  "TCL": {
+    "Category": "chemicals"
+  },
+  "TCB": {
+    "Category": "ship kits"
+  },
+  "SOI": {
+    "Category": "chemicals"
+  },
+  "SUN": {
+    "Category": "utility"
+  },
+  "CST": {
+    "Category": "chemicals"
+  },
+  "ALG": {
+    "Category": "agricultural products"
+  },
+  "MAI": {
+    "Category": "agricultural products"
+  },
+  "VSC": {
+    "Category": "ship kits"
+  },
+  "EES": {
+    "Category": "chemicals"
+  },
+  "MUS": {
+    "Category": "agricultural products"
+  },
+  "HEX": {
+    "Category": "liquids"
+  },
+  "GRN": {
+    "Category": "agricultural products"
+  },
+  "JUI": {
+    "Category": "chemicals"
+  },
+  "H2O": {
+    "Category": "liquids"
+  },
+  "GRA": {
+    "Category": "agricultural products"
+  },
+  "FLX": {
+    "Category": "chemicals"
+  },
+  "LCR": {
+    "Category": "chemicals"
+  },
+  "NUT": {
+    "Category": "agricultural products"
+  },
+  "BTS": {
+    "Category": "liquids"
+  },
+  "BE": {
+    "Category": "elements"
+  },
+  "LES": {
+    "Category": "liquids"
+  },
+  "NR": {
+    "Category": "chemicals"
+  },
+  "FOD": {
+    "Category": "agricultural products"
+  },
+  "ETC": {
+    "Category": "chemicals"
+  },
+  "WCB": {
+    "Category": "ship kits"
+  },
+  "NS": {
+    "Category": "chemicals"
+  },
+  "PIB": {
+    "Category": "agricultural products"
+  },
+  "HCP": {
+    "Category": "agricultural products"
+  },
+  "MTP": {
+    "Category": "agricultural products"
+  },
+  "CAF": {
+    "Category": "agricultural products"
+  },
+  "OLF": {
+    "Category": "chemicals"
+  },
+  "OFF": {
+    "Category": "utility"
+  },
+  "PFE": {
+    "Category": "chemicals"
+  },
+  "IND": {
+    "Category": "chemicals"
+  },
+  "BHP": {
+    "Category": "ship parts"
+  },
+  "SCB": {
+    "Category": "ship kits"
+  },
+  "AR": {
+    "Category": "gases"
+  },
+  "SSC": {
+    "Category": "ship parts"
+  },
+  "F": {
+    "Category": "gases"
+  },
+  "RSE": {
+    "Category": "construction prefabs"
+  },
+  "ATA": {
+    "Category": "construction prefabs"
+  },
+  "H": {
+    "Category": "gases"
+  },
+  "RHP": {
+    "Category": "ship parts"
+  },
+  "RDE": {
+    "Category": "construction prefabs"
+  },
+  "HE": {
+    "Category": "gases"
+  },
+  "RBH": {
+    "Category": "construction prefabs"
+  },
+  "HE3": {
+    "Category": "gases"
+  },
+  "NV2": {
+    "Category": "ship parts"
+  },
+  "BBH": {
+    "Category": "construction prefabs"
+  },
+  "N": {
+    "Category": "gases"
+  },
+  "RTA": {
+    "Category": "construction prefabs"
+  },
+  "LTA": {
+    "Category": "construction prefabs"
+  },
+  "NE": {
+    "Category": "gases"
+  },
+  "LSE": {
+    "Category": "construction prefabs"
+  },
+  "BDE": {
+    "Category": "construction prefabs"
+  },
+  "O": {
+    "Category": "gases"
+  },
+  "LHP": {
+    "Category": "ship parts"
+  },
+  "LDE": {
+    "Category": "construction prefabs"
+  },
+  "AGS": {
+    "Category": "ship parts"
+  },
+  "BSE": {
+    "Category": "construction prefabs"
+  },
+  "AHP": {
+    "Category": "ship parts"
+  },
+  "LBH": {
+    "Category": "construction prefabs"
+  },
+  "HHP": {
+    "Category": "ship parts"
+  },
+  "ATP": {
+    "Category": "ship parts"
+  },
+  "HSE": {
+    "Category": "construction prefabs"
+  },
+  "BGS": {
+    "Category": "ship parts"
+  },
+  "NV1": {
+    "Category": "ship parts"
+  },
+  "RSI": {
+    "Category": "agricultural products"
+  },
+  "ASE": {
+    "Category": "construction prefabs"
+  },
+  "THP": {
+    "Category": "ship parts"
+  },
+  "C": {
+    "Category": "elements"
+  },
+  "SRD": {
+    "Category": "drones"
+  },
+  "CA": {
+    "Category": "elements"
+  },
+  "MSL": {
+    "Category": "ship kits"
+  },
+  "SDR": {
+    "Category": "drones"
+  },
+  "CL": {
+    "Category": "elements"
+  },
+  "VEG": {
+    "Category": "agricultural products"
+  },
+  "MFL": {
+    "Category": "ship kits"
+  },
+  "BTA": {
+    "Category": "construction prefabs"
+  },
+  "ES": {
+    "Category": "elements"
+  },
+  "RED": {
+    "Category": "drones"
+  },
+  "MCB": {
+    "Category": "ship kits"
+  },
+  "I": {
+    "Category": "elements"
+  },
+  "VIT": {
+    "Category": "agricultural products"
+  },
+  "AMM": {
+    "Category": "gases"
+  },
+  "MG": {
+    "Category": "elements"
+  },
+  "DRF": {
+    "Category": "drones"
+  },
+  "NA": {
+    "Category": "elements"
+  },
+  "LFL": {
+    "Category": "ship kits"
+  },
+  "ABH": {
+    "Category": "construction prefabs"
+  },
+  "S": {
+    "Category": "elements"
+  },
+  "DCH": {
+    "Category": "drones"
+  },
+  "LCB": {
+    "Category": "ship kits"
+  },
+  "TA": {
+    "Category": "elements"
+  },
+  "CCD": {
+    "Category": "drones"
+  },
+  "TC": {
+    "Category": "elements"
+  },
+  "SF": {
+    "Category": "fuels"
+  },
+  "ADE": {
+    "Category": "construction prefabs"
+  },
+  "ZR": {
+    "Category": "elements"
+  },
+  "FF": {
+    "Category": "fuels"
+  },
+  "LSL": {
+    "Category": "ship kits"
+  },
+  "HOP": {
+    "Category": "agricultural products"
+  },
+  "WOR": {
+    "Category": "unit prefabs"
+  },
+  "BL": {
+    "Category": "chemicals"
+  },
+  "TRA": {
+    "Category": "electronic parts"
+  },
+  "TPU": {
+    "Category": "electronic parts"
+  },
+  "SEN": {
+    "Category": "electronic parts"
+  },
+  "ROM": {
+    "Category": "electronic parts"
+  },
+  "RAM": {
+    "Category": "electronic parts"
+  },
+  "PCB": {
+    "Category": "electronic parts"
+  },
+  "MPC": {
+    "Category": "electronic parts"
+  },
+  "MB": {
+    "Category": "electronic parts"
+  },
+  "FAN": {
+    "Category": "electronic parts"
+  },
+  "DIS": {
+    "Category": "electronic parts"
+  },
+  "CD": {
+    "Category": "electronic parts"
+  },
+  "CBL": {
+    "Category": "energy systems"
+  },
+  "TUB": {
+    "Category": "medical equipment"
+  },
+  "SEQ": {
+    "Category": "medical equipment"
+  },
+  "PK": {
+    "Category": "medical equipment"
+  },
+  "BND": {
+    "Category": "medical equipment"
+  },
+  "ADR": {
+    "Category": "medical equipment"
+  },
+  "WAL": {
+    "Category": "alloys"
+  },
+  "RGO": {
+    "Category": "alloys"
+  },
+  "FET": {
+    "Category": "alloys"
+  },
+  "FAL": {
+    "Category": "alloys"
+  },
+  "BRO": {
+    "Category": "alloys"
+  },
+  "BOS": {
+    "Category": "alloys"
+  },
+  "BGO": {
+    "Category": "alloys"
+  },
+  "STR": {
+    "Category": "medical equipment"
+  },
+  "CBM": {
+    "Category": "energy systems"
+  },
+  "CBS": {
+    "Category": "energy systems"
+  },
+  "POW": {
+    "Category": "energy systems"
+  },
+  "NG": {
+    "Category": "construction materials"
+  },
+  "NFI": {
+    "Category": "construction materials"
+  },
+  "NCS": {
+    "Category": "construction materials"
+  },
+  "MTC": {
+    "Category": "construction materials"
+  },
+  "MCG": {
+    "Category": "construction materials"
+  },
+  "INS": {
+    "Category": "construction materials"
+  },
+  "GL": {
+    "Category": "construction materials"
+  },
+  "EPO": {
+    "Category": "construction materials"
+  },
+  "CMK": {
+    "Category": "construction materials"
+  },
+  "ZIR": {
+    "Category": "minerals"
+  },
+  "TS": {
+    "Category": "minerals"
+  },
+  "TCO": {
+    "Category": "minerals"
+  },
+  "TAI": {
+    "Category": "minerals"
+  },
+  "SCR": {
+    "Category": "minerals"
+  },
+  "MGS": {
+    "Category": "minerals"
+  },
+  "MAG": {
+    "Category": "minerals"
+  },
+  "LST": {
+    "Category": "minerals"
+  },
+  "HAL": {
+    "Category": "minerals"
+  },
+  "GAL": {
+    "Category": "minerals"
+  },
+  "CLI": {
+    "Category": "minerals"
+  },
+  "BRM": {
+    "Category": "minerals"
+  },
+  "BOR": {
+    "Category": "minerals"
+  },
+  "BER": {
+    "Category": "minerals"
+  },
+  "SP": {
+    "Category": "energy systems"
+  },
+  "SOL": {
+    "Category": "energy systems"
+  },
+  "AST": {
+    "Category": "alloys"
+  },
+  "TSH": {
+    "Category": "construction parts"
+  },
+  "TRU": {
+    "Category": "construction parts"
+  },
+  "TCS": {
+    "Category": "construction parts"
+  },
+  "HTE": {
+    "Category": "ship engines"
+  },
+  "HPR": {
+    "Category": "ship engines"
+  },
+  "HNZ": {
+    "Category": "ship engines"
+  },
+  "GNZ": {
+    "Category": "ship engines"
+  },
+  "GEN": {
+    "Category": "ship engines"
+  },
+  "GCH": {
+    "Category": "ship engines"
+  },
+  "FSE": {
+    "Category": "ship engines"
+  },
+  "FIR": {
+    "Category": "ship engines"
+  },
+  "ENG": {
+    "Category": "ship engines"
+  },
+  "CHA": {
+    "Category": "ship engines"
+  },
+  "BFR": {
+    "Category": "ship engines"
+  },
+  "BFP": {
+    "Category": "ship engines"
+  },
+  "ANZ": {
+    "Category": "ship engines"
+  },
+  "AFR": {
+    "Category": "ship engines"
+  },
+  "AFP": {
+    "Category": "ship engines"
+  },
+  "AEN": {
+    "Category": "ship engines"
+  },
+  "WIN": {
+    "Category": "consumables (luxury)"
+  },
+  "VG": {
+    "Category": "consumables (luxury)"
+  },
+  "SC": {
+    "Category": "consumables (luxury)"
+  },
+  "REP": {
+    "Category": "consumables (luxury)"
+  },
+  "PWO": {
+    "Category": "consumables (luxury)"
+  },
+  "NST": {
+    "Category": "consumables (luxury)"
+  },
+  "KOM": {
+    "Category": "consumables (luxury)"
+  },
+  "GIN": {
+    "Category": "consumables (luxury)"
+  },
+  "COF": {
+    "Category": "consumables (luxury)"
+  },
+  "HYR": {
+    "Category": "ship engines"
+  },
+  "RG": {
+    "Category": "construction materials"
+  },
+  "LFE": {
+    "Category": "ship engines"
+  },
+  "MFE": {
+    "Category": "ship engines"
+  },
+  "RSH": {
+    "Category": "construction parts"
+  },
+  "PSH": {
+    "Category": "construction parts"
+  },
+  "MHL": {
+    "Category": "construction parts"
+  },
+  "MGC": {
+    "Category": "construction parts"
+  },
+  "LIT": {
+    "Category": "construction parts"
+  },
+  "GV": {
+    "Category": "construction parts"
+  },
+  "GC": {
+    "Category": "construction parts"
+  },
+  "FLP": {
+    "Category": "construction parts"
+  },
+  "FLO": {
+    "Category": "construction parts"
+  },
+  "FC": {
+    "Category": "construction parts"
+  },
+  "DEC": {
+    "Category": "construction parts"
+  },
+  "AIR": {
+    "Category": "construction parts"
+  },
+  "AEF": {
+    "Category": "construction parts"
+  },
+  "OS": {
+    "Category": "software tools"
+  },
+  "NN": {
+    "Category": "software tools"
+  },
+  "EDC": {
+    "Category": "software tools"
+  },
+  "DV": {
+    "Category": "software tools"
+  },
+  "DD": {
+    "Category": "software tools"
+  },
+  "DA": {
+    "Category": "software tools"
+  },
+  "SFE": {
+    "Category": "ship engines"
+  },
+  "RCT": {
+    "Category": "ship engines"
+  },
+  "RCS": {
+    "Category": "ship engines"
+  },
+  "RAG": {
+    "Category": "ship engines"
+  },
+  "QCR": {
+    "Category": "ship engines"
+  },
+  "NOZ": {
+    "Category": "ship engines"
+  },
+  "LFP": {
+    "Category": "ship engines"
+  },
+  "BLE": {
+    "Category": "chemicals"
+  },
+  "SEA": {
+    "Category": "construction materials"
+  },
+  "EXO": {
+    "Category": "consumables (basic)"
+  },
+  "STL": {
+    "Category": "metals"
+  },
+  "SI": {
+    "Category": "metals"
+  },
+  "LI": {
+    "Category": "metals"
+  },
+  "FE": {
+    "Category": "metals"
+  },
+  "CU": {
+    "Category": "metals"
+  },
+  "AU": {
+    "Category": "metals"
+  },
+  "AL": {
+    "Category": "metals"
+  },
+  "SAR": {
+    "Category": "electronic devices"
+  },
+  "RAD": {
+    "Category": "electronic devices"
+  },
+  "MHP": {
+    "Category": "electronic devices"
+  },
+  "HPC": {
+    "Category": "electronic devices"
+  },
+  "TI": {
+    "Category": "metals"
+  },
+  "HOG": {
+    "Category": "electronic devices"
+  },
+  "LDI": {
+    "Category": "electronic pieces"
+  },
+  "BWS": {
+    "Category": "electronic devices"
+  },
+  "BSC": {
+    "Category": "electronic devices"
+  },
+  "BMF": {
+    "Category": "electronic devices"
+  },
+  "BID": {
+    "Category": "electronic devices"
+  },
+  "AWF": {
+    "Category": "electronic devices"
+  },
+  "AAR": {
+    "Category": "electronic devices"
+  },
+  "SRP": {
+    "Category": "ship shields"
+  },
+  "BWH": {
+    "Category": "ship shields"
+  },
+  "BRP": {
+    "Category": "ship shields"
+  },
+  "BPT": {
+    "Category": "ship shields"
+  },
+  "AWH": {
+    "Category": "ship shields"
+  },
+  "HD": {
+    "Category": "electronic devices"
+  },
+  "W": {
+    "Category": "metals"
+  },
+  "ACS": {
+    "Category": "electronic systems"
+  },
+  "ADS": {
+    "Category": "electronic systems"
+  },
+  "BAC": {
+    "Category": "chemicals"
+  },
+  "PSS": {
+    "Category": "plastics"
+  },
+  "PSM": {
+    "Category": "plastics"
+  },
+  "PSL": {
+    "Category": "plastics"
+  },
+  "PG": {
+    "Category": "plastics"
+  },
+  "PE": {
+    "Category": "plastics"
+  },
+  "DCS": {
+    "Category": "plastics"
+  },
+  "DCM": {
+    "Category": "plastics"
+  },
+  "DCL": {
+    "Category": "plastics"
+  },
+  "TK": {
+    "Category": "textiles"
+  },
+  "SIL": {
+    "Category": "textiles"
+  },
+  "NL": {
+    "Category": "textiles"
+  },
+  "KV": {
+    "Category": "textiles"
+  },
+  "CTF": {
+    "Category": "textiles"
+  },
+  "COT": {
+    "Category": "textiles"
+  },
+  "CF": {
+    "Category": "textiles"
+  },
+  "WR": {
+    "Category": "electronic systems"
+  },
+  "TAC": {
+    "Category": "electronic systems"
+  },
+  "STS": {
+    "Category": "electronic systems"
+  },
+  "LOG": {
+    "Category": "electronic systems"
+  },
+  "LIS": {
+    "Category": "electronic systems"
+  },
+  "FFC": {
+    "Category": "electronic systems"
+  },
+  "CRU": {
+    "Category": "electronic systems"
+  },
+  "COM": {
+    "Category": "electronic systems"
+  },
+  "CC": {
+    "Category": "electronic systems"
+  },
+  "ARP": {
+    "Category": "ship shields"
+  },
+  "APT": {
+    "Category": "ship shields"
+  },
+  "UTS": {
+    "Category": "utility"
+  },
+  "TCU": {
+    "Category": "unit prefabs"
+  },
+  "SWF": {
+    "Category": "electronic pieces"
+  },
+  "SFK": {
+    "Category": "electronic pieces"
+  },
+  "MWF": {
+    "Category": "electronic pieces"
+  },
+  "MFK": {
+    "Category": "electronic pieces"
+  },
+  "HCC": {
+    "Category": "electronic pieces"
+  },
+  "CAP": {
+    "Category": "electronic pieces"
+  },
+  "BGC": {
+    "Category": "electronic pieces"
+  },
+  "BCO": {
+    "Category": "electronic pieces"
+  },
+  "WAI": {
+    "Category": "software systems"
+  },
+  "SNM": {
+    "Category": "software systems"
+  },
+  "IMM": {
+    "Category": "software systems"
+  },
+  "IDC": {
+    "Category": "software systems"
+  },
+  "WS": {
+    "Category": "consumables (basic)"
+  },
+  "SCN": {
+    "Category": "consumables (basic)"
+  },
+  "RAT": {
+    "Category": "consumables (basic)"
+  },
+  "PT": {
+    "Category": "consumables (basic)"
+  },
+  "PDA": {
+    "Category": "consumables (basic)"
+  },
+  "OVE": {
+    "Category": "consumables (basic)"
+  },
+  "MED": {
+    "Category": "consumables (basic)"
+  },
+  "MEA": {
+    "Category": "consumables (basic)"
+  },
+  "LC": {
+    "Category": "consumables (basic)"
+  },
+  "HSS": {
+    "Category": "consumables (basic)"
+  },
+  "HMS": {
+    "Category": "consumables (basic)"
+  },
+  "FIM": {
+    "Category": "consumables (basic)"
+  },
+  "TRN": {
+    "Category": "electronic pieces"
+  },
+  "DW": {
+    "Category": "consumables (basic)"
+  },
+  "BAI": {
+    "Category": "software components"
+  },
+  "MLI": {
+    "Category": "software components"
+  },
+  "SU": {
+    "Category": "unit prefabs"
+  },
+  "RDS": {
+    "Category": "unit prefabs"
+  },
+  "RDL": {
+    "Category": "unit prefabs"
+  },
+  "LU": {
+    "Category": "unit prefabs"
+  },
+  "HAB": {
+    "Category": "unit prefabs"
+  },
+  "FUN": {
+    "Category": "unit prefabs"
+  },
+  "DOU": {
+    "Category": "unit prefabs"
+  },
+  "CQT": {
+    "Category": "unit prefabs"
+  },
+  "CQS": {
+    "Category": "unit prefabs"
+  },
+  "CQM": {
+    "Category": "unit prefabs"
+  },
+  "CQL": {
+    "Category": "unit prefabs"
+  },
+  "BRS": {
+    "Category": "unit prefabs"
+  },
+  "BR2": {
+    "Category": "unit prefabs"
+  },
+  "BR1": {
+    "Category": "unit prefabs"
+  },
+  "TIO": {
+    "Category": "ores"
+  },
+  "SIO": {
+    "Category": "ores"
+  },
+  "LIO": {
+    "Category": "ores"
+  },
+  "FEO": {
+    "Category": "ores"
+  },
+  "CUO": {
+    "Category": "ores"
+  },
+  "AUO": {
+    "Category": "ores"
+  },
+  "ALO": {
+    "Category": "ores"
+  },
+  "WM": {
+    "Category": "software components"
+  },
+  "SAL": {
+    "Category": "software components"
+  },
+  "SA": {
+    "Category": "software components"
+  },
+  "NF": {
+    "Category": "software components"
+  },
+  "LD": {
+    "Category": "software components"
+  },
+  "ALE": {
+    "Category": "consumables (luxury)"
+  },
+  "NAB": {
+    "Category": "chemicals"
+  }
+}

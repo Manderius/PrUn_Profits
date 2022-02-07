@@ -43,14 +43,14 @@ export class RecipeRow extends Component {
                 <td>
                     <Container>
                         <Row>
-                            {this.state.Inputs.map((input, i) => <Col md='auto' key={1000 * this._key + i}><MaterialSquare data={input} /></Col>)}
+                            {this.state.Inputs.map((input, i) => <Col md='auto' key={1000 * this._key + i}><MaterialSquare item={input} /></Col>)}
                         </Row>
                     </Container>
                 </td>
                 <td className=''>
                     <Container>
                         <Row>
-                            {this.state.Outputs.map((input, i) => <Col md='auto' key={1000 * this._key + 50 + i}><MaterialSquare data={input} /></Col>)}
+                            {this.state.Outputs.map((input, i) => <Col md='auto' key={1000 * this._key + 50 + i}><MaterialSquare item={input} /></Col>)}
                         </Row>
                     </Container>
                 </td>
