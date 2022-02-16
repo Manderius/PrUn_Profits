@@ -1,292 +1,5 @@
 [
   {
-    "Ticker": "BMP",
-    "Tier": 1,
-    "Recipes": [
-      {
-        "Inputs": [
-          {
-            "Ticker": "COT",
-            "Amount": 1
-          },
-          {
-            "Ticker": "PG",
-            "Amount": 10
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "OVE",
-            "Amount": 30
-          }
-        ],
-        "Time": 25920
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "PE",
-            "Amount": 50
-          },
-          {
-            "Ticker": "RCO",
-            "Amount": 1
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "OVE",
-            "Amount": 20
-          }
-        ],
-        "Time": 25920
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "CLI",
-            "Amount": 3
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "I",
-            "Amount": 1
-          }
-        ],
-        "Time": 17280
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "LST",
-            "Amount": 4
-          },
-          {
-            "Ticker": "SIO",
-            "Amount": 2
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "MCG",
-            "Amount": 50
-          }
-        ],
-        "Time": 21600
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "PG",
-            "Amount": 20
-          },
-          {
-            "Ticker": "EPO",
-            "Amount": 20
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "OFF",
-            "Amount": 50
-          }
-        ],
-        "Time": 17280
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "C",
-            "Amount": 1
-          },
-          {
-            "Ticker": "H",
-            "Amount": 2
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "PE",
-            "Amount": 200
-          }
-        ],
-        "Time": 24192
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "MGS",
-            "Amount": 1
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "MG",
-            "Amount": 6
-          }
-        ],
-        "Time": 10368
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "S",
-            "Amount": 1
-          },
-          {
-            "Ticker": "PG",
-            "Amount": 30
-          },
-          {
-            "Ticker": "SI",
-            "Amount": 1
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "SEA",
-            "Amount": 30
-          }
-        ],
-        "Time": 25920
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "C",
-            "Amount": 10
-          },
-          {
-            "Ticker": "OVE",
-            "Amount": 20
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "SUN",
-            "Amount": 20
-          }
-        ],
-        "Time": 17280
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "COT",
-            "Amount": 1
-          },
-          {
-            "Ticker": "PG",
-            "Amount": 50
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "PWO",
-            "Amount": 20
-          }
-        ],
-        "Time": 25920
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "STL",
-            "Amount": 1
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "PT",
-            "Amount": 5
-          }
-        ],
-        "Time": 30240
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "AL",
-            "Amount": 4
-          },
-          {
-            "Ticker": "PE",
-            "Amount": 50
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "STR",
-            "Amount": 2
-          }
-        ],
-        "Time": 25920
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "PE",
-            "Amount": 100
-          },
-          {
-            "Ticker": "PG",
-            "Amount": 25
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "OVE",
-            "Amount": 20
-          }
-        ],
-        "Time": 51840
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "INS",
-            "Amount": 8
-          },
-          {
-            "Ticker": "MFK",
-            "Amount": 1
-          },
-          {
-            "Ticker": "SFK",
-            "Amount": 1
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "REP",
-            "Amount": 4
-          }
-        ],
-        "Time": 21600
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "AL",
-            "Amount": 1
-          },
-          {
-            "Ticker": "OVE",
-            "Amount": 10
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "EXO",
-            "Amount": 10
-          }
-        ],
-        "Time": 17280
-      }
-    ]
-  },
-  {
     "Ticker": "POL",
     "Tier": 2,
     "Recipes": [
@@ -316,11 +29,11 @@
             "Amount": 1
           },
           {
-            "Ticker": "C",
+            "Ticker": "MG",
             "Amount": 1
           },
           {
-            "Ticker": "MG",
+            "Ticker": "C",
             "Amount": 1
           }
         ],
@@ -335,11 +48,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "C",
+            "Ticker": "H",
             "Amount": 1
           },
           {
-            "Ticker": "H",
+            "Ticker": "C",
             "Amount": 1
           },
           {
@@ -358,172 +71,6 @@
           }
         ],
         "Time": 86400
-      }
-    ]
-  },
-  {
-    "Ticker": "GF",
-    "Tier": 2,
-    "Recipes": [
-      {
-        "Inputs": [
-          {
-            "Ticker": "SIO",
-            "Amount": 1
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "GL",
-            "Amount": 10
-          }
-        ],
-        "Time": 60480
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "NE",
-            "Amount": 16
-          },
-          {
-            "Ticker": "RG",
-            "Amount": 8
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "LIT",
-            "Amount": 1
-          }
-        ],
-        "Time": 69120
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "GL",
-            "Amount": 10
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "TUB",
-            "Amount": 20
-          }
-        ],
-        "Time": 17280
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "RG",
-            "Amount": 20
-          },
-          {
-            "Ticker": "GV",
-            "Amount": 1
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "GCH",
-            "Amount": 1
-          }
-        ],
-        "Time": 60480
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "GL",
-            "Amount": 10
-          },
-          {
-            "Ticker": "PG",
-            "Amount": 15
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "RG",
-            "Amount": 10
-          }
-        ],
-        "Time": 112320
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "THF",
-            "Amount": 10
-          },
-          {
-            "Ticker": "NG",
-            "Amount": 50
-          },
-          {
-            "Ticker": "GNZ",
-            "Amount": 4
-          },
-          {
-            "Ticker": "LFP",
-            "Amount": 4
-          },
-          {
-            "Ticker": "MFK",
-            "Amount": 1
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "GEN",
-            "Amount": 1
-          }
-        ],
-        "Time": 108000
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "NCS",
-            "Amount": 10
-          },
-          {
-            "Ticker": "GL",
-            "Amount": 10
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "NG",
-            "Amount": 10
-          }
-        ],
-        "Time": 103680
-      },
-      {
-        "Inputs": [
-          {
-            "Ticker": "GCH",
-            "Amount": 1
-          },
-          {
-            "Ticker": "RG",
-            "Amount": 20
-          },
-          {
-            "Ticker": "TI",
-            "Amount": 1
-          }
-        ],
-        "Outputs": [
-          {
-            "Ticker": "GNZ",
-            "Amount": 1
-          }
-        ],
-        "Time": 129600
       }
     ]
   },
@@ -576,11 +123,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "O",
+            "Ticker": "SCR",
             "Amount": 1
           },
           {
-            "Ticker": "SCR",
+            "Ticker": "O",
             "Amount": 1
           }
         ],
@@ -595,16 +142,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "CUO",
-            "Amount": 5
+            "Ticker": "O",
+            "Amount": 10
           },
           {
             "Ticker": "SIO",
             "Amount": 1
           },
           {
-            "Ticker": "O",
-            "Amount": 10
+            "Ticker": "CUO",
+            "Amount": 5
           }
         ],
         "Outputs": [
@@ -660,16 +207,16 @@
       {
         "Inputs": [
           {
+            "Ticker": "FEO",
+            "Amount": 6
+          },
+          {
             "Ticker": "O",
             "Amount": 1
           },
           {
             "Ticker": "C",
             "Amount": 1
-          },
-          {
-            "Ticker": "FEO",
-            "Amount": 6
           },
           {
             "Ticker": "FLX",
@@ -687,16 +234,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "ALO",
-            "Amount": 6
-          },
-          {
             "Ticker": "C",
             "Amount": 1
           },
           {
             "Ticker": "O",
             "Amount": 1
+          },
+          {
+            "Ticker": "ALO",
+            "Amount": 6
           }
         ],
         "Outputs": [
@@ -710,7 +257,7 @@
       {
         "Inputs": [
           {
-            "Ticker": "AL",
+            "Ticker": "O",
             "Amount": 1
           },
           {
@@ -718,7 +265,7 @@
             "Amount": 4
           },
           {
-            "Ticker": "O",
+            "Ticker": "AL",
             "Amount": 1
           }
         ],
@@ -733,12 +280,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "HAL",
-            "Amount": 4
-          },
-          {
             "Ticker": "LIO",
             "Amount": 10
+          },
+          {
+            "Ticker": "HAL",
+            "Amount": 4
           }
         ],
         "Outputs": [
@@ -752,12 +299,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "FE",
-            "Amount": 2
-          },
-          {
             "Ticker": "O",
             "Amount": 8
+          },
+          {
+            "Ticker": "FE",
+            "Amount": 2
           }
         ],
         "Outputs": [
@@ -794,7 +341,7 @@
       {
         "Inputs": [
           {
-            "Ticker": "C",
+            "Ticker": "FLX",
             "Amount": 1
           },
           {
@@ -802,11 +349,11 @@
             "Amount": 6
           },
           {
-            "Ticker": "FLX",
+            "Ticker": "O",
             "Amount": 1
           },
           {
-            "Ticker": "O",
+            "Ticker": "C",
             "Amount": 1
           }
         ],
@@ -827,12 +374,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "H2O",
-            "Amount": 1
-          },
-          {
             "Ticker": "ALG",
             "Amount": 2
+          },
+          {
+            "Ticker": "H2O",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -869,15 +416,15 @@
       {
         "Inputs": [
           {
+            "Ticker": "MUS",
+            "Amount": 1
+          },
+          {
             "Ticker": "MAI",
             "Amount": 1
           },
           {
             "Ticker": "NUT",
-            "Amount": 1
-          },
-          {
-            "Ticker": "MUS",
             "Amount": 1
           }
         ],
@@ -892,7 +439,7 @@
       {
         "Inputs": [
           {
-            "Ticker": "BEA",
+            "Ticker": "ALG",
             "Amount": 1
           },
           {
@@ -900,7 +447,7 @@
             "Amount": 1
           },
           {
-            "Ticker": "ALG",
+            "Ticker": "BEA",
             "Amount": 1
           }
         ],
@@ -915,11 +462,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "VEG",
+            "Ticker": "MAI",
             "Amount": 1
           },
           {
-            "Ticker": "MAI",
+            "Ticker": "VEG",
             "Amount": 1
           },
           {
@@ -957,15 +504,15 @@
       {
         "Inputs": [
           {
-            "Ticker": "MAI",
-            "Amount": 5
-          },
-          {
             "Ticker": "NUT",
             "Amount": 5
           },
           {
             "Ticker": "VEG",
+            "Amount": 5
+          },
+          {
+            "Ticker": "MAI",
             "Amount": 5
           }
         ],
@@ -984,11 +531,11 @@
             "Amount": 1
           },
           {
-            "Ticker": "BEA",
+            "Ticker": "MAI",
             "Amount": 1
           },
           {
-            "Ticker": "MAI",
+            "Ticker": "BEA",
             "Amount": 1
           }
         ],
@@ -1026,12 +573,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "FIM",
-            "Amount": 2
-          },
-          {
             "Ticker": "MTP",
             "Amount": 1
+          },
+          {
+            "Ticker": "FIM",
+            "Amount": 2
           }
         ],
         "Outputs": [
@@ -1045,15 +592,15 @@
       {
         "Inputs": [
           {
-            "Ticker": "ALG",
-            "Amount": 1
-          },
-          {
             "Ticker": "NUT",
             "Amount": 1
           },
           {
             "Ticker": "MAI",
+            "Amount": 1
+          },
+          {
+            "Ticker": "ALG",
             "Amount": 1
           }
         ],
@@ -1129,11 +676,11 @@
             "Amount": 1
           },
           {
-            "Ticker": "VEG",
+            "Ticker": "ALG",
             "Amount": 1
           },
           {
-            "Ticker": "ALG",
+            "Ticker": "VEG",
             "Amount": 1
           }
         ],
@@ -1152,11 +699,11 @@
             "Amount": 1
           },
           {
-            "Ticker": "VEG",
+            "Ticker": "GRN",
             "Amount": 1
           },
           {
-            "Ticker": "GRN",
+            "Ticker": "VEG",
             "Amount": 1
           }
         ],
@@ -1255,15 +802,15 @@
       {
         "Inputs": [
           {
-            "Ticker": "VEG",
-            "Amount": 1
-          },
-          {
             "Ticker": "BEA",
             "Amount": 1
           },
           {
             "Ticker": "GRN",
+            "Amount": 1
+          },
+          {
+            "Ticker": "VEG",
             "Amount": 1
           }
         ],
@@ -1284,19 +831,19 @@
       {
         "Inputs": [
           {
-            "Ticker": "AMM",
-            "Amount": 1
+            "Ticker": "GRN",
+            "Amount": 2
           },
           {
             "Ticker": "DW",
             "Amount": 2
           },
           {
-            "Ticker": "GRN",
-            "Amount": 2
+            "Ticker": "ES",
+            "Amount": 1
           },
           {
-            "Ticker": "ES",
+            "Ticker": "AMM",
             "Amount": 1
           }
         ],
@@ -1311,19 +858,19 @@
       {
         "Inputs": [
           {
-            "Ticker": "AMM",
-            "Amount": 1
+            "Ticker": "GRA",
+            "Amount": 15
           },
           {
-            "Ticker": "REA",
-            "Amount": 15
+            "Ticker": "AMM",
+            "Amount": 1
           },
           {
             "Ticker": "DW",
             "Amount": 20
           },
           {
-            "Ticker": "GRA",
+            "Ticker": "REA",
             "Amount": 15
           }
         ],
@@ -1338,11 +885,15 @@
       {
         "Inputs": [
           {
-            "Ticker": "I",
-            "Amount": 1
+            "Ticker": "DW",
+            "Amount": 10
           },
           {
             "Ticker": "AMM",
+            "Amount": 1
+          },
+          {
+            "Ticker": "I",
             "Amount": 1
           },
           {
@@ -1352,10 +903,6 @@
           {
             "Ticker": "CA",
             "Amount": 1
-          },
-          {
-            "Ticker": "DW",
-            "Amount": 10
           }
         ],
         "Outputs": [
@@ -1373,16 +920,16 @@
             "Amount": 1
           },
           {
-            "Ticker": "AMM",
-            "Amount": 1
+            "Ticker": "GRN",
+            "Amount": 2
           },
           {
             "Ticker": "DW",
             "Amount": 3
           },
           {
-            "Ticker": "GRN",
-            "Amount": 2
+            "Ticker": "AMM",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -1396,7 +943,7 @@
       {
         "Inputs": [
           {
-            "Ticker": "AMM",
+            "Ticker": "HER",
             "Amount": 1
           },
           {
@@ -1404,7 +951,7 @@
             "Amount": 4
           },
           {
-            "Ticker": "HER",
+            "Ticker": "AMM",
             "Amount": 1
           }
         ],
@@ -1425,15 +972,15 @@
       {
         "Inputs": [
           {
+            "Ticker": "HCP",
+            "Amount": 1
+          },
+          {
             "Ticker": "PPA",
             "Amount": 1
           },
           {
             "Ticker": "NS",
-            "Amount": 1
-          },
-          {
-            "Ticker": "HCP",
             "Amount": 1
           }
         ],
@@ -1448,12 +995,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "VIT",
-            "Amount": 2
-          },
-          {
             "Ticker": "REA",
             "Amount": 4
+          },
+          {
+            "Ticker": "VIT",
+            "Amount": 2
           },
           {
             "Ticker": "BAC",
@@ -1504,12 +1051,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "DDT",
-            "Amount": 1
-          },
-          {
             "Ticker": "H2O",
             "Amount": 30
+          },
+          {
+            "Ticker": "DDT",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -1542,12 +1089,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "H2O",
-            "Amount": 40
-          },
-          {
             "Ticker": "DDT",
             "Amount": 1
+          },
+          {
+            "Ticker": "H2O",
+            "Amount": 40
           }
         ],
         "Outputs": [
@@ -1620,12 +1167,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "H2O",
-            "Amount": 16
-          },
-          {
             "Ticker": "NS",
             "Amount": 2
+          },
+          {
+            "Ticker": "H2O",
+            "Amount": 16
           }
         ],
         "Outputs": [
@@ -1959,11 +1506,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "AL",
+            "Ticker": "GL",
             "Amount": 1
           },
           {
-            "Ticker": "GL",
+            "Ticker": "AL",
             "Amount": 1
           }
         ],
@@ -1978,12 +1525,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "LST",
-            "Amount": 2
-          },
-          {
             "Ticker": "AL",
             "Amount": 1
+          },
+          {
+            "Ticker": "LST",
+            "Amount": 2
           }
         ],
         "Outputs": [
@@ -2035,12 +1582,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "AL",
-            "Amount": 2
-          },
-          {
             "Ticker": "LST",
             "Amount": 1
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 2
           }
         ],
         "Outputs": [
@@ -2054,12 +1601,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "NE",
-            "Amount": 1
-          },
-          {
             "Ticker": "PG",
             "Amount": 50
+          },
+          {
+            "Ticker": "NE",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -2073,12 +1620,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "AL",
-            "Amount": 1
-          },
-          {
             "Ticker": "GL",
             "Amount": 5
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -2107,12 +1654,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "AL",
-            "Amount": 3
-          },
-          {
             "Ticker": "PE",
             "Amount": 35
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 3
           }
         ],
         "Outputs": [
@@ -2132,20 +1679,20 @@
       {
         "Inputs": [
           {
-            "Ticker": "SI",
-            "Amount": 2
-          },
-          {
             "Ticker": "BCO",
             "Amount": 4
           },
           {
-            "Ticker": "BRO",
-            "Amount": 1
-          },
-          {
             "Ticker": "CU",
             "Amount": 2
+          },
+          {
+            "Ticker": "SI",
+            "Amount": 2
+          },
+          {
+            "Ticker": "BRO",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -2159,20 +1706,20 @@
       {
         "Inputs": [
           {
-            "Ticker": "HCC",
-            "Amount": 60
-          },
-          {
-            "Ticker": "PG",
-            "Amount": 150
+            "Ticker": "BE",
+            "Amount": 12
           },
           {
             "Ticker": "LI",
             "Amount": 12
           },
           {
-            "Ticker": "BE",
-            "Amount": 12
+            "Ticker": "PG",
+            "Amount": 150
+          },
+          {
+            "Ticker": "HCC",
+            "Amount": 60
           }
         ],
         "Outputs": [
@@ -2205,12 +1752,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "GL",
-            "Amount": 8
-          },
-          {
             "Ticker": "SOL",
             "Amount": 24
+          },
+          {
+            "Ticker": "GL",
+            "Amount": 8
           }
         ],
         "Outputs": [
@@ -2224,6 +1771,10 @@
       {
         "Inputs": [
           {
+            "Ticker": "AST",
+            "Amount": 8
+          },
+          {
             "Ticker": "BFR",
             "Amount": 4
           },
@@ -2232,16 +1783,12 @@
             "Amount": 1
           },
           {
-            "Ticker": "AST",
-            "Amount": 8
+            "Ticker": "ACS",
+            "Amount": 1
           },
           {
             "Ticker": "CF",
             "Amount": 6
-          },
-          {
-            "Ticker": "ACS",
-            "Amount": 1
           },
           {
             "Ticker": "ETC",
@@ -2263,12 +1810,12 @@
             "Amount": 6
           },
           {
-            "Ticker": "BE",
-            "Amount": 6
-          },
-          {
             "Ticker": "BCO",
             "Amount": 20
+          },
+          {
+            "Ticker": "BE",
+            "Amount": 6
           },
           {
             "Ticker": "PG",
@@ -2290,16 +1837,16 @@
             "Amount": 8
           },
           {
-            "Ticker": "BGC",
-            "Amount": 40
+            "Ticker": "BE",
+            "Amount": 8
           },
           {
             "Ticker": "PG",
             "Amount": 120
           },
           {
-            "Ticker": "BE",
-            "Amount": 8
+            "Ticker": "BGC",
+            "Amount": 40
           }
         ],
         "Outputs": [
@@ -2313,6 +1860,10 @@
       {
         "Inputs": [
           {
+            "Ticker": "RCS",
+            "Amount": 1
+          },
+          {
             "Ticker": "EES",
             "Amount": 4
           },
@@ -2321,16 +1872,12 @@
             "Amount": 8
           },
           {
-            "Ticker": "CTF",
-            "Amount": 10
-          },
-          {
             "Ticker": "ACS",
             "Amount": 1
           },
           {
-            "Ticker": "RCS",
-            "Amount": 1
+            "Ticker": "CTF",
+            "Amount": 10
           },
           {
             "Ticker": "WAL",
@@ -2358,20 +1905,20 @@
             "Amount": 10
           },
           {
-            "Ticker": "ACS",
-            "Amount": 1
-          },
-          {
-            "Ticker": "MFK",
-            "Amount": 1
-          },
-          {
             "Ticker": "BFP",
             "Amount": 4
           },
           {
             "Ticker": "NOZ",
             "Amount": 4
+          },
+          {
+            "Ticker": "ACS",
+            "Amount": 1
+          },
+          {
+            "Ticker": "MFK",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -2431,16 +1978,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "BGO",
-            "Amount": 20
+            "Ticker": "CBS",
+            "Amount": 1
           },
           {
             "Ticker": "RAG",
             "Amount": 1
           },
           {
-            "Ticker": "CBS",
-            "Amount": 1
+            "Ticker": "BGO",
+            "Amount": 20
           }
         ],
         "Outputs": [
@@ -2454,16 +2001,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "SFK",
-            "Amount": 1
+            "Ticker": "PG",
+            "Amount": 50
           },
           {
             "Ticker": "ATP",
             "Amount": 10
           },
           {
-            "Ticker": "PG",
-            "Amount": 50
+            "Ticker": "SFK",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -2477,6 +2024,14 @@
       {
         "Inputs": [
           {
+            "Ticker": "BRO",
+            "Amount": 25
+          },
+          {
+            "Ticker": "ACS",
+            "Amount": 1
+          },
+          {
             "Ticker": "MFK",
             "Amount": 1
           },
@@ -2487,14 +2042,6 @@
           {
             "Ticker": "NOZ",
             "Amount": 6
-          },
-          {
-            "Ticker": "BRO",
-            "Amount": 25
-          },
-          {
-            "Ticker": "ACS",
-            "Amount": 1
           }
         ],
         "Outputs": [
@@ -2508,16 +2055,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "MFK",
-            "Amount": 2
+            "Ticker": "CHA",
+            "Amount": 1
           },
           {
             "Ticker": "FAL",
             "Amount": 10
           },
           {
-            "Ticker": "CHA",
-            "Amount": 1
+            "Ticker": "MFK",
+            "Amount": 2
           }
         ],
         "Outputs": [
@@ -2531,6 +2078,10 @@
       {
         "Inputs": [
           {
+            "Ticker": "ACS",
+            "Amount": 1
+          },
+          {
             "Ticker": "AFP",
             "Amount": 8
           },
@@ -2541,10 +2092,6 @@
           {
             "Ticker": "WAL",
             "Amount": 20
-          },
-          {
-            "Ticker": "ACS",
-            "Amount": 1
           },
           {
             "Ticker": "MFK",
@@ -2562,6 +2109,14 @@
       {
         "Inputs": [
           {
+            "Ticker": "AFP",
+            "Amount": 4
+          },
+          {
+            "Ticker": "ACS",
+            "Amount": 1
+          },
+          {
             "Ticker": "MFK",
             "Amount": 1
           },
@@ -2572,14 +2127,6 @@
           {
             "Ticker": "ANZ",
             "Amount": 4
-          },
-          {
-            "Ticker": "AFP",
-            "Amount": 4
-          },
-          {
-            "Ticker": "ACS",
-            "Amount": 1
           }
         ],
         "Outputs": [
@@ -2593,12 +2140,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "WAL",
-            "Amount": 20
-          },
-          {
             "Ticker": "CBL",
             "Amount": 1
+          },
+          {
+            "Ticker": "WAL",
+            "Amount": 20
           },
           {
             "Ticker": "FIR",
@@ -2616,16 +2163,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "STL",
-            "Amount": 20
-          },
-          {
             "Ticker": "CBM",
             "Amount": 1
           },
           {
             "Ticker": "FIR",
             "Amount": 1
+          },
+          {
+            "Ticker": "STL",
+            "Amount": 20
           }
         ],
         "Outputs": [
@@ -2639,16 +2186,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "MFK",
-            "Amount": 4
+            "Ticker": "FET",
+            "Amount": 20
           },
           {
             "Ticker": "CHA",
             "Amount": 1
           },
           {
-            "Ticker": "FET",
-            "Amount": 20
+            "Ticker": "MFK",
+            "Amount": 4
           }
         ],
         "Outputs": [
@@ -2666,12 +2213,12 @@
             "Amount": 1
           },
           {
-            "Ticker": "PG",
-            "Amount": 50
-          },
-          {
             "Ticker": "THP",
             "Amount": 5
+          },
+          {
+            "Ticker": "PG",
+            "Amount": 50
           }
         ],
         "Outputs": [
@@ -2729,16 +2276,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "TK",
-            "Amount": 8
-          },
-          {
             "Ticker": "PG",
             "Amount": 100
           },
           {
             "Ticker": "AST",
             "Amount": 20
+          },
+          {
+            "Ticker": "TK",
+            "Amount": 8
           }
         ],
         "Outputs": [
@@ -2752,11 +2299,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "TA",
+            "Ticker": "LST",
             "Amount": 5
           },
           {
-            "Ticker": "LST",
+            "Ticker": "TA",
             "Amount": 5
           },
           {
@@ -2775,12 +2322,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "KV",
-            "Amount": 2
-          },
-          {
             "Ticker": "LST",
             "Amount": 5
+          },
+          {
+            "Ticker": "KV",
+            "Amount": 2
           }
         ],
         "Outputs": [
@@ -2794,12 +2341,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "THF",
-            "Amount": 30
-          },
-          {
             "Ticker": "ATP",
             "Amount": 5
+          },
+          {
+            "Ticker": "THF",
+            "Amount": 30
           }
         ],
         "Outputs": [
@@ -2813,16 +2360,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "KV",
-            "Amount": 4
+            "Ticker": "FAL",
+            "Amount": 14
           },
           {
             "Ticker": "PG",
             "Amount": 80
           },
           {
-            "Ticker": "FAL",
-            "Amount": 14
+            "Ticker": "KV",
+            "Amount": 4
           }
         ],
         "Outputs": [
@@ -2872,16 +2419,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "PSL",
-            "Amount": 2
+            "Ticker": "PG",
+            "Amount": 40
           },
           {
             "Ticker": "MFK",
             "Amount": 2
           },
           {
-            "Ticker": "PG",
-            "Amount": 40
+            "Ticker": "PSL",
+            "Amount": 2
           }
         ],
         "Outputs": [
@@ -2910,16 +2457,16 @@
       {
         "Inputs": [
           {
+            "Ticker": "SFK",
+            "Amount": 1
+          },
+          {
             "Ticker": "THF",
             "Amount": 10
           },
           {
             "Ticker": "PG",
             "Amount": 50
-          },
-          {
-            "Ticker": "SFK",
-            "Amount": 1
           }
         ],
         "Outputs": [
@@ -2937,12 +2484,12 @@
             "Amount": 2
           },
           {
-            "Ticker": "SFK",
-            "Amount": 8
-          },
-          {
             "Ticker": "PG",
             "Amount": 20
+          },
+          {
+            "Ticker": "SFK",
+            "Amount": 8
           }
         ],
         "Outputs": [
@@ -2985,12 +2532,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "TCL",
-            "Amount": 5
-          },
-          {
             "Ticker": "PG",
             "Amount": 75
+          },
+          {
+            "Ticker": "TCL",
+            "Amount": 5
           }
         ],
         "Outputs": [
@@ -3093,7 +2640,7 @@
       {
         "Inputs": [
           {
-            "Ticker": "STL",
+            "Ticker": "LST",
             "Amount": 1
           },
           {
@@ -3101,7 +2648,7 @@
             "Amount": 1
           },
           {
-            "Ticker": "LST",
+            "Ticker": "STL",
             "Amount": 1
           }
         ],
@@ -3116,11 +2663,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "LDE",
+            "Ticker": "KV",
             "Amount": 2
           },
           {
-            "Ticker": "KV",
+            "Ticker": "LDE",
             "Amount": 2
           }
         ],
@@ -3135,12 +2682,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "TI",
-            "Amount": 2
-          },
-          {
             "Ticker": "RSE",
             "Amount": 1
+          },
+          {
+            "Ticker": "TI",
+            "Amount": 2
           }
         ],
         "Outputs": [
@@ -3202,12 +2749,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "NFI",
-            "Amount": 250
-          },
-          {
             "Ticker": "TI",
             "Amount": 1
+          },
+          {
+            "Ticker": "NFI",
+            "Amount": 250
           }
         ],
         "Outputs": [
@@ -3225,12 +2772,12 @@
             "Amount": 1
           },
           {
-            "Ticker": "EPO",
-            "Amount": 100
-          },
-          {
             "Ticker": "KV",
             "Amount": 1
+          },
+          {
+            "Ticker": "EPO",
+            "Amount": 100
           }
         ],
         "Outputs": [
@@ -3244,15 +2791,15 @@
       {
         "Inputs": [
           {
-            "Ticker": "STL",
-            "Amount": 1
-          },
-          {
             "Ticker": "EPO",
             "Amount": 50
           },
           {
             "Ticker": "BBH",
+            "Amount": 1
+          },
+          {
+            "Ticker": "STL",
             "Amount": 1
           }
         ],
@@ -3309,12 +2856,12 @@
             "Amount": 1
           },
           {
-            "Ticker": "THF",
-            "Amount": 1
-          },
-          {
             "Ticker": "PE",
             "Amount": 100
+          },
+          {
+            "Ticker": "THF",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -3376,12 +2923,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "N",
-            "Amount": 10
-          },
-          {
             "Ticker": "TRN",
             "Amount": 20
+          },
+          {
+            "Ticker": "N",
+            "Amount": 10
           },
           {
             "Ticker": "H",
@@ -3581,15 +3128,15 @@
       {
         "Inputs": [
           {
+            "Ticker": "TRN",
+            "Amount": 1
+          },
+          {
             "Ticker": "CAP",
             "Amount": 1
           },
           {
             "Ticker": "SWF",
-            "Amount": 1
-          },
-          {
-            "Ticker": "TRN",
             "Amount": 1
           }
         ],
@@ -3604,11 +3151,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "GAL",
+            "Ticker": "SI",
             "Amount": 1
           },
           {
-            "Ticker": "SI",
+            "Ticker": "GAL",
             "Amount": 1
           }
         ],
@@ -3642,11 +3189,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "AL",
+            "Ticker": "SI",
             "Amount": 1
           },
           {
-            "Ticker": "SI",
+            "Ticker": "AL",
             "Amount": 1
           }
         ],
@@ -3714,12 +3261,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "CBM",
-            "Amount": 1
-          },
-          {
             "Ticker": "CF",
             "Amount": 4
+          },
+          {
+            "Ticker": "CBM",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -3758,12 +3305,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "WAL",
-            "Amount": 2
-          },
-          {
             "Ticker": "SI",
             "Amount": 1
+          },
+          {
+            "Ticker": "WAL",
+            "Amount": 2
           },
           {
             "Ticker": "O",
@@ -3850,12 +3397,12 @@
         ],
         "Outputs": [
           {
-            "Ticker": "ZR",
-            "Amount": 1
-          },
-          {
             "Ticker": "SI",
             "Amount": 2
+          },
+          {
+            "Ticker": "ZR",
+            "Amount": 1
           }
         ],
         "Time": 51840
@@ -3869,11 +3416,11 @@
         ],
         "Outputs": [
           {
-            "Ticker": "BE",
+            "Ticker": "AL",
             "Amount": 1
           },
           {
-            "Ticker": "AL",
+            "Ticker": "BE",
             "Amount": 1
           },
           {
@@ -3892,11 +3439,11 @@
         ],
         "Outputs": [
           {
-            "Ticker": "TA",
+            "Ticker": "FE",
             "Amount": 1
           },
           {
-            "Ticker": "FE",
+            "Ticker": "TA",
             "Amount": 1
           }
         ],
@@ -3905,16 +3452,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "AL",
-            "Amount": 4
-          },
-          {
             "Ticker": "BOR",
             "Amount": 1
           },
           {
             "Ticker": "SI",
             "Amount": 1
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 4
           }
         ],
         "Outputs": [
@@ -3953,11 +3500,11 @@
             "Amount": 1
           },
           {
-            "Ticker": "BMF",
+            "Ticker": "DA",
             "Amount": 1
           },
           {
-            "Ticker": "DA",
+            "Ticker": "BMF",
             "Amount": 1
           }
         ],
@@ -3971,10 +3518,6 @@
       },
       {
         "Inputs": [
-          {
-            "Ticker": "THF",
-            "Amount": 20
-          },
           {
             "Ticker": "FC",
             "Amount": 8
@@ -3994,6 +3537,10 @@
           {
             "Ticker": "WAI",
             "Amount": 1
+          },
+          {
+            "Ticker": "THF",
+            "Amount": 20
           }
         ],
         "Outputs": [
@@ -4007,11 +3554,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "SNM",
+            "Ticker": "BMF",
             "Amount": 1
           },
           {
-            "Ticker": "BMF",
+            "Ticker": "SNM",
             "Amount": 1
           }
         ],
@@ -4026,11 +3573,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "WAI",
+            "Ticker": "TPU",
             "Amount": 1
           },
           {
-            "Ticker": "TPU",
+            "Ticker": "WAI",
             "Amount": 1
           }
         ],
@@ -4045,20 +3592,8 @@
       {
         "Inputs": [
           {
-            "Ticker": "FC",
-            "Amount": 3
-          },
-          {
-            "Ticker": "PCB",
-            "Amount": 1
-          },
-          {
             "Ticker": "SAR",
             "Amount": 1
-          },
-          {
-            "Ticker": "FLP",
-            "Amount": 6
           },
           {
             "Ticker": "ES",
@@ -4070,6 +3605,18 @@
           },
           {
             "Ticker": "CST",
+            "Amount": 1
+          },
+          {
+            "Ticker": "FC",
+            "Amount": 3
+          },
+          {
+            "Ticker": "FLP",
+            "Amount": 6
+          },
+          {
+            "Ticker": "PCB",
             "Amount": 1
           }
         ],
@@ -4154,12 +3701,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "GRN",
-            "Amount": 2
-          },
-          {
             "Ticker": "HCP",
             "Amount": 4
+          },
+          {
+            "Ticker": "GRN",
+            "Amount": 2
           }
         ],
         "Outputs": [
@@ -4173,12 +3720,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "GRN",
-            "Amount": 2
-          },
-          {
             "Ticker": "HCP",
             "Amount": 4
+          },
+          {
+            "Ticker": "GRN",
+            "Amount": 2
           },
           {
             "Ticker": "MAI",
@@ -4202,7 +3749,7 @@
       {
         "Inputs": [
           {
-            "Ticker": "HE",
+            "Ticker": "AL",
             "Amount": 1
           },
           {
@@ -4210,7 +3757,7 @@
             "Amount": 1
           },
           {
-            "Ticker": "AL",
+            "Ticker": "HE",
             "Amount": 1
           }
         ],
@@ -4225,7 +3772,7 @@
       {
         "Inputs": [
           {
-            "Ticker": "AL",
+            "Ticker": "BSE",
             "Amount": 1
           },
           {
@@ -4233,7 +3780,7 @@
             "Amount": 1
           },
           {
-            "Ticker": "BSE",
+            "Ticker": "AL",
             "Amount": 1
           }
         ],
@@ -4336,11 +3883,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "I",
+            "Ticker": "HE",
             "Amount": 1
           },
           {
-            "Ticker": "HE",
+            "Ticker": "I",
             "Amount": 1
           },
           {
@@ -4378,12 +3925,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "HE",
-            "Amount": 1
-          },
-          {
             "Ticker": "AL",
             "Amount": 6
+          },
+          {
+            "Ticker": "HE",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -4397,15 +3944,15 @@
       {
         "Inputs": [
           {
-            "Ticker": "CF",
-            "Amount": 2
-          },
-          {
             "Ticker": "HE",
             "Amount": 1
           },
           {
             "Ticker": "BE",
+            "Amount": 2
+          },
+          {
+            "Ticker": "CF",
             "Amount": 2
           }
         ],
@@ -4426,12 +3973,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "FE",
-            "Amount": 1
-          },
-          {
             "Ticker": "LST",
             "Amount": 2
+          },
+          {
+            "Ticker": "FE",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -4445,12 +3992,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "LST",
-            "Amount": 1
-          },
-          {
             "Ticker": "FE",
             "Amount": 2
+          },
+          {
+            "Ticker": "LST",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -4546,7 +4093,7 @@
       {
         "Inputs": [
           {
-            "Ticker": "MB",
+            "Ticker": "DCS",
             "Amount": 1
           },
           {
@@ -4554,7 +4101,7 @@
             "Amount": 1
           },
           {
-            "Ticker": "DCS",
+            "Ticker": "MB",
             "Amount": 1
           }
         ],
@@ -4634,15 +4181,15 @@
       {
         "Inputs": [
           {
+            "Ticker": "DCM",
+            "Amount": 1
+          },
+          {
             "Ticker": "HD",
             "Amount": 1
           },
           {
             "Ticker": "MB",
-            "Amount": 1
-          },
-          {
-            "Ticker": "DCM",
             "Amount": 1
           }
         ],
@@ -4657,20 +4204,20 @@
       {
         "Inputs": [
           {
-            "Ticker": "SWF",
-            "Amount": 6
-          },
-          {
             "Ticker": "PCB",
             "Amount": 4
+          },
+          {
+            "Ticker": "KV",
+            "Amount": 1
           },
           {
             "Ticker": "AU",
             "Amount": 2
           },
           {
-            "Ticker": "KV",
-            "Amount": 1
+            "Ticker": "SWF",
+            "Amount": 6
           }
         ],
         "Outputs": [
@@ -4709,12 +4256,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "AU",
-            "Amount": 4
-          },
-          {
             "Ticker": "CU",
             "Amount": 1
+          },
+          {
+            "Ticker": "AU",
+            "Amount": 4
           }
         ],
         "Outputs": [
@@ -4728,11 +4275,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "ZR",
+            "Ticker": "AL",
             "Amount": 1
           },
           {
-            "Ticker": "AL",
+            "Ticker": "ZR",
             "Amount": 1
           }
         ],
@@ -4747,12 +4294,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "FE",
-            "Amount": 1
-          },
-          {
             "Ticker": "AU",
             "Amount": 4
+          },
+          {
+            "Ticker": "FE",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -4785,12 +4332,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "STL",
-            "Amount": 4
-          },
-          {
             "Ticker": "AL",
             "Amount": 10
+          },
+          {
+            "Ticker": "STL",
+            "Amount": 4
           }
         ],
         "Outputs": [
@@ -4827,12 +4374,12 @@
             "Amount": 2
           },
           {
-            "Ticker": "HOG",
-            "Amount": 1
-          },
-          {
             "Ticker": "STL",
             "Amount": 2
+          },
+          {
+            "Ticker": "HOG",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -4861,12 +4408,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "PE",
-            "Amount": 300
-          },
-          {
             "Ticker": "BGO",
             "Amount": 1
+          },
+          {
+            "Ticker": "PE",
+            "Amount": 300
           }
         ],
         "Outputs": [
@@ -4939,11 +4486,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "SFK",
+            "Ticker": "DCS",
             "Amount": 1
           },
           {
-            "Ticker": "DCS",
+            "Ticker": "SFK",
             "Amount": 1
           },
           {
@@ -4985,12 +4532,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "CU",
-            "Amount": 4
-          },
-          {
             "Ticker": "PE",
             "Amount": 100
+          },
+          {
+            "Ticker": "CU",
+            "Amount": 4
           }
         ],
         "Outputs": [
@@ -5008,11 +4555,11 @@
             "Amount": 1
           },
           {
-            "Ticker": "SAR",
+            "Ticker": "CD",
             "Amount": 2
           },
           {
-            "Ticker": "CD",
+            "Ticker": "SAR",
             "Amount": 2
           }
         ],
@@ -5027,11 +4574,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "PCB",
+            "Ticker": "TRA",
             "Amount": 1
           },
           {
-            "Ticker": "TRA",
+            "Ticker": "PCB",
             "Amount": 1
           }
         ],
@@ -5046,20 +4593,11 @@
     ]
   },
   {
-    "Ticker": "PAR",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
     "Ticker": "UPF",
     "Tier": 2,
     "Recipes": [
       {
         "Inputs": [
-          {
-            "Ticker": "SRD",
-            "Amount": 8
-          },
           {
             "Ticker": "PSM",
             "Amount": 50
@@ -5067,6 +4605,10 @@
           {
             "Ticker": "PSL",
             "Amount": 30
+          },
+          {
+            "Ticker": "SRD",
+            "Amount": 8
           }
         ],
         "Outputs": [
@@ -5080,15 +4622,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "PSM",
-            "Amount": 20
-          },
-          {
-            "Ticker": "FET",
+            "Ticker": "PSL",
             "Amount": 10
           },
           {
-            "Ticker": "NV1",
+            "Ticker": "COM",
             "Amount": 1
           },
           {
@@ -5096,12 +4634,16 @@
             "Amount": 5
           },
           {
-            "Ticker": "PSL",
+            "Ticker": "NV1",
+            "Amount": 1
+          },
+          {
+            "Ticker": "FET",
             "Amount": 10
           },
           {
-            "Ticker": "COM",
-            "Amount": 1
+            "Ticker": "PSM",
+            "Amount": 20
           }
         ],
         "Outputs": [
@@ -5115,28 +4657,28 @@
       {
         "Inputs": [
           {
-            "Ticker": "PSM",
-            "Amount": 30
-          },
-          {
-            "Ticker": "TCU",
-            "Amount": 1
-          },
-          {
             "Ticker": "DEC",
             "Amount": 20
           },
           {
-            "Ticker": "LIS",
-            "Amount": 1
+            "Ticker": "PSL",
+            "Amount": 20
+          },
+          {
+            "Ticker": "PSM",
+            "Amount": 30
           },
           {
             "Ticker": "FET",
             "Amount": 20
           },
           {
-            "Ticker": "PSL",
-            "Amount": 20
+            "Ticker": "TCU",
+            "Amount": 1
+          },
+          {
+            "Ticker": "LIS",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -5150,6 +4692,18 @@
       {
         "Inputs": [
           {
+            "Ticker": "TCU",
+            "Amount": 1
+          },
+          {
+            "Ticker": "PSL",
+            "Amount": 5
+          },
+          {
+            "Ticker": "FAL",
+            "Amount": 5
+          },
+          {
             "Ticker": "LIS",
             "Amount": 1
           },
@@ -5158,20 +4712,8 @@
             "Amount": 2
           },
           {
-            "Ticker": "FAL",
-            "Amount": 5
-          },
-          {
             "Ticker": "PSM",
             "Amount": 10
-          },
-          {
-            "Ticker": "PSL",
-            "Amount": 5
-          },
-          {
-            "Ticker": "TCU",
-            "Amount": 1
           }
         ],
         "Outputs": [
@@ -5185,10 +4727,6 @@
       {
         "Inputs": [
           {
-            "Ticker": "SAR",
-            "Amount": 10
-          },
-          {
             "Ticker": "PSM",
             "Amount": 20
           },
@@ -5201,12 +4739,16 @@
             "Amount": 1
           },
           {
-            "Ticker": "PSL",
+            "Ticker": "SAR",
             "Amount": 10
           },
           {
             "Ticker": "COM",
             "Amount": 1
+          },
+          {
+            "Ticker": "PSL",
+            "Amount": 10
           }
         ],
         "Outputs": [
@@ -5220,11 +4762,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "BSE",
+            "Ticker": "BDE",
             "Amount": 10
           },
           {
-            "Ticker": "BDE",
+            "Ticker": "BSE",
             "Amount": 10
           },
           {
@@ -5247,16 +4789,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "UTS",
-            "Amount": 6
+            "Ticker": "PSL",
+            "Amount": 20
           },
           {
             "Ticker": "PSM",
             "Amount": 12
           },
           {
-            "Ticker": "PSL",
-            "Amount": 20
+            "Ticker": "UTS",
+            "Amount": 6
           }
         ],
         "Outputs": [
@@ -5270,6 +4812,10 @@
       {
         "Inputs": [
           {
+            "Ticker": "NG",
+            "Amount": 10
+          },
+          {
             "Ticker": "PSL",
             "Amount": 12
           },
@@ -5280,10 +4826,6 @@
           {
             "Ticker": "BSC",
             "Amount": 2
-          },
-          {
-            "Ticker": "NG",
-            "Amount": 10
           },
           {
             "Ticker": "PSM",
@@ -5309,10 +4851,6 @@
             "Amount": 10
           },
           {
-            "Ticker": "TI",
-            "Amount": 10
-          },
-          {
             "Ticker": "PSL",
             "Amount": 10
           },
@@ -5323,6 +4861,10 @@
           {
             "Ticker": "TCU",
             "Amount": 1
+          },
+          {
+            "Ticker": "TI",
+            "Amount": 10
           }
         ],
         "Outputs": [
@@ -5336,16 +4878,16 @@
       {
         "Inputs": [
           {
+            "Ticker": "PSM",
+            "Amount": 30
+          },
+          {
             "Ticker": "SRD",
             "Amount": 4
           },
           {
             "Ticker": "PSL",
             "Amount": 20
-          },
-          {
-            "Ticker": "PSM",
-            "Amount": 30
           }
         ],
         "Outputs": [
@@ -5359,24 +4901,24 @@
       {
         "Inputs": [
           {
-            "Ticker": "RAD",
-            "Amount": 4
-          },
-          {
-            "Ticker": "PSM",
-            "Amount": 20
+            "Ticker": "SAR",
+            "Amount": 5
           },
           {
             "Ticker": "PSL",
             "Amount": 10
           },
           {
-            "Ticker": "SAR",
-            "Amount": 5
+            "Ticker": "PSM",
+            "Amount": 20
           },
           {
             "Ticker": "TI",
             "Amount": 10
+          },
+          {
+            "Ticker": "RAD",
+            "Amount": 4
           }
         ],
         "Outputs": [
@@ -5390,12 +4932,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "SAR",
-            "Amount": 4
-          },
-          {
             "Ticker": "COM",
             "Amount": 1
+          },
+          {
+            "Ticker": "SAR",
+            "Amount": 4
           },
           {
             "Ticker": "PSL",
@@ -5413,16 +4955,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "ADR",
-            "Amount": 1
-          },
-          {
             "Ticker": "PSL",
             "Amount": 12
           },
           {
             "Ticker": "PSM",
             "Amount": 8
+          },
+          {
+            "Ticker": "ADR",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -5436,11 +4978,15 @@
       {
         "Inputs": [
           {
-            "Ticker": "BMF",
-            "Amount": 1
+            "Ticker": "PSL",
+            "Amount": 2
           },
           {
-            "Ticker": "TCU",
+            "Ticker": "PSM",
+            "Amount": 5
+          },
+          {
+            "Ticker": "BMF",
             "Amount": 1
           },
           {
@@ -5448,16 +4994,12 @@
             "Amount": 1
           },
           {
+            "Ticker": "TCU",
+            "Amount": 1
+          },
+          {
             "Ticker": "AL",
             "Amount": 5
-          },
-          {
-            "Ticker": "PSM",
-            "Amount": 5
-          },
-          {
-            "Ticker": "PSL",
-            "Amount": 2
           }
         ],
         "Outputs": [
@@ -5471,20 +5013,20 @@
       {
         "Inputs": [
           {
-            "Ticker": "PSL",
-            "Amount": 8
-          },
-          {
             "Ticker": "PCB",
             "Amount": 4
+          },
+          {
+            "Ticker": "BWS",
+            "Amount": 1
           },
           {
             "Ticker": "BID",
             "Amount": 1
           },
           {
-            "Ticker": "BWS",
-            "Amount": 1
+            "Ticker": "PSL",
+            "Amount": 8
           }
         ],
         "Outputs": [
@@ -5525,26 +5067,15 @@
     ]
   },
   {
-    "Ticker": "PWH",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "HB2",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "STO",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
     "Ticker": "CLF",
     "Tier": 2,
     "Recipes": [
       {
         "Inputs": [
+          {
+            "Ticker": "PCB",
+            "Amount": 5
+          },
           {
             "Ticker": "NL",
             "Amount": 5
@@ -5555,10 +5086,6 @@
           },
           {
             "Ticker": "SEN",
-            "Amount": 5
-          },
-          {
-            "Ticker": "PCB",
             "Amount": 5
           }
         ],
@@ -5573,16 +5100,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "NL",
-            "Amount": 1
-          },
-          {
             "Ticker": "IND",
             "Amount": 1
           },
           {
             "Ticker": "GC",
             "Amount": 6
+          },
+          {
+            "Ticker": "NL",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -5623,16 +5150,6 @@
     ]
   },
   {
-    "Ticker": "LM",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "SST",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
     "Ticker": "SKF",
     "Tier": 3,
     "Recipes": [
@@ -5658,12 +5175,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "AST",
-            "Amount": 100
-          },
-          {
             "Ticker": "MFK",
             "Amount": 16
+          },
+          {
+            "Ticker": "AST",
+            "Amount": 100
           }
         ],
         "Outputs": [
@@ -5791,12 +5308,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "FE",
-            "Amount": 20
-          },
-          {
             "Ticker": "MFK",
             "Amount": 4
+          },
+          {
+            "Ticker": "FE",
+            "Amount": 20
           }
         ],
         "Outputs": [
@@ -5829,11 +5346,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "AST",
+            "Ticker": "FET",
             "Amount": 100
           },
           {
-            "Ticker": "FET",
+            "Ticker": "AST",
             "Amount": 100
           },
           {
@@ -5871,12 +5388,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "ZR",
-            "Amount": 20
-          },
-          {
             "Ticker": "MFK",
             "Amount": 8
+          },
+          {
+            "Ticker": "ZR",
+            "Amount": 20
           }
         ],
         "Outputs": [
@@ -5890,23 +5407,18 @@
     ]
   },
   {
-    "Ticker": "HB1",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
     "Ticker": "HWP",
     "Tier": 3,
     "Recipes": [
       {
         "Inputs": [
           {
-            "Ticker": "HE",
-            "Amount": 1
-          },
-          {
             "Ticker": "AL",
             "Amount": 12
+          },
+          {
+            "Ticker": "HE",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -5943,11 +5455,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "BOS",
+            "Ticker": "CTF",
             "Amount": 2
           },
           {
-            "Ticker": "CTF",
+            "Ticker": "BOS",
             "Amount": 2
           },
           {
@@ -5966,16 +5478,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "HE",
-            "Amount": 1
+            "Ticker": "AL",
+            "Amount": 12
           },
           {
             "Ticker": "TI",
             "Amount": 4
           },
           {
-            "Ticker": "AL",
-            "Amount": 12
+            "Ticker": "HE",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -5989,20 +5501,20 @@
       {
         "Inputs": [
           {
-            "Ticker": "TK",
-            "Amount": 2
+            "Ticker": "CTF",
+            "Amount": 4
           },
           {
             "Ticker": "HE",
             "Amount": 1
           },
           {
-            "Ticker": "TI",
+            "Ticker": "TK",
             "Amount": 2
           },
           {
-            "Ticker": "CTF",
-            "Amount": 4
+            "Ticker": "TI",
+            "Amount": 2
           }
         ],
         "Outputs": [
@@ -6020,12 +5532,12 @@
             "Amount": 8
           },
           {
-            "Ticker": "HE",
-            "Amount": 1
-          },
-          {
             "Ticker": "FET",
             "Amount": 10
+          },
+          {
+            "Ticker": "HE",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -6043,12 +5555,12 @@
             "Amount": 1
           },
           {
-            "Ticker": "AST",
-            "Amount": 4
-          },
-          {
             "Ticker": "AL",
             "Amount": 12
+          },
+          {
+            "Ticker": "AST",
+            "Amount": 4
           }
         ],
         "Outputs": [
@@ -6062,7 +5574,7 @@
       {
         "Inputs": [
           {
-            "Ticker": "KV",
+            "Ticker": "HE",
             "Amount": 1
           },
           {
@@ -6074,7 +5586,7 @@
             "Amount": 4
           },
           {
-            "Ticker": "HE",
+            "Ticker": "KV",
             "Amount": 1
           }
         ],
@@ -6089,42 +5601,22 @@
     ]
   },
   {
-    "Ticker": "INF",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "EMC",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "4DA",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "ART",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
     "Ticker": "PHF",
     "Tier": 3,
     "Recipes": [
       {
         "Inputs": [
           {
-            "Ticker": "REA",
-            "Amount": 10
+            "Ticker": "LI",
+            "Amount": 4
           },
           {
             "Ticker": "CA",
             "Amount": 2
           },
           {
-            "Ticker": "LI",
-            "Amount": 4
+            "Ticker": "REA",
+            "Amount": 10
           }
         ],
         "Outputs": [
@@ -6142,16 +5634,16 @@
             "Amount": 1
           },
           {
-            "Ticker": "REA",
-            "Amount": 20
-          },
-          {
             "Ticker": "MFK",
             "Amount": 4
           },
           {
             "Ticker": "DCM",
             "Amount": 2
+          },
+          {
+            "Ticker": "REA",
+            "Amount": 20
           }
         ],
         "Outputs": [
@@ -6207,46 +5699,21 @@
     ]
   },
   {
-    "Ticker": "ADM",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "HB3",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "COG",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "WCE",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "HBC",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
     "Ticker": "MCA",
     "Tier": 3,
     "Recipes": [
       {
         "Inputs": [
           {
-            "Ticker": "PSM",
-            "Amount": 4
-          },
-          {
             "Ticker": "RAM",
             "Amount": 4
           },
           {
             "Ticker": "MPC",
+            "Amount": 4
+          },
+          {
+            "Ticker": "PSM",
             "Amount": 4
           },
           {
@@ -6265,7 +5732,7 @@
       {
         "Inputs": [
           {
-            "Ticker": "DCS",
+            "Ticker": "LDI",
             "Amount": 5
           },
           {
@@ -6273,7 +5740,7 @@
             "Amount": 1
           },
           {
-            "Ticker": "LDI",
+            "Ticker": "DCS",
             "Amount": 5
           }
         ],
@@ -6311,12 +5778,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "GL",
-            "Amount": 3
-          },
-          {
             "Ticker": "LCR",
             "Amount": 1
+          },
+          {
+            "Ticker": "GL",
+            "Amount": 3
           }
         ],
         "Outputs": [
@@ -6330,16 +5797,6 @@
     ]
   },
   {
-    "Ticker": "PSY",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "PBH",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
     "Ticker": "DRS",
     "Tier": 4,
     "Recipes": [
@@ -6350,11 +5807,11 @@
             "Amount": 1
           },
           {
-            "Ticker": "DCH",
+            "Ticker": "BSC",
             "Amount": 1
           },
           {
-            "Ticker": "BSC",
+            "Ticker": "DCH",
             "Amount": 1
           }
         ],
@@ -6392,15 +5849,15 @@
       {
         "Inputs": [
           {
-            "Ticker": "POW",
-            "Amount": 1
-          },
-          {
             "Ticker": "DRF",
             "Amount": 1
           },
           {
             "Ticker": "SOL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "POW",
             "Amount": 1
           },
           {
@@ -6438,15 +5895,15 @@
       {
         "Inputs": [
           {
-            "Ticker": "DCH",
-            "Amount": 1
-          },
-          {
             "Ticker": "SAR",
             "Amount": 1
           },
           {
             "Ticker": "BSC",
+            "Amount": 1
+          },
+          {
+            "Ticker": "DCH",
             "Amount": 1
           }
         ],
@@ -6499,11 +5956,6 @@
     ]
   },
   {
-    "Ticker": "CM",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
     "Ticker": "EEP",
     "Tier": 5,
     "Recipes": [
@@ -6525,12 +5977,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "ES",
-            "Amount": 1
-          },
-          {
             "Ticker": "REA",
             "Amount": 4
+          },
+          {
+            "Ticker": "ES",
+            "Amount": 1
           },
           {
             "Ticker": "FLX",
@@ -6548,82 +6000,17 @@
     ]
   },
   {
-    "Ticker": "UNI",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "VRT",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "HOS",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "SDP",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "LIB",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "ACA",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "HBB",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "COR",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "CFL",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "CIM",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "CTE",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "HB4",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "HBM",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
     "Ticker": "SL",
     "Tier": 5,
     "Recipes": [
       {
         "Inputs": [
           {
-            "Ticker": "DD",
+            "Ticker": "DA",
             "Amount": 1
           },
           {
-            "Ticker": "DA",
+            "Ticker": "DD",
             "Amount": 1
           }
         ],
@@ -6880,11 +6267,11 @@
             "Amount": 1
           },
           {
-            "Ticker": "ROM",
+            "Ticker": "SAL",
             "Amount": 1
           },
           {
-            "Ticker": "SAL",
+            "Ticker": "ROM",
             "Amount": 1
           },
           {
@@ -6913,23 +6300,13 @@
     ]
   },
   {
-    "Ticker": "HB5",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
-    "Ticker": "HBL",
-    "Tier": 1,
-    "Recipes": []
-  },
-  {
     "Ticker": "LAB",
     "Tier": 3,
     "Recipes": [
       {
         "Inputs": [
           {
-            "Ticker": "THF",
+            "Ticker": "ALG",
             "Amount": 1
           },
           {
@@ -6937,7 +6314,7 @@
             "Amount": 1
           },
           {
-            "Ticker": "ALG",
+            "Ticker": "THF",
             "Amount": 1
           }
         ],
@@ -6952,12 +6329,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "NCS",
-            "Amount": 75
-          },
-          {
             "Ticker": "EPO",
             "Amount": 50
+          },
+          {
+            "Ticker": "NCS",
+            "Amount": 75
           }
         ],
         "Outputs": [
@@ -6971,15 +6348,15 @@
       {
         "Inputs": [
           {
+            "Ticker": "O",
+            "Amount": 1
+          },
+          {
             "Ticker": "S",
             "Amount": 1
           },
           {
             "Ticker": "HCP",
-            "Amount": 1
-          },
-          {
-            "Ticker": "O",
             "Amount": 1
           }
         ],
@@ -6994,16 +6371,16 @@
       {
         "Inputs": [
           {
+            "Ticker": "S",
+            "Amount": 3
+          },
+          {
             "Ticker": "O",
             "Amount": 2
           },
           {
             "Ticker": "NAB",
             "Amount": 10
-          },
-          {
-            "Ticker": "S",
-            "Amount": 3
           }
         ],
         "Outputs": [
@@ -7017,20 +6394,20 @@
       {
         "Inputs": [
           {
-            "Ticker": "CST",
-            "Amount": 5
-          },
-          {
-            "Ticker": "HEX",
-            "Amount": 10
-          },
-          {
             "Ticker": "PK",
             "Amount": 1
           },
           {
             "Ticker": "BL",
             "Amount": 5
+          },
+          {
+            "Ticker": "CST",
+            "Amount": 5
+          },
+          {
+            "Ticker": "HEX",
+            "Amount": 10
           }
         ],
         "Outputs": [
@@ -7044,15 +6421,15 @@
       {
         "Inputs": [
           {
-            "Ticker": "CL",
-            "Amount": 1
-          },
-          {
             "Ticker": "O",
             "Amount": 1
           },
           {
             "Ticker": "NA",
+            "Amount": 1
+          },
+          {
+            "Ticker": "CL",
             "Amount": 1
           }
         ],
@@ -7071,11 +6448,11 @@
             "Amount": 1
           },
           {
-            "Ticker": "CL",
+            "Ticker": "O",
             "Amount": 1
           },
           {
-            "Ticker": "O",
+            "Ticker": "CL",
             "Amount": 1
           }
         ],
@@ -7128,7 +6505,7 @@
       {
         "Inputs": [
           {
-            "Ticker": "H2O",
+            "Ticker": "AMM",
             "Amount": 4
           },
           {
@@ -7136,7 +6513,7 @@
             "Amount": 4
           },
           {
-            "Ticker": "AMM",
+            "Ticker": "H2O",
             "Amount": 4
           }
         ],
@@ -7151,15 +6528,15 @@
       {
         "Inputs": [
           {
+            "Ticker": "C",
+            "Amount": 1
+          },
+          {
             "Ticker": "CL",
             "Amount": 1
           },
           {
             "Ticker": "H",
-            "Amount": 1
-          },
-          {
-            "Ticker": "C",
             "Amount": 1
           }
         ],
@@ -7203,11 +6580,11 @@
       {
         "Inputs": [
           {
-            "Ticker": "BWS",
+            "Ticker": "DA",
             "Amount": 1
           },
           {
-            "Ticker": "DA",
+            "Ticker": "BWS",
             "Amount": 1
           }
         ],
@@ -7222,15 +6599,15 @@
       {
         "Inputs": [
           {
+            "Ticker": "OS",
+            "Amount": 1
+          },
+          {
             "Ticker": "DA",
             "Amount": 1
           },
           {
             "Ticker": "BWS",
-            "Amount": 1
-          },
-          {
-            "Ticker": "OS",
             "Amount": 1
           },
           {
@@ -7249,16 +6626,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "WAI",
-            "Amount": 1
-          },
-          {
             "Ticker": "BMF",
             "Amount": 1
           },
           {
             "Ticker": "W",
             "Amount": 5
+          },
+          {
+            "Ticker": "WAI",
+            "Amount": 1
           },
           {
             "Ticker": "DA",
@@ -7276,6 +6653,18 @@
       {
         "Inputs": [
           {
+            "Ticker": "SAR",
+            "Amount": 1
+          },
+          {
+            "Ticker": "WAI",
+            "Amount": 1
+          },
+          {
+            "Ticker": "H2O",
+            "Amount": 1
+          },
+          {
             "Ticker": "NS",
             "Amount": 1
           },
@@ -7284,19 +6673,7 @@
             "Amount": 1
           },
           {
-            "Ticker": "WAI",
-            "Amount": 1
-          },
-          {
-            "Ticker": "BAC",
-            "Amount": 1
-          },
-          {
-            "Ticker": "SAR",
-            "Amount": 1
-          },
-          {
-            "Ticker": "FC",
+            "Ticker": "HCP",
             "Amount": 1
           },
           {
@@ -7304,11 +6681,11 @@
             "Amount": 1
           },
           {
-            "Ticker": "HCP",
+            "Ticker": "BAC",
             "Amount": 1
           },
           {
-            "Ticker": "H2O",
+            "Ticker": "FC",
             "Amount": 1
           }
         ],
@@ -7323,12 +6700,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "BWS",
-            "Amount": 1
-          },
-          {
             "Ticker": "TRA",
             "Amount": 8
+          },
+          {
+            "Ticker": "BWS",
+            "Amount": 1
           },
           {
             "Ticker": "OS",
@@ -7350,15 +6727,15 @@
             "Amount": 1
           },
           {
+            "Ticker": "AIR",
+            "Amount": 1
+          },
+          {
             "Ticker": "WR",
             "Amount": 1
           },
           {
             "Ticker": "BMF",
-            "Amount": 1
-          },
-          {
-            "Ticker": "AIR",
             "Amount": 1
           }
         ],
@@ -7373,18 +6750,6 @@
       {
         "Inputs": [
           {
-            "Ticker": "PCB",
-            "Amount": 1
-          },
-          {
-            "Ticker": "SEN",
-            "Amount": 1
-          },
-          {
-            "Ticker": "WAI",
-            "Amount": 1
-          },
-          {
             "Ticker": "FLP",
             "Amount": 12
           },
@@ -7394,6 +6759,18 @@
           },
           {
             "Ticker": "AWF",
+            "Amount": 1
+          },
+          {
+            "Ticker": "PCB",
+            "Amount": 1
+          },
+          {
+            "Ticker": "SEN",
+            "Amount": 1
+          },
+          {
+            "Ticker": "WAI",
             "Amount": 1
           }
         ],
@@ -7408,12 +6785,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "LD",
-            "Amount": 1
-          },
-          {
             "Ticker": "HPC",
             "Amount": 2
+          },
+          {
+            "Ticker": "LD",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -7427,16 +6804,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "AAR",
-            "Amount": 1
+            "Ticker": "RAD",
+            "Amount": 4
           },
           {
             "Ticker": "BWS",
             "Amount": 1
           },
           {
-            "Ticker": "RAD",
-            "Amount": 4
+            "Ticker": "AAR",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -7450,12 +6827,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "FC",
-            "Amount": 1
-          },
-          {
             "Ticker": "THF",
             "Amount": 10
+          },
+          {
+            "Ticker": "FC",
+            "Amount": 1
           },
           {
             "Ticker": "SAR",
@@ -7502,12 +6879,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "NAB",
-            "Amount": 5
-          },
-          {
             "Ticker": "AMM",
             "Amount": 1
+          },
+          {
+            "Ticker": "NAB",
+            "Amount": 5
           }
         ],
         "Outputs": [
@@ -7544,12 +6921,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "H",
-            "Amount": 4
-          },
-          {
             "Ticker": "HE3",
             "Amount": 2
+          },
+          {
+            "Ticker": "H",
+            "Amount": 4
           }
         ],
         "Outputs": [
@@ -7603,12 +6980,12 @@
       {
         "Inputs": [
           {
-            "Ticker": "CLI",
-            "Amount": 10
-          },
-          {
             "Ticker": "BRM",
             "Amount": 20
+          },
+          {
+            "Ticker": "CLI",
+            "Amount": 10
           }
         ],
         "Outputs": [
@@ -7637,16 +7014,16 @@
       {
         "Inputs": [
           {
-            "Ticker": "LST",
-            "Amount": 1
-          },
-          {
             "Ticker": "H2O",
             "Amount": 2
           },
           {
             "Ticker": "N",
             "Amount": 2
+          },
+          {
+            "Ticker": "LST",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -7685,12 +7062,12 @@
         ],
         "Outputs": [
           {
-            "Ticker": "NA",
-            "Amount": 2
-          },
-          {
             "Ticker": "CL",
             "Amount": 1
+          },
+          {
+            "Ticker": "NA",
+            "Amount": 2
           }
         ],
         "Time": 50112
@@ -7698,20 +7075,20 @@
       {
         "Inputs": [
           {
-            "Ticker": "HER",
-            "Amount": 1
+            "Ticker": "PE",
+            "Amount": 50
           },
           {
             "Ticker": "AL",
             "Amount": 1
           },
           {
-            "Ticker": "PE",
-            "Amount": 50
-          },
-          {
             "Ticker": "COT",
             "Amount": 4
+          },
+          {
+            "Ticker": "HER",
+            "Amount": 1
           }
         ],
         "Outputs": [
@@ -7763,7 +7140,7 @@
       {
         "Inputs": [
           {
-            "Ticker": "MG",
+            "Ticker": "TA",
             "Amount": 1
           },
           {
@@ -7771,7 +7148,7 @@
             "Amount": 2
           },
           {
-            "Ticker": "TA",
+            "Ticker": "MG",
             "Amount": 1
           }
         ],
@@ -7786,16 +7163,16 @@
       {
         "Inputs": [
           {
+            "Ticker": "H",
+            "Amount": 5
+          },
+          {
             "Ticker": "BOR",
             "Amount": 1
           },
           {
             "Ticker": "NA",
             "Amount": 1
-          },
-          {
-            "Ticker": "H",
-            "Amount": 5
           }
         ],
         "Outputs": [
@@ -7809,15 +7186,15 @@
       {
         "Inputs": [
           {
-            "Ticker": "CU",
-            "Amount": 1
-          },
-          {
             "Ticker": "MG",
             "Amount": 1
           },
           {
             "Ticker": "S",
+            "Amount": 1
+          },
+          {
+            "Ticker": "CU",
             "Amount": 1
           }
         ],
@@ -7843,6 +7220,604 @@
           }
         ],
         "Time": 60480
+      }
+    ]
+  },
+  {
+    "Ticker": "GF",
+    "Tier": 2,
+    "Recipes": [
+      {
+        "Inputs": [
+          {
+            "Ticker": "SIO",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "GL",
+            "Amount": 10
+          }
+        ],
+        "Time": 60480
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "RG",
+            "Amount": 8
+          },
+          {
+            "Ticker": "NE",
+            "Amount": 16
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "LIT",
+            "Amount": 1
+          }
+        ],
+        "Time": 69120
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "GL",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "TUB",
+            "Amount": 20
+          }
+        ],
+        "Time": 17280
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "GV",
+            "Amount": 1
+          },
+          {
+            "Ticker": "RG",
+            "Amount": 20
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "GCH",
+            "Amount": 1
+          }
+        ],
+        "Time": 60480
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 15
+          },
+          {
+            "Ticker": "GL",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RG",
+            "Amount": 10
+          }
+        ],
+        "Time": 112320
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "MFK",
+            "Amount": 1
+          },
+          {
+            "Ticker": "LFP",
+            "Amount": 4
+          },
+          {
+            "Ticker": "NG",
+            "Amount": 50
+          },
+          {
+            "Ticker": "GNZ",
+            "Amount": 4
+          },
+          {
+            "Ticker": "THF",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "GEN",
+            "Amount": 1
+          }
+        ],
+        "Time": 108000
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "SIO",
+            "Amount": 1
+          },
+          {
+            "Ticker": "SEN",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "GL",
+            "Amount": 10
+          }
+        ],
+        "Time": 47520
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "NCS",
+            "Amount": 10
+          },
+          {
+            "Ticker": "GL",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "NG",
+            "Amount": 10
+          }
+        ],
+        "Time": 103680
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 15
+          },
+          {
+            "Ticker": "GL",
+            "Amount": 10
+          },
+          {
+            "Ticker": "SEN",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "RG",
+            "Amount": 10
+          }
+        ],
+        "Time": 99360
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "GCH",
+            "Amount": 1
+          },
+          {
+            "Ticker": "RG",
+            "Amount": 20
+          },
+          {
+            "Ticker": "TI",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "GNZ",
+            "Amount": 1
+          }
+        ],
+        "Time": 129600
+      }
+    ]
+  },
+  {
+    "Ticker": "BMP",
+    "Tier": 1,
+    "Recipes": [
+      {
+        "Inputs": [
+          {
+            "Ticker": "PE",
+            "Amount": 50
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "STR",
+            "Amount": 2
+          }
+        ],
+        "Time": 25920
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 30
+          },
+          {
+            "Ticker": "SI",
+            "Amount": 1
+          },
+          {
+            "Ticker": "S",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "SEA",
+            "Amount": 30
+          }
+        ],
+        "Time": 25920
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 10
+          },
+          {
+            "Ticker": "COT",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "OVE",
+            "Amount": 30
+          }
+        ],
+        "Time": 25920
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "PE",
+            "Amount": 50
+          },
+          {
+            "Ticker": "RCO",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "OVE",
+            "Amount": 20
+          }
+        ],
+        "Time": 25920
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "CLI",
+            "Amount": 3
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "I",
+            "Amount": 1
+          }
+        ],
+        "Time": 17280
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "LST",
+            "Amount": 4
+          },
+          {
+            "Ticker": "SIO",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "MCG",
+            "Amount": 50
+          }
+        ],
+        "Time": 21600
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "SWF",
+            "Amount": 1
+          },
+          {
+            "Ticker": "OVE",
+            "Amount": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "EXO",
+            "Amount": 10
+          }
+        ],
+        "Time": 12960
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "EPO",
+            "Amount": 20
+          },
+          {
+            "Ticker": "PG",
+            "Amount": 20
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "OFF",
+            "Amount": 50
+          }
+        ],
+        "Time": 17280
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "H",
+            "Amount": 2
+          },
+          {
+            "Ticker": "C",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PE",
+            "Amount": 200
+          }
+        ],
+        "Time": 24192
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "STL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "SFK",
+            "Amount": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PT",
+            "Amount": 6
+          }
+        ],
+        "Time": 30240
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "STL",
+            "Amount": 1
+          },
+          {
+            "Ticker": "W",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PT",
+            "Amount": 10
+          }
+        ],
+        "Time": 30240
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "OVE",
+            "Amount": 10
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "EXO",
+            "Amount": 10
+          }
+        ],
+        "Time": 17280
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "MGS",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "MG",
+            "Amount": 6
+          }
+        ],
+        "Time": 10368
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "C",
+            "Amount": 10
+          },
+          {
+            "Ticker": "OVE",
+            "Amount": 20
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "SUN",
+            "Amount": 20
+          }
+        ],
+        "Time": 17280
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "MFK",
+            "Amount": 1
+          },
+          {
+            "Ticker": "OVE",
+            "Amount": 10
+          },
+          {
+            "Ticker": "AL",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "EXO",
+            "Amount": 10
+          }
+        ],
+        "Time": 14688
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "COT",
+            "Amount": 1
+          },
+          {
+            "Ticker": "PG",
+            "Amount": 50
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PWO",
+            "Amount": 20
+          }
+        ],
+        "Time": 25920
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "STL",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PT",
+            "Amount": 5
+          }
+        ],
+        "Time": 30240
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "TRN",
+            "Amount": 1
+          },
+          {
+            "Ticker": "STL",
+            "Amount": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "PT",
+            "Amount": 7
+          }
+        ],
+        "Time": 30240
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "PG",
+            "Amount": 25
+          },
+          {
+            "Ticker": "PE",
+            "Amount": 100
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "OVE",
+            "Amount": 20
+          }
+        ],
+        "Time": 51840
+      },
+      {
+        "Inputs": [
+          {
+            "Ticker": "MFK",
+            "Amount": 1
+          },
+          {
+            "Ticker": "SFK",
+            "Amount": 1
+          },
+          {
+            "Ticker": "INS",
+            "Amount": 8
+          }
+        ],
+        "Outputs": [
+          {
+            "Ticker": "REP",
+            "Amount": 4
+          }
+        ],
+        "Time": 21600
       }
     ]
   }
