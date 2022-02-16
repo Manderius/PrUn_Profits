@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/PrUn_Profits/static/css/main.2a49822c.css",
-    "main.js": "/PrUn_Profits/static/js/main.2784cfff.js",
+    "main.js": "/PrUn_Profits/static/js/main.3b81826a.js",
     "index.html": "/PrUn_Profits/index.html",
     "main.2a49822c.css.map": "/PrUn_Profits/static/css/main.2a49822c.css.map",
-    "main.2784cfff.js.map": "/PrUn_Profits/static/js/main.2784cfff.js.map"
+    "main.3b81826a.js.map": "/PrUn_Profits/static/js/main.3b81826a.js.map"
   },
   "entrypoints": [
     "static/css/main.2a49822c.css",
-    "static/js/main.2784cfff.js"
+    "static/js/main.3b81826a.js"
   ]
 }
