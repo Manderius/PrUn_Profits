@@ -26,7 +26,7 @@ function loadCategories() {
 //#region Exchange data
 
 function parsePriceData(exchangeData) {
-    const result = { 'AI1': {}, 'IC1': {}, 'CI1': {}, 'NC1': {} };
+    const result = { 'AI1': {}, 'IC1': {}, 'CI1': {}, 'NC1': {}, 'CI2': {}, 'NC2': {} };
     exchangeData.forEach((record) => {
         const itemPrice = new ItemPriceRecord(record.MaterialTicker, record.Ask, record.Bid, record.SellingOrders, record.BuyingOrders);
         result[record.ExchangeCode][record.MaterialTicker] = itemPrice;

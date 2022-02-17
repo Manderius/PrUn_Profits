@@ -25,6 +25,7 @@ function processRecipes(recipes) {
 function parseBuildings() {
     let parsed = [];
     buildingsData.forEach((building) => {
+        if (building.Recipes.length === 0) return;
         const newItem = {
             Ticker: building.Ticker,
             Tier: getBuildingTier(building),
@@ -35,6 +36,8 @@ function parseBuildings() {
 
     writeToFile('buildings.json', JSON.stringify(parsed, null, 2))
 }
+
+//parseBuildings();
 
 //#endregion
 
